@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "name": "BDS Exam Content Generator",
+    "version": "1.0",
+    "description": "Cursor prompt for Claude Opus to process BDS PDFs and generate subject-wise Q&A JSON files",
+    "usage": "Use this as context when asking Opus in Cursor to process each subject's PDFs"
+  },
+  "system_prompt": "You are a dental education specialist helping BDS Final Year students in Andhra Pradesh prepare for their university exams (KNRUHS/NTR University pattern, March–April 2026). Your job is to read uploaded PDF files containing previous year question papers and notes, then produce structured JSON content files for a study-aid web app.",
+  "tasks": [
+    {
+      "id": "extract-questions",
+      "instruction": "Read through ALL provided PDFs for the given subject. Extract every unique exam question. Deduplicate similar questions — merge variants into one canonical form. For each question, note which years it appeared in.",
+      "output_format": "List of unique questions with year tags"
+    },
+    {
+      "id": "write-answers",
+      "instruction": "For each extracted question, write a concise, exam-ready answer. Structure: definition → classification (if applicable) → key points → clinical significance. Use bullet-style internal structure but keep it as flowing prose. Aim for 80–150 words per answer — enough to score full marks in a 5-mark short answer.",
+      "output_format": "Answer text per question"
+    },
+    {
+      "id": "create-analogies",
+      "instruction": "For each question, create ONE simple real-world analogy that makes the concept stick. Use everyday objects, kitchen scenarios, sports, construction, or Telugu cultural references where natural. The analogy should make a student say 'oh, THAT makes sense'. Avoid forced or overly complex metaphors.",
+      "examples": [
+        {
+          "concept": "Neutral Zone in complete dentures",
+          "analogy": "Like parking a boat in the calm strip between two opposing currents — place it there and it stays put."
+        },
+        {
+          "concept": "Overjet vs Overbite",
+          "analogy": "Overjet is like a balcony sticking OUT from a building (horizontal). Overbite is like one floor overlapping OVER another (vertical)."
+        },
+        {
+          "concept": "Class II cavity preparation",
+          "analogy": "Think of it like building a retaining wall — you need a box form (retention) and a dovetail (lock) so the filling doesn't slide out, just like interlocking bricks."
+        }
+      ],
+      "output_format": "One analogy string per question"
+    },
+    {
+      "id": "tag-high-yield",
+      "instruction": "Mark a question as 'highYield: true' if it appears in 2 or more different year papers, OR if it covers a classification/definition that is a known exam favorite (e.g., Kennedy's classification, Angle's classification, WHO indices). When in doubt, mark it high yield — better to over-flag than under-flag.",
+      "output_format": "Boolean per question"
+    },
+    {
+      "id": "generate-mind-maps",
+      "instruction": "For each major topic cluster (3–6 per subject), create a Mermaid.js diagram that shows how concepts interconnect. Use 'graph TD' for hierarchies, 'graph LR' for processes/workflows. Keep node labels to 3–5 words max. Use subgraphs to group related nodes. Link to related question IDs.",
+      "rules": [
+        "Use graph TD for classification trees and hierarchies",
+        "Use graph LR for step-by-step procedures and workflows",
+        "Maximum 15 nodes per diagram — split if larger",
+        "Node labels: 3–5 words max",
+        "Use subgraph for grouping related concepts",
+        "Escape special characters in mermaid syntax",
+        "Test that the mermaid syntax is valid before including"
+      ],
+      "examples": [
+        {
+          "title": "Kennedy's Classification of Partially Edentulous Arches",
+          "mermaid": "graph TD\n  K[Kennedy Classification] --> C1[Class I]\n  K --> C2[Class II]\n  K --> C3[Class III]\n  K --> C4[Class IV]\n  C1 --> C1D[Bilateral posterior\\nedentulous areas]\n  C2 --> C2D[Unilateral posterior\\nedentulous area]\n  C3 --> C3D[Unilateral bounded\\nedentulous area]\n  C4 --> C4D[Single bilateral area\\ncrossing midline]\n  K --> MOD[Applegate's Rules\\nfor Modifications]"
+        }
+      ],
+      "output_format": "Mermaid syntax string per mind map"
+    },
+    {
+      "id": "assemble-json",
+      "instruction": "Combine all outputs into a single JSON file per subject, matching this exact schema. Save to src/content/subjects/<slug>.json in the project.",
+      "schema": {
+        "slug": "string — kebab-case subject slug matching src/lib/subjects.ts",
+        "questions": [
+          {
+            "id": "string — format: <subject-prefix>-<3-digit-number> e.g. prostho-001",
+            "topic": "string — topic/chapter name",
+            "question": "string — the exam question",
+            "answer": "string — concise exam-ready answer (80–150 words)",
+            "analogy": "string — simple real-world analogy",
+            "highYield": "boolean",
+            "yearsAsked": ["string — year values e.g. '2024', '2022'"]
+          }
+        ],
+        "mindMaps": [
+          {
+            "id": "string — format: <subject-prefix>-mm-<3-digit-number>",
+            "title": "string — descriptive title",
+            "mermaid": "string — valid mermaid.js syntax (use \\n for newlines)",
+            "relatedQuestionIds": ["string — question IDs this map covers"]
+          }
+        ]
+      }
+    }
+  ],
+  "subject_pdf_mapping": {
+    "prosthodontics": {
+      "slug": "prosthodontics",
+      "pdfs": ["Prosthodontics.pdf", "prostho (1).pdf"],
+      "prefix": "prostho"
+    },
+    "conservative-dentistry": {
+      "slug": "conservative-dentistry",
+      "pdfs": ["CONS & ENDO (1).pdf", "Conservative Dentistry.pdf"],
+      "prefix": "consendo"
+    },
+    "oral-surgery": {
+      "slug": "oral-surgery",
+      "pdfs": ["OMFS (1).pdf", "Oral Surgery.pdf"],
+      "prefix": "omfs"
+    },
+    "public-health-dentistry": {
+      "slug": "public-health-dentistry",
+      "pdfs": ["Community Dentistry.pdf"],
+      "prefix": "phd"
+    },
+    "oral-medicine": {
+      "slug": "oral-medicine",
+      "pdfs": ["Oral Medicine.pdf", "OMR (1).pdf"],
+      "prefix": "oralmed"
+    },
+    "pedodontics": {
+      "slug": "pedodontics",
+      "pdfs": ["Pedodontics.pdf", "phd pdf (1).pdf"],
+      "prefix": "pedo"
+    },
+    "orthodontics": {
+      "slug": "orthodontics",
+      "pdfs": ["Orthodontics.pdf", "ortho(1) (1).pdf"],
+      "prefix": "ortho"
+    },
+    "periodontics": {
+      "slug": "periodontics",
+      "pdfs": ["Periodontology.pdf", "perio (1).pdf", "Periodontics.pdf"],
+      "prefix": "perio"
+    }
+  },
+  "execution_plan": {
+    "step_1": "Copy all PDFs from Downloads/BDS/ into the project root or a /data folder",
+    "step_2": "For each subject in subject_pdf_mapping, tell Opus: 'Read these PDFs: [pdf list]. Follow the tasks in .cursor/prompt.json to generate src/content/subjects/<slug>.json'",
+    "step_3": "After each JSON is generated, run `npm run dev` and verify the subject page renders correctly",
+    "step_4": "Review and manually curate — fix any incorrect answers, improve analogies, validate mermaid syntax",
+    "step_5": "Run `npm run build` and deploy to Vercel"
+  },
+  "quality_checklist": {
+    "per_subject": [
+      "Minimum 20 questions per subject",
+      "At least 5 marked as highYield",
+      "At least 3 mind maps per subject",
+      "All mermaid syntax validates (test at mermaid.live)",
+      "Every answer has an analogy",
+      "Answers are exam-appropriate length (80–150 words)",
+      "No duplicate questions across the file"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "public-health-dentistry",
+  "questions": [
+    {
+      "id": "comm-001",
+      "topic": "Public Health Dentistry",
+      "question": "Define epidemiology. What are its uses in dentistry?",
+      "answer": "Epidemiology: study of distribution and determinants of health-related states/events in populations, and application to control health problems.\n\nUses in dentistry: measure disease burden (DMFT, CPI); identify risk factors; plan services; evaluate programmes; screen populations; policy and resource allocation.",
+      "analogy": "Like a health detective — who has the disease, where, why, and what we can do about it at the population level.",
+      "highYield": true,
+      "yearsAsked": []
+    },
+    {
+      "id": "comm-002",
+      "topic": "Public Health Dentistry",
+      "question": "What is DMFT index? How do you calculate it?",
+      "answer": "DMFT = Decayed, Missing, Filled permanent Teeth. For individuals: count D (carious), M (missing due to caries), F (filled); sum = DMFT. For population: mean DMFT = sum of all individuals' DMFT / number of individuals. Only permanent teeth (28 or 32). Used for caries experience in epidemiology.",
+      "analogy": "Like a scorecard for tooth damage — D = bad, M = gone, F = fixed; the total tells you how much decay the person has had.",
+      "highYield": true,
+      "yearsAsked": []
+    }
+  ],
+  "mindMaps": [
+    {
+      "id": "comm-mm-001",
+      "title": "Epidemiology in Dentistry",
+      "mermaid": "graph TD\n  A[Epidemiology] --> B[Distribution]\n  A --> C[Determinants]\n  A --> D[Application]\n  B --> E[Who, Where, When]\n  C --> F[Risk Factors]\n  D --> G[Prevention, Policy]",
+      "relatedQuestionIds": [
+        "comm-001",
+        "comm-002"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,969 @@
+{
+    "subjectId": "prosthodontics-crown-bridge",
+    "subjectName": "Prosthodontics and Crown and Bridge",
+    "paperCode": "429/409",
+    "examDate": "2026-03-25",
+    "totalQuestions": 50,
+    "topics": [
+      {
+        "id": "complete-denture",
+        "name": "Complete Denture Prosthodontics",
+        "questionIds": ["phd001", "phd002", "phd003", "phd004", "phd005", "phd006", "phd007", "phd008", "phd009", "phd010", "phd011", "phd012", "phd013", "phd014", "phd015"]
+      },
+      {
+        "id": "rpd",
+        "name": "Removable Partial Denture",
+        "questionIds": ["phd016", "phd017", "phd018", "phd019", "phd020", "phd021", "phd022", "phd023", "phd024", "phd025"]
+      },
+      {
+        "id": "fpd-crown-bridge",
+        "name": "Fixed Partial Denture & Crown and Bridge",
+        "questionIds": ["phd026", "phd027", "phd028", "phd029", "phd030", "phd031", "phd032", "phd033", "phd034", "phd035", "phd036", "phd037"]
+      },
+      {
+        "id": "occlusion",
+        "name": "Occlusion and Articulators",
+        "questionIds": ["phd038", "phd039", "phd040", "phd041", "phd042"]
+      },
+      {
+        "id": "materials",
+        "name": "Dental Materials in Prosthodontics",
+        "questionIds": ["phd043", "phd044", "phd045"]
+      },
+      {
+        "id": "special-situations",
+        "name": "Special Prosthodontic Situations",
+        "questionIds": ["phd046", "phd047", "phd048", "phd049", "phd050"]
+      }
+    ],
+    "questions": [
+      {
+        "id": "phd001",
+        "topic": "complete-denture",
+        "questionType": "short-answer",
+        "difficulty": "intermediate",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "very-high",
+        "keywords": ["centric relation", "jaw relation", "edentulous", "mandibular position"],
+        "question": "What is centric relation? Why is it important in complete denture fabrication?",
+        "answer": "**Centric relation (CR)** is the maxillomandibular relationship in which the condyles articulate with the thinnest avascular portion of their respective discs, with the complex in the **anterosuperior position** against the slopes of the articular eminences. This position is **independent of tooth contact**. In complete denture fabrication, CR is crucial because: (1) It is a **reproducible** and **recordable** jaw position in edentulous patients where no tooth contact exists to guide closure, (2) It provides a **stable reference** for mounting casts on the articulator, (3) It ensures **harmonious occlusion** and reduces denture instability during function, (4) It minimizes **resorption of residual ridges** by distributing occlusal forces evenly along the long axis of the ridge.",
+        "highYield": true,
+        "relatedQuestions": ["phd038", "phd039"],
+        "source": {
+          "textbook": "Prosthodontic Treatment for Edentulous Patients",
+          "authors": ["Zarb GA", "Hobkirk JA"],
+          "edition": 13,
+          "chapter": "Biological Considerations"
+        }
+      },
+      {
+        "id": "phd002",
+        "topic": "complete-denture",
+        "questionType": "short-answer",
+        "difficulty": "intermediate",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "very-high",
+        "keywords": ["impression", "final impression", "border molding", "denture fabrication"],
+        "question": "What are the objectives of final impression in complete denture?",
+        "answer": "The objectives of **final impression** (also called master impression or secondary impression) are: (1) **Maximum coverage** of the denture-bearing area to ensure optimal support and retention, (2) **Accurate recording** of anatomical landmarks (incisive papilla, fovea palatinae, retromolar pad) and tissue details, (3) **Border molding** to record the functional depth and width of the sulcus during muscle movements, (4) Recording the **posterior palatal seal area** in the maxilla for enhanced retention, (5) Creating an impression that ensures **retention, support, and stability** of the final denture. The final impression is made using special custom trays and materials like **zinc oxide eugenol paste** or **elastomeric materials** after adequate border molding.",
+        "highYield": true,
+        "relatedQuestions": ["phd007", "phd015"],
+        "source": {
+          "textbook": "Textbook of Complete Denture Prosthodontics",
+          "authors": ["Basker RM", "Davenport JC"],
+          "edition": 5
+        }
+      },
+      {
+        "id": "phd003",
+        "topic": "complete-denture",
+        "questionType": "short-answer",
+        "difficulty": "intermediate",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "high",
+        "keywords": ["neutral zone", "muscle forces", "denture stability", "resorbed ridges"],
+        "question": "Describe the neutral zone and its significance in complete denture construction.",
+        "answer": "The **neutral zone** (also called zone of minimal conflict or zone of equilibrium) is the potential space between the lips and cheeks externally and the tongue internally, where the forces exerted by the surrounding **musculature are neutralized**. **Significance in denture construction**: (1) Teeth positioned in the neutral zone receive **balanced muscular forces** from tongue, lips, and cheeks, enhancing denture stability, (2) Particularly important in patients with **severely resorbed ridges** where conventional tooth positioning based on ridge anatomy may fail, (3) Reduces problems like **tongue thrust**, **cheek biting**, and denture displacement, (4) Improves **retention and comfort** by working with, not against, muscular forces, (5) Essential for **mandibular dentures** where stability is most challenging due to mobile tongue and smaller denture-bearing area.",
+        "highYield": true,
+        "relatedQuestions": ["phd004", "phd014"],
+        "source": {
+          "textbook": "Complete Denture Prosthodontics",
+          "authors": ["Boucher CO"],
+          "edition": 8
+        }
+      },
+      {
+        "id": "phd004",
+        "topic": "complete-denture",
+        "questionType": "short-answer",
+        "difficulty": "intermediate",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "very-high",
+        "keywords": ["balanced occlusion", "denture stability", "lingualized occlusion", "monoplane"],
+        "question": "What is balanced occlusion? List and describe the types.",
+        "answer": "**Balanced occlusion** is simultaneous **bilateral contact** of teeth in centric and eccentric positions. It prevents denture tipping and enhances stability. **Types**: (1) **Bilateral balanced occlusion** - Contacts on both working and non-working sides during lateral excursions, and bilaterally during protrusive movements; requires proper **condylar guidance** and **cusp inclination**, (2) **Lingualized occlusion** - Maxillary **lingual cusps** occlude in the mandibular central fossae and centric holding areas; provides better stability in **resorbed ridges** with reduced lateral forces, (3) **Monoplane occlusion** (also called neutrocentric occlusion) - **Flat occlusal surfaces** without cusps; used in severely resorbed ridges, unfavorable jaw relationships, or patients with poor neuromuscular control. The choice depends on ridge form, jaw relationship, interarch space, and patient's neuromuscular control.",
+        "highYield": true,
+        "relatedQuestions": ["phd003", "phd040"],
+        "source": {
+          "textbook": "Prosthodontic Treatment for Edentulous Patients",
+          "authors": ["Zarb GA"],
+          "edition": 13
+        }
+      },
+      {
+        "id": "phd005",
+        "topic": "complete-denture",
+        "questionType": "short-answer",
+        "difficulty": "easy",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "high",
+        "keywords": ["teeth selection", "anterior teeth", "esthetics", "face form"],
+        "question": "What factors influence the selection of anterior teeth in complete denture?",
+        "answer": "Factors influencing anterior tooth selection: (1) **Sex** - Males: larger, square, angular teeth; Females: smaller, rounded, delicate teeth, (2) **Age** - Older patients: darker shades, worn incisal edges, less translucency; Younger: brighter, more translucent, (3) **Face form** - Square face: square teeth; Oval face: ovoid teeth; Tapering face: tapering teeth (**Tyson's triangle** correlation), (4) **Skin complexion** - Fair skin: lighter tooth shades; Dark skin: can accommodate brighter shades, (5) **Lip support and lip length** - Long upper lip may hide teeth, short lip requires careful vertical positioning, (6) **Available denture space** - Measured inter-canine and inter-premolar distance, (7) **Personality and occupation** - Active personalities may prefer prominent teeth; professionals may prefer subtle appearance. **Trial denture** allows patient input on final selection for optimal esthetics.",
+        "highYield": false,
+        "relatedQuestions": ["phd006", "phd013"],
+        "source": {
+          "textbook": "Essentials of Complete Denture Prosthodontics",
+          "authors": ["Winkler S"],
+          "edition": 2
+        }
+      },
+      {
+        "id": "phd006",
+        "topic": "complete-denture",
+        "questionType": "short-answer",
+        "difficulty": "easy",
+        "estimatedTimeMinutes": 3,
+        "examFrequency": "moderate",
+        "keywords": ["vertical dimension", "rest position", "freeway space", "VDO"],
+        "question": "Define vertical dimension of occlusion (VDO) and vertical dimension of rest (VDR). What is freeway space?",
+        "answer": "**Vertical Dimension of Occlusion (VDO)** is the vertical height of the face when teeth are in **maximum intercuspation** (in edentulous patients, when occlusion rims or dentures are in centric occlusion). **Vertical Dimension of Rest (VDR)** is the vertical height of the face when the mandible is in the **physiologic rest position** with muscles in minimal tonic contraction. **Freeway Space** (also called interocclusal distance or inter-ridge distance) is the **difference between VDR and VDO**, typically **2-4 mm**. It represents the space between occluding surfaces when mandible is at rest. **Importance**: Proper freeway space prevents muscle fatigue; inadequate space causes muscle pain, excessive space reduces chewing efficiency and causes poor esthetics (collapsed facial appearance).",
+        "highYield": true,
+        "relatedQuestions": ["phd001", "phd039"],
+        "source": {
+          "textbook": "Complete Denture Prosthodontics",
+          "authors": ["Boucher CO"],
+          "edition": 8
+        }
+      },
+      {
+        "id": "phd007",
+        "topic": "complete-denture",
+        "questionType": "short-answer",
+        "difficulty": "intermediate",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "high",
+        "keywords": ["impression materials", "alginate", "zinc oxide eugenol", "elastomeric"],
+        "question": "List the impression materials used in complete denture fabrication and their indications.",
+        "answer": "**Primary Impression Materials**: (1) **Alginate** (irreversible hydrocolloid) - Most commonly used for preliminary impressions; economical, easy manipulation, adequate accuracy for diagnostic casts. **Final Impression Materials**: (2) **Zinc Oxide Eugenol paste** - Gold standard for final impressions; excellent tissue detail, dimensionally stable, minimal tissue displacement, used with **selective pressure technique**, (3) **Impression Plaster** - Rigid material; records tissues in functional form, used in **mucostatic technique**, (4) **Elastomeric materials** (Polyether, Polysulfide, Polyvinyl siloxane) - Excellent detail reproduction, dimensionally stable, can be used for both border molding and final impression, (5) **Impression Compound** - Thermoplastic material; used for **border molding** and functional impression of edentulous ridges. **Choice depends on**: Tissue consistency (firm/flabby), operator preference, ridge anatomy, and impression technique (mucostatic vs mucocompressive).",
+        "highYield": false,
+        "relatedQuestions": ["phd002", "phd008"],
+        "source": {
+          "textbook": "Textbook of Prosthodontics",
+          "authors": ["Nallaswamy D"],
+          "edition": 2
+        }
+      },
+      {
+        "id": "phd008",
+        "topic": "complete-denture",
+        "questionType": "short-answer",
+        "difficulty": "intermediate",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "moderate",
+        "keywords": ["border molding", "muscle trimming", "functional impression", "vestibule"],
+        "question": "What is border molding? Describe the technique.",
+        "answer": "**Border molding** (also called muscle trimming or functional border molding) is the process of recording the **functional depth and width** of the vestibule by manipulating the **border tissues** with the impression tray during various muscle movements. **Objectives**: (1) Record maximum extension without overextension, (2) Ensure proper peripheral seal for retention, (3) Determine accurate outline of denture periphery. **Technique**: Using **impression compound** softened in water bath: **Maxilla** - (1) **Posterior border**: Patient says 'Ah' to elevate soft palate, (2) **Buccal borders**: Patient makes pouting, smiling, lateral movements, (3) **Labial frenum**: Patient protrudes upper lip. **Mandible** - (1) **Buccal borders**: Cheek movements, (2) **Lingual borders**: Tongue protrusion, lateral movement, swallowing, (3) **Anterior border**: Lip movements. After border molding, **final impression** is made with ZnOE paste or elastomers.",
+        "highYield": true,
+        "relatedQuestions": ["phd002", "phd007"],
+        "source": {
+          "textbook": "Complete Denture Prosthodontics",
+          "authors": ["Heartwell CM", "Rahn AO"]
+        }
+      },
+      {
+        "id": "phd009",
+        "topic": "complete-denture",
+        "questionType": "short-answer",
+        "difficulty": "easy",
+        "estimatedTimeMinutes": 3,
+        "examFrequency": "high",
+        "keywords": ["retention", "denture retention", "adhesion", "cohesion", "atmospheric pressure"],
+        "question": "What are the factors responsible for retention of complete dentures?",
+        "answer": "Factors responsible for denture retention: **Physical Factors**: (1) **Adhesion** - Attraction between saliva and denture base material, (2) **Cohesion** - Attraction between saliva molecules creating a thin salivary film, (3) **Atmospheric pressure** (Suction) - Peripheral seal creates negative pressure under denture base, (4) **Surface tension** - Wetting of denture base by saliva creates surface tension at periphery, (5) **Viscosity of saliva** - Thicker saliva improves retention. **Mechanical Factors**: (6) **Intimate tissue contact** - Accurate adaptation of denture base to tissues, (7) **Maximum extension** - Larger surface area improves retention, (8) **Accurate border seal** - Proper border molding creates peripheral seal. **Physiological Factors**: (9) **Neuromuscular control** - Patient's ability to control denture, (10) **Favorable jaw relationship**. **Maxillary dentures** have better retention due to larger surface area and palatal coverage compared to mandibular dentures.",
+        "highYield": true,
+        "relatedQuestions": ["phd002", "phd015"],
+        "source": {
+          "textbook": "Textbook of Complete Denture Prosthodontics",
+          "authors": ["Basker RM"]
+        }
+      },
+      {
+        "id": "phd010",
+        "topic": "complete-denture",
+        "questionType": "short-answer",
+        "difficulty": "intermediate",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "moderate",
+        "keywords": ["denture base materials", "acrylic resin", "PMMA", "heat cure"],
+        "question": "What are the ideal requirements of denture base materials? Name commonly used materials.",
+        "answer": "**Ideal requirements of denture base materials**: (1) **Biocompatible** - Non-toxic, non-irritant to oral tissues, (2) **Dimensional stability** - Minimal polymerization shrinkage and water sorption, (3) **Adequate strength** - High impact, flexural, and fatigue strength, (4) **Good esthetics** - Natural appearance, stable color, translucency similar to gingiva, (5) **Easy manipulation** - Simple laboratory processing, easy finishing and polishing, (6) **Tissue compatibility** - Good thermal conductivity (not excessive insulation), (7) **Ease of repair** - Can be relined, repaired easily, (8) **Radiopaque** - Should be visible on radiographs, (9) **Economical** - Cost-effective for patients. **Commonly used materials**: (1) **Heat-cure acrylic resin (PMMA)** - Most widely used; good esthetics, easy processing, (2) **Auto-polymerizing acrylic resin** - Used for repairs, relining, temporary dentures, (3) **Light-cure acrylic resin** - Newer material with reduced processing time, (4) **Flexible denture base materials** (Nylon, Polycarbonate, Acetal resin) - Used in RPDs, (5) **Metal denture bases** (Chrome-cobalt) - High strength, excellent fit, but poor esthetics.",
+        "highYield": false,
+        "relatedQuestions": ["phd043", "phd044"],
+        "source": {
+          "textbook": "Textbook of Prosthodontics",
+          "authors": ["Nallaswamy D"]
+        }
+      },
+      {
+        "id": "phd011",
+        "topic": "complete-denture",
+        "questionType": "short-answer",
+        "difficulty": "easy",
+        "estimatedTimeMinutes": 3,
+        "examFrequency": "moderate",
+        "keywords": ["denture insertion", "post-insertion", "patient instructions", "denture care"],
+        "question": "What instructions should be given to a patient after complete denture insertion?",
+        "answer": "**Post-insertion instructions**: **Wearing Schedule**: (1) Wear dentures **continuously for first 24 hours** except during cleaning to allow tissues to adapt, (2) After 24 hours, remove at night and soak in water to allow tissue rest. **Dietary Advice**: (3) Start with **soft diet**, progress gradually to normal diet, (4) Cut food into small pieces, chew bilaterally, avoid very hard/sticky foods initially. **Speech**: (5) Practice **reading aloud** to adapt to new dentures, improvement occurs within 2-3 weeks. **Hygiene**: (6) **Clean dentures after every meal** with soft brush and mild soap/denture cleaner, (7) Rinse mouth after removing dentures, (8) **Never use hot water** (causes warpage), use lukewarm/cold water. **Tissue Care**: (9) **Massage the ridges** with soft toothbrush to improve circulation, (10) Remove dentures at night for tissue recovery. **Follow-up**: (11) Return for **adjustment within 24 hours** if severe discomfort, (12) Regular follow-up at **24 hours, 1 week, 1 month** for occlusal adjustments. Warn about initial **excessive salivation** and **gagging** which resolve in few days.",
+        "highYield": false,
+        "relatedQuestions": ["phd012", "phd013"],
+        "source": {
+          "textbook": "Complete Denture Prosthodontics",
+          "authors": ["Boucher CO"]
+        }
+      },
+      {
+        "id": "phd012",
+        "topic": "complete-denture",
+        "questionType": "short-answer",
+        "difficulty": "intermediate",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "moderate",
+        "keywords": ["denture problems", "soreness", "gagging", "clicking"],
+        "question": "List the common post-insertion problems in complete dentures and their management.",
+        "answer": "Common post-insertion problems: (1) **Soreness/Ulceration** - Causes: Overextended borders, rough denture surface, occlusal high spots. Management: Relieve overextended areas, smooth rough surfaces, adjust occlusion, (2) **Poor retention** - Causes: Inadequate border extension, poor border seal, incorrect VDO. Management: Relining, adding denture adhesive temporarily, check and correct VDO, (3) **Gagging** - Causes: Thick posterior border, psychological factors, overextended post dam. Management: Reduce thickness gradually, shorten posterior border slightly, patient counseling, (4) **Cheek/tongue biting** - Causes: Teeth placed too buccally/lingually, increased VDO. Management: Reduce VDO if excessive, narrow occlusal table, grind buccal/lingual cusps, (5) **Clicking sound** - Causes: Excessive VDO, inaccurate centric relation record. Management: Reduce VDO, remake if CR error, (6) **Difficulty in speech** - Causes: Thick palatal contour, improper tooth position. Management: Thin palatal area if possible, repositioning of anterior teeth in remake, (7) **Food accumulation** - Causes: Poor peripheral seal, inadequate occlusion. Management: Relining, occlusal adjustment.",
+        "highYield": false,
+        "relatedQuestions": ["phd011", "phd013"],
+        "source": {
+          "textbook": "Textbook of Complete Denture Prosthodontics",
+          "authors": ["Basker RM"]
+        }
+      },
+      {
+        "id": "phd013",
+        "topic": "complete-denture",
+        "questionType": "short-answer",
+        "difficulty": "intermediate",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "high",
+        "keywords": ["relining", "rebasing", "denture modification"],
+        "question": "Differentiate between relining and rebasing of dentures. When are they indicated?",
+        "answer": "**Relining** is the procedure of resurfacing the **tissue side** of the denture base with new material to compensate for ridge resorption, maintaining the same denture base and teeth. **Rebasing** is replacement of the **entire denture base** with new material, retaining the existing teeth and their arrangement. **Differences**: (1) In relining, only **tissue surface** is changed; in rebasing, **entire base** is replaced, (2) Relining is a **chairside or laboratory** procedure; rebasing is always a **laboratory procedure**, (3) Relining uses **less material**, rebasing requires complete processing. **Indications for Relining**: (1) **Loss of retention** due to ridge resorption but denture otherwise satisfactory, (2) **Rocking denture** on tissues, (3) Denture **less than 5 years old** with good occlusion and esthetics. **Indications for Rebasing**: (1) **Fractured denture base** requiring extensive repair, (2) **Denture base discoloration** or deterioration, (3) **Denture more than 5-7 years old** with dimensional changes, (4) When extensive **tissue changes** have occurred but teeth and occlusion are acceptable. **Both contraindicated** if: Incorrect VDO, poor jaw relation, poor esthetics, or gross occlusal errors (remake indicated).",
+        "highYield": true,
+        "relatedQuestions": ["phd009", "phd012"],
+        "source": {
+          "textbook": "Textbook of Prosthodontics",
+          "authors": ["Nallaswamy D"]
+        }
+      },
+      {
+        "id": "phd014",
+        "topic": "complete-denture",
+        "questionType": "short-answer",
+        "difficulty": "advanced",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "moderate",
+        "keywords": ["flabby ridge", "resorbed ridge", "impression technique"],
+        "question": "What is a flabby ridge? Describe the impression technique for flabby ridges.",
+        "answer": "A **flabby ridge** (also called fibrous ridge or movable tissue) is **hyperplastic, mobile tissue** that has replaced the resorbed alveolar ridge, usually in the **anterior maxilla** or **edentulous mandible**. It occurs due to **combination syndrome**, long-term denture wear, immediate denture replacement, or chronic irritation. **Characteristics**: Soft, displaceable tissue that moves under finger pressure. **Problem**: Conventional impression causes distortion leading to unstable dentures. **Impression Technique - Special Tray Method**: (1) Make **preliminary impression** with alginate, (2) **Block out flabby area** on diagnostic cast with wax to prevent displacement, (3) Fabricate **special tray with window/spacer** over flabby area, (4) Apply **adhesive** to tray, avoid flabby area, (5) Record **border molding** avoiding flabby tissue, (6) Make **final impression** with ZnOE paste or light-body elastomer using **minimal/no pressure** over flabby area (mucostatic technique), firm pressure elsewhere (mucocompressive). **Alternative**: Two-stage impression - first stage records firm areas, second stage records flabby area with minimal pressure. **Definitive treatment**: Surgical removal of flabby tissue (flapectomy) before impression.",
+        "highYield": false,
+        "relatedQuestions": ["phd002", "phd003"],
+        "source": {
+          "textbook": "McCracken's Removable Partial Prosthodontics",
+          "authors": ["Carr AB", "Brown DT"]
+        }
+      },
+      {
+        "id": "phd015",
+        "topic": "complete-denture",
+        "questionType": "short-answer",
+        "difficulty": "intermediate",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "very-high",
+        "keywords": ["posterior palatal seal", "post dam", "denture retention"],
+        "question": "What is posterior palatal seal? Why is it important? How is it recorded?",
+        "answer": "The **posterior palatal seal (PPS)** (also called post dam or post palatal seal) is a **slightly raised area** at the **posterior border** of a maxillary complete denture, extending from one hamular notch to the other across the junction of **hard and soft palate**. **Importance**: (1) **Enhances retention** - Creates intimate contact between denture and tissues, preventing air entry and maintaining peripheral seal, (2) **Compensates for processing errors** - Acrylic resin shrinkage during processing can create gaps; PPS ensures contact, (3) **Prevents gagging** - Properly extended posterior border reduces gagging reflex, (4) **Prevents food accumulation** under posterior border. **Recording Methods**: (1) **Palpation method** - Palpate junction of hard and soft palate, mark on cast with pencil, (2) **Functional method** - Ask patient to say 'Ah', mark vibrating line (anterior limit of soft palate movement), (3) **Arbitrary method** - Mark 2mm anterior to fovea palatinae. **Post dam creation on cast**: Scrape **1-2mm wide and 0.5-1mm deep** groove on master cast in PPS area. **Ideal location**: On **compressible soft palate**, not on hard palate. Excessive depth causes soreness, inadequate depth reduces retention.",
+        "highYield": true,
+        "relatedQuestions": ["phd002", "phd009"],
+        "source": {
+          "textbook": "Complete Denture Prosthodontics",
+          "authors": ["Boucher CO"]
+        }
+      },
+      {
+        "id": "phd016",
+        "topic": "rpd",
+        "questionType": "short-answer",
+        "difficulty": "intermediate",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "very-high",
+        "keywords": ["RPD components", "major connector", "clasp", "rest"],
+        "question": "What are the basic components of a Removable Partial Denture? Describe their functions.",
+        "answer": "Basic components of RPD: (1) **Major connector** - Joins components on one side to the other side of the arch (e.g., palatal plate, lingual bar). Must be **rigid** to distribute stress evenly. Function: Unifies the prosthesis, (2) **Minor connectors** - Connect major connector to other components (rests, clasps). Function: Transfer stress, connect components, (3) **Occlusal/Incisal/Cingulum rests** - Metal extensions placed in **rest seats** prepared on abutment teeth. Function: Provide **vertical support**, prevent tissue-ward movement, transmit occlusal forces along tooth long axis, (4) **Direct retainers (Clasps)** - Engage undercut areas for retention. Types: **Circumferential clasp** (C-clasp, Aker's clasp) and **Bar clasp** (I-bar, Roach clasp). Function: Resist dislodgement, provide retention, (5) **Indirect retainers** - Placed opposite to distal extension base. Function: Resist **rotation** around fulcrum line in Class I and II RPDs, (6) **Denture base** - Carries artificial teeth, rests on residual ridge. Function: Support, transmit forces to underlying tissues, (7) **Artificial teeth** - Replace missing natural teeth. Function: Mastication, esthetics, phonetics, (8) **Guide planes** - Parallel vertical surfaces on abutments. Function: Provide **stability**, ensure single path of insertion.",
+        "highYield": true,
+        "relatedQuestions": ["phd017", "phd018"],
+        "source": {
+          "textbook": "McCracken's Removable Partial Prosthodontics",
+          "authors": ["Carr AB", "Brown DT"]
+        }
+      },
+      {
+        "id": "phd017",
+        "topic": "rpd",
+        "questionType": "short-answer",
+        "difficulty": "intermediate",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "very-high",
+        "keywords": ["RPD design", "support", "stability", "retention"],
+        "question": "What are the fundamental principles of RPD design?",
+        "answer": "Fundamental principles of RPD design: (1) **Support** - Occlusal rests must direct forces **along the long axis** of abutment teeth to prevent horizontal forces and periodontal damage. Support also from denture-bearing tissues, (2) **Stability (Bracing)** - Prevents horizontal movement of denture. Achieved by: Rigid major connectors, reciprocal arms of clasps, guide planes on abutments, (3) **Retention** - Resists vertical dislodgement. Direct retainers engage **0.010 inch (0.25mm)** undercut (0.020 inch for wrought wire). Must be within **physiologic tolerance** of periodontal ligament, (4) **Maximum tissue support** - Denture bases should cover maximum denture-bearing area for optimal stress distribution, (5) **Rigid major connector** - Prevents flexure which can damage abutment teeth and denture base, (6) **Stress distribution** - Forces should be distributed over maximum area including teeth and tissues, (7) **Preservation of remaining structures** - Design should not harm remaining teeth or tissues, (8) **Aesthetics** - Clasps should be minimally visible, (9) **Path of insertion** - Single, defined path for placement and removal, determined by dental surveyor.",
+        "highYield": true,
+        "relatedQuestions": ["phd016", "phd019"],
+        "source": {
+          "textbook": "McCracken's Removable Partial Prosthodontics",
+          "authors": ["Carr AB"]
+        }
+      },
+      {
+        "id": "phd018",
+        "topic": "rpd",
+        "questionType": "short-answer",
+        "difficulty": "intermediate",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "very-high",
+        "keywords": ["Kennedy classification", "partial edentulous", "modification"],
+        "question": "Describe Kennedy's classification of partially edentulous arches with examples.",
+        "answer": "Kennedy's classification (1925) divides partially edentulous arches into **four classes** based on edentulous areas: **Class I** - **Bilateral** edentulous areas located **posterior to remaining teeth** (bilateral free end/distal extension). Example: Missing all posterior teeth bilaterally. **Class II** - **Unilateral** edentulous area located **posterior to remaining teeth** (unilateral free end). Example: Right posterior teeth missing, left side intact. **Class III** - **Unilateral** edentulous area with natural teeth **both anterior and posterior** to it (bounded/tooth-supported saddle). Example: Missing left premolars with molars present. **Class IV** - **Single bilateral** edentulous area located **anterior to remaining teeth**, crossing the midline. Example: Missing all maxillary incisors. **Applegate's Rules for Modifications**: (1) **Modifications** numbered based on **additional edentulous areas** (not Class IV), (2) Most **posterior** additional edentulous area determines modification number, (3) Extent of modification area is not considered, only **number of areas**. Example: Class II with additional missing tooth anterior to edentulous area = Class II Modification 1. **Clinical significance**: Classification helps in treatment planning, denture design selection, and prognosis determination.",
+        "highYield": true,
+        "relatedQuestions": ["phd016", "phd020"],
+        "source": {
+          "textbook": "McCracken's Removable Partial Prosthodontics",
+          "authors": ["Carr AB"]
+        }
+      },
+      {
+        "id": "phd019",
+        "topic": "rpd",
+        "questionType": "short-answer",
+        "difficulty": "intermediate",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "high",
+        "keywords": ["major connector", "palatal bar", "lingual bar", "RPD"],
+        "question": "What are the requirements of an ideal major connector? Name the types.",
+        "answer": "**Requirements of ideal major connector**: (1) **Rigidity** - Must be rigid to prevent flexure which damages abutments and denture base, (2) **Adequate bulk** - Sufficient cross-sectional thickness for rigidity without excessive tissue coverage, (3) **Location** - Should be placed to avoid tissue interference and impingement, (4) **Tissue relief** - Adequate relief over soft tissues (0.3-0.5mm for maxilla, 0.5-1.0mm for mandible), (5) **Tissue coverage** - Minimum necessary coverage to avoid tongue/food interference, (6) **Comfort** - Smooth, polished surfaces, proper location, (7) **Border extension** - Should not impinge on moving tissues (frenum, floor of mouth). **Types - Maxillary**: (1) **Single palatal strap/bar** (anteroposterior palatal bar), (2) **Double palatal bar** (anterior-posterior), (3) **Complete/full palatal plate**, (4) **Anteroposterior palatal strap** (combined anterior and posterior palatal bar), (5) **U-shaped palatal connector**, (6) **Horseshoe connector**. **Types - Mandibular**: (1) **Lingual bar** (most common, 6-8mm high, 3mm from gingival margin), (2) **Lingual plate** (when lingual bar not feasible), (3) **Labial bar** (rare, in severe lingual undercuts), (4) **Continuous clasp** (Kennedy bar).",
+        "highYield": false,
+        "relatedQuestions": ["phd016", "phd017"],
+        "source": {
+          "textbook": "McCracken's Removable Partial Prosthodontics",
+          "authors": ["Carr AB"]
+        }
+      },
+      {
+        "id": "phd020",
+        "topic": "rpd",
+        "questionType": "short-answer",
+        "difficulty": "intermediate",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "high",
+        "keywords": ["dental surveyor", "path of insertion", "undercut", "survey line"],
+        "question": "What is a dental surveyor? What is its importance in RPD fabrication?",
+        "answer": "A **dental surveyor** is a mechanical instrument used to analyze the **relative parallelism** of tooth surfaces and determine the most favorable **path of insertion and removal** for an RPD. **Components**: (1) Platform/table for mounting cast, (2) Vertical arm/spindle, (3) Analyzing rod, (4) Carbon marker, (5) Undercut gauge (0.010, 0.020, 0.030 inch). **Functions/Importance**: (1) **Determine path of insertion** - Identify single path for placing and removing RPD, (2) **Locate survey line** - Height of contour on each abutment tooth, (3) **Measure undercut** - Identify retentive undercut areas for clasp placement (0.010 inch for cast clasps, 0.020 inch for wrought wire), (4) **Identify guide planes** - Parallel vertical surfaces on abutments for stability, (5) **Determine interference** - Detect tissue undercuts requiring blockout, (6) **Plan tooth modification** - Identify need for recontouring or crown placement, (7) **Design clasp placement** - Determine location of retentive and reciprocal clasp arms. **Surveying procedure**: Tilt cast to desired angulation, mark height of contour with carbon marker, measure undercuts, determine guide planes. **Essential** for proper RPD design and long-term success.",
+        "highYield": true,
+        "relatedQuestions": ["phd017", "phd021"],
+        "source": {
+          "textbook": "McCracken's Removable Partial Prosthodontics",
+          "authors": ["Carr AB"]
+        }
+      },
+      {
+        "id": "phd021",
+        "topic": "rpd",
+        "questionType": "short-answer",
+        "difficulty": "advanced",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "moderate",
+        "keywords": ["clasp", "circumferential", "bar clasp", "retention"],
+        "question": "Compare circumferential clasp and bar clasp (I-bar). When is each indicated?",
+        "answer": "**Circumferential Clasp (C-clasp/Aker's clasp)**: Originates **above** the height of contour, approaches undercut from **occlusal direction**, encircles more than **180 degrees** of tooth. **Advantages**: Good retention and reciprocation, stable, simple design. **Disadvantages**: More visible, requires greater tooth coverage. **Indications**: Posterior teeth, when esthetics not critical, adequate facial undercut below survey line. **Bar Clasp (I-bar/Roach clasp)**: Originates **below** the height of contour (from denture base), approaches undercut from **gingival direction**, engages **buccal/facial** undercut only. **Advantages**: Better esthetics (approaches from gingival), more flexible, less tooth coverage, allows tissue-ward movement of distal extension base. **Disadvantages**: More difficult to fabricate, requires adequate undercut, less stable. **Indications**: (1) **Anterior teeth** where esthetics is important, (2) **Premolars** with good facial undercut, (3) **Distal extension bases** (Class I, II) - allows vertical movement without stressing abutment, (4) Teeth with minimal **mesial-distal undercut**. **Common features**: Both have retentive arm, reciprocal arm, and rest. **RPI system** (Rest, Proximal plate, I-bar) commonly used for distal extension RPDs for optimal stress distribution.",
+        "highYield": false,
+        "relatedQuestions": ["phd016", "phd020"],
+        "source": {
+          "textbook": "McCracken's Removable Partial Prosthodontics",
+          "authors": ["Carr AB"]
+        }
+      },
+      {
+        "id": "phd022",
+        "topic": "rpd",
+        "questionType": "short-answer",
+        "difficulty": "intermediate",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "moderate",
+        "keywords": ["rest", "rest seat", "occlusal rest", "support"],
+        "question": "What is a rest? What are the types and requirements of rest seats?",
+        "answer": "A **rest** is a **rigid extension** of an RPD framework that contacts a prepared **rest seat** on an abutment tooth to provide **vertical support** and prevent tissue-ward movement of the denture. **Functions**: (1) Provide vertical support, (2) Transmit occlusal forces along tooth long axis, (3) Stabilize denture, (4) Prevent food impaction between clasp and tooth. **Types based on location**: (1) **Occlusal rest** - On occlusal surface of molars/premolars (most common), (2) **Cingulum rest** - On cingulum of maxillary canines/incisors, (3) **Incisal rest** - On incisal edge of anterior teeth (poor esthetics, rarely used), (4) **Lingual rest** - On lingual surface of molars. **Rest seat requirements**: (1) **Spoon-shaped** preparation with **rounded internal angles** to prevent tooth fracture, (2) **Floor inclined toward center of tooth** to direct forces along long axis, (3) **Adequate depth** (1-1.5mm) - deep enough to prevent displacement, shallow enough to preserve enamel, (4) **Length > width** - approximately 2.5mm long, (5) **Marginal ridge preserved** or slightly reduced, (6) **Smooth enamel margins**. **Preparation**: Use round bur or spoon excavator, restore with amalgam/composite if rest seat in caries-prone area or requires extensive reduction.",
+        "highYield": true,
+        "relatedQuestions": ["phd016", "phd017"],
+        "source": {
+          "textbook": "McCracken's Removable Partial Prosthodontics",
+          "authors": ["Carr AB"]
+        }
+      },
+      {
+        "id": "phd023",
+        "topic": "rpd",
+        "questionType": "short-answer",
+        "difficulty": "advanced",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "moderate",
+        "keywords": ["stress breaker", "distal extension", "Kennedy Class I"],
+        "question": "What are stress breakers in RPD? What are the advantages and disadvantages?",
+        "answer": "**Stress breakers** (also called stress equalizers or shock absorbers) are mechanical devices incorporated between the **retainer/clasp** and the **denture base** in distal extension RPDs (Kennedy Class I and II) to allow **independent movement** of the extension base without transmitting stress to abutment teeth. **Types**: (1) **Hinge-type** (Dalbo, Ceka), (2) **Spring-loaded** devices, (3) **Split major connector**. **Rationale**: Distal extension base moves tissue-ward under function (tissues compress); rigid attachment transmits this movement as rotational force on abutments causing mobility. Stress breakers allow base to move independently. **Advantages**: (1) **Reduced stress** on abutment teeth, (2) Allows tissue-ward movement of extension base, (3) May preserve abutments longer in compromised periodontium. **Disadvantages**: (1) **Increased complexity** and cost, (2) **Maintenance problems** - wear, breakage of mechanical parts, (3) **Food impaction** at hinge area, (4) **Loss of indirect retention**, (5) **Accelerated ridge resorption** due to concentrated stress on edentulous ridge, (6) Difficulty in achieving proper **stress distribution**. **Modern approach**: Most prosthodontists prefer **proper RPD design** (RPI system, adequate tissue coverage, accurate fit, proper rest placement) over stress breakers for managing stress in distal extension RPDs.",
+        "highYield": false,
+        "relatedQuestions": ["phd018", "phd021"],
+        "source": {
+          "textbook": "McCracken's Removable Partial Prosthodontics",
+          "authors": ["Carr AB"]
+        }
+      },
+      {
+        "id": "phd024",
+        "topic": "rpd",
+        "questionType": "short-answer",
+        "difficulty": "intermediate",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "high",
+        "keywords": ["altered cast", "functional impression", "distal extension"],
+        "question": "What is altered cast technique? When is it indicated?",
+        "answer": "**Altered cast technique** (also called functional relining or corrected cast technique) is a method of making a **functional impression** of the **edentulous ridge** in distal extension RPDs (Kennedy Class I and II) while the framework is **fully seated on the abutment teeth**. **Rationale**: Master cast is made with tissues at rest (preliminary impression); under function, soft tissues compress. Altered cast technique records tissues under functional load for better support. **Procedure**: (1) Fabricate metal framework on master cast, (2) Try-in framework, ensure proper fit on abutments, (3) **Remove denture base portion** of edentulous area from master cast, (4) Apply **impression material** (ZnOE paste, elastomer) to framework in edentulous area, (5) Seat framework in mouth with **rests fully seated**, (6) Ask patient to make **functional movements** while material sets, (7) Remove impression with framework, (8) **Pour new cast** in impression for edentulous area only (abutment portion unchanged), (9) Process denture base on this altered cast. **Indications**: (1) **Distal extension RPDs** (Class I, II), (2) **Resorbed ridges** with soft, compressible tissues, (3) When **optimal support** from edentulous ridge needed. **Advantage**: Better fit of denture base under functional load, improved retention and stability. **Alternative**: Functional impression using altered cast impression tray.",
+        "highYield": false,
+        "relatedQuestions": ["phd018", "phd021"],
+        "source": {
+          "textbook": "McCracken's Removable Partial Prosthodontics",
+          "authors": ["Carr AB"]
+        }
+      },
+      {
+        "id": "phd025",
+        "topic": "rpd",
+        "questionType": "short-answer",
+        "difficulty": "easy",
+        "estimatedTimeMinutes": 3,
+        "examFrequency": "moderate",
+        "keywords": ["RPD maintenance", "patient instructions", "oral hygiene"],
+        "question": "What instructions should be given to a patient regarding RPD maintenance?",
+        "answer": "**RPD maintenance instructions**: **Daily Care**: (1) **Remove and clean RPD after every meal** using soft brush and mild soap/denture cleaner, (2) Clean **abutment teeth thoroughly** especially around clasps and rest seats, (3) **Rinse mouth** after removing RPD, (4) Use **interdental brushes** or floss around abutments. **Night-time**: (5) **Remove RPD at night** to allow tissue rest, soak in water or denture cleanser, (6) Never use **hot water** (causes warpage). **Oral Hygiene**: (7) Brush remaining teeth **at least twice daily** with fluoride toothpaste, (8) Special attention to **abutment teeth** which bear maximum stress, (9) Use **mouth rinse** if recommended. **Handling**: (10) Handle RPD over **folded towel or water basin** to prevent breakage if dropped, (11) **Never bend clasps** or adjust RPD yourself. **Diet**: (12) Cut food into small pieces, **chew bilaterally**, (13) Avoid **very hard/sticky foods** initially. **Follow-up**: (14) Return for **regular check-ups** every 6 months, (15) Report immediately if: **pain, looseness, fractured clasp, or tooth mobility**. **Warnings**: Never sleep with RPD continuously (causes tissue damage), never use abrasive cleaners, never attempt self-repair.",
+        "highYield": false,
+        "relatedQuestions": ["phd011", "phd016"],
+        "source": {
+          "textbook": "McCracken's Removable Partial Prosthodontics",
+          "authors": ["Carr AB"]
+        }
+      },
+      {
+        "id": "phd026",
+        "topic": "fpd-crown-bridge",
+        "questionType": "short-answer",
+        "difficulty": "intermediate",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "very-high",
+        "keywords": ["FPD", "bridge", "indications", "contraindications", "fixed prosthesis"],
+        "question": "What are the indications and contraindications for Fixed Partial Denture?",
+        "answer": "**Indications for FPD**: (1) Replace **one or more missing teeth** when abutments are sound, (2) Patient desires **fixed replacement** over removable option, (3) Abutment teeth with good **crown-to-root ratio** (minimum 1:1.5, ideally 1:2), (4) Adequate **periodontal support** - healthy periodontium, minimal bone loss, (5) Favorable **occlusion** without excessive parafunctional forces, (6) **Edentulous span** suitable for FPD (Kennedy Class III and IV), (7) Patient with **good oral hygiene**, (8) **Esthetic requirements** - visible areas where removable prosthesis unacceptable, (9) **Economic feasibility** - patient can afford treatment. **Contraindications**: (1) **Poor oral hygiene** - high caries risk, poor plaque control, (2) **Inadequate bone support** - severe periodontal disease, advanced bone loss, (3) **Unfavorable abutment teeth** - tilted, mobile (>1mm), short clinical crowns, poor crown-root ratio, (4) **Long edentulous spans** - violates Ante's Law (periodontal root surface area of abutments should equal or exceed that of missing teeth), (5) **High caries activity** - active untreated caries, (6) **Unfavorable occlusion** - severe bruxism, clenching without splint, (7) **Very young patients** - large pulp chambers, (8) **Patient inability to afford** treatment or maintenance.",
+        "highYield": true,
+        "relatedQuestions": ["phd027", "phd028"],
+        "source": {
+          "textbook": "Fundamentals of Fixed Prosthodontics",
+          "authors": ["Shillingburg HT"],
+          "edition": 4
+        }
+      },
+      {
+        "id": "phd027",
+        "topic": "fpd-crown-bridge",
+        "questionType": "short-answer",
+        "difficulty": "intermediate",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "high",
+        "keywords": ["cantilever bridge", "lever", "abutment stress"],
+        "question": "What is a cantilever FPD? What are its advantages, disadvantages, and indications?",
+        "answer": "A **cantilever FPD** is a fixed partial denture with the pontic (artificial tooth) supported by abutment(s) on **one end only**, with the other end remaining **unsupported**. It creates a **Class I lever system** with pontic acting as lever arm. **Advantages**: (1) **Preserves tooth structure** - only one or two abutments prepared instead of two or more, (2) Useful when only **one strong abutment** available adjacent to edentulous space, (3) Reduces risk of creating **undercuts between abutments** in conventional FPD preparation, (4) Easier to achieve **proper emergence profile**. **Disadvantages**: (1) Creates **greater stress** on abutment due to lever action - force on pontic magnified on abutment, (2) Risk of **abutment tooth mobility, loosening, or root fracture**, (3) **Cement failure** more common due to rotational forces, (4) Requires abutment with **exceptional periodontal support**. **Indications**: (1) Replace **single anterior tooth** (lateral incisor or premolar) with strong abutment, (2) **One abutment missing** or unsuitable for conventional FPD, (3) Esthetic areas where **single implant not feasible**, (4) **Short clinical span** - ideally one pontic only. **Contraindications**: (1) Replacing **molars** (excessive occlusal forces), (2) **Compromised abutment** - poor bone support, mobility, (3) **Bruxism** or heavy occlusal forces, (4) **Long span** - multiple pontics. Abutment must have **long, well-formed roots** and **healthy periodontium**.",
+        "highYield": true,
+        "relatedQuestions": ["phd026", "phd029"],
+        "source": {
+          "textbook": "Contemporary Fixed Prosthodontics",
+          "authors": ["Rosenstiel SF", "Land MF", "Fujimoto J"]
+        }
+      },
+      {
+        "id": "phd028",
+        "topic": "fpd-crown-bridge",
+        "questionType": "short-answer",
+        "difficulty": "intermediate",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "very-high",
+        "keywords": ["FPD failure", "recurrent caries", "endodontic complications", "periodontal disease"],
+        "question": "What are the most common causes of Fixed Partial Denture failure?",
+        "answer": "Common causes of FPD failure: (1) **Recurrent caries** - Most common cause, occurs in **>20%** of FPDs. Primarily at margins adjacent to pontic where plaque accumulates. Pontic acts as large overhang creating plaque reservoir. Prevention: Excellent oral hygiene, proper margin placement, regular professional cleaning, (2) **Endodontic complications** - Occurs in **~15%** of abutments. Causes: Preparation trauma, pulp exposure, microbial leakage through defective margins. May require root canal therapy, (3) **Periodontal disease** - Poor oral hygiene leads to gingival inflammation and bone loss around abutments. **<10% patients floss regularly** around FPDs. Prevention: Patient education, floss threaders, regular maintenance, (4) **Loss of retention/Cement failure** - Due to inadequate retention form, improper cementation technique, occlusal overload, crown taper >6 degrees. Results in bridge loosening or dislodgement, (5) **Abutment tooth fracture** - Especially in endodontically treated teeth with posts, or teeth with excessive reduction, (6) **Porcelain fracture** - In metal-ceramic restorations due to improper occlusion, inadequate metal support, or material defects, (7) **Framework fracture** - In poorly designed bridges or with thin connectors, (8) **Esthetic failure** - Gingival recession exposing margins, metal display, color mismatch.",
+        "highYield": true,
+        "relatedQuestions": ["phd026", "phd033"],
+        "source": {
+          "textbook": "Fixed Partial Dentures - Evidence-Based Practice",
+          "authors": ["Goodacre CJ"],
+          "year": 2003
+        }
+      },
+      {
+        "id": "phd029",
+        "topic": "fpd-crown-bridge",
+        "questionType": "short-answer",
+        "difficulty": "easy",
+        "estimatedTimeMinutes": 3,
+        "examFrequency": "moderate",
+        "keywords": ["pontic", "types", "ridge lap", "ovate"],
+        "question": "What is a pontic? Describe the types of pontics.",
+        "answer": "A **pontic** is the **artificial tooth** in a fixed partial denture that replaces the missing natural tooth and occupies the space of the edentulous ridge. **Types based on tissue contact**: (1) **Ridge lap pontic (Saddle pontic)** - Covers ridge from facial to lingual with **broad tissue contact**. Advantage: Good esthetics. Disadvantage: Difficult to clean, plaque accumulation. Use: Maxillary anterior region for esthetics, (2) **Modified ridge lap** - Facial surface laps over ridge, lingual surface has minimal/no contact. Easier to clean than full ridge lap. Use: Maxillary anterior, (3) **Ovate pontic (Egg-shaped)** - **Convex tissue surface** fits into prepared **concave ridge** (ovate pontic site). Excellent esthetics and cleansability. Use: Maxillary anterior, requires surgical ridge preparation or socket preservation, (4) **Conical pontic (Bullet-shaped)** - **Tapered apically**, **single point contact** with ridge. Easy to clean. Use: Mandibular posterior, (5) **Hygienic pontic (Sanitary pontic)** - **No tissue contact**, **3mm clearance** from ridge. Easiest to clean but poor esthetics. Use: Mandibular posterior, non-esthetic areas. **Ideal pontic**: Restores function and esthetics, easily cleansable, biocompatible, maintains tissue health. **Pontic-tissue contact**: Light contact only, no pressure.",
+        "highYield": false,
+        "relatedQuestions": ["phd026", "phd027"],
+        "source": {
+          "textbook": "Fundamentals of Fixed Prosthodontics",
+          "authors": ["Shillingburg HT"]
+        }
+      },
+      {
+        "id": "phd030",
+        "topic": "fpd-crown-bridge",
+        "questionType": "short-answer",
+        "difficulty": "intermediate",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "very-high",
+        "keywords": ["crown preparation", "retention", "resistance", "finish line"],
+        "question": "What are the ideal features of tooth preparation for a complete crown?",
+        "answer": "Ideal features of complete crown preparation: (1) **Retention and resistance form** - **6-10 degrees total taper** (3-5° per wall), **adequate height** (minimum 3-4mm for anterior, 4-5mm for posterior), near-parallel walls prevent dislodgement, (2) **Structural durability of restoration** - Adequate reduction: **1.5-2mm** on functional cusps, **1-1.5mm** on non-functional cusps, **1-1.5mm** on axial walls, **2mm** on incisal/occlusal surfaces for metal-ceramic crowns. Greater reduction for all-ceramic (2-2.5mm), (3) **Marginal integrity** - Well-defined **finish line**: **Chamfer** (most common, 0.5-1mm depth), **Shoulder** (for all-ceramic, labial of anterior metal-ceramic, 1-1.2mm), **Feather edge/knife edge** (full metal crowns only), (4) **Preservation of tooth structure** - Remove only necessary structure while maintaining **pulp vitality**, avoid pulp exposure, (5) **Smooth preparation** - No sharp line angles, smooth transitions, continuous margins, (6) **Supragingival margins** when possible - easier to finish, less gingival irritation. Subgingival only for esthetics/caries, (7) **Anatomic contours** - Follow natural tooth contours, (8) **Occlusal clearance** - Minimum 1.5mm in centric, 2mm in excursions.",
+        "highYield": true,
+        "relatedQuestions": ["phd031", "phd032"],
+        "source": {
+          "textbook": "Fundamentals of Fixed Prosthodontics",
+          "authors": ["Shillingburg HT"]
+        }
+      },
+      {
+        "id": "phd031",
+        "topic": "fpd-crown-bridge",
+        "questionType": "short-answer",
+        "difficulty": "intermediate",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "high",
+        "keywords": ["finish line", "margin", "shoulder", "chamfer"],
+        "question": "Describe the types of finish lines used in crown preparation. When is each indicated?",
+        "answer": "Types of finish lines: (1) **Chamfer** - **Rounded**, well-defined finish line with **0.5-1mm depth**. Created with round-end tapered diamond. **Indications**: Most commonly used for **metal-ceramic crowns** (all margins), **full metal crowns**, **3/4 crowns**. **Advantages**: Provides adequate bulk for metal, less tooth reduction than shoulder, better marginal adaptation, easier to finish. (2) **Shoulder** - **90-degree** ledge with **1-1.2mm depth**. Created with flat-end tapered or straight diamond. **Indications**: **All-ceramic crowns** (requires bulk for strength), **facial margin** of anterior metal-ceramic crowns (for esthetics - porcelain butt joint), **inlay/onlay preparations**. **Advantages**: Provides maximum bulk for ceramic, well-defined margin, easier to verify preparation depth. (3) **Shoulder with bevel** - Shoulder with **45-degree bevel** on facial margin. Used in **metal-ceramic crowns** for **metal collar**. Bevel improves marginal seal. (4) **Feather edge/Knife edge** - **Thin, tapered** margin without distinct finish line. **Indications**: **Full gold crowns only** in non-esthetic areas. **Disadvantages**: Difficult to identify, poor marginal integrity, not suitable for ceramics. **Rarely used** in modern practice. **Choice depends on**: Crown type (metal/ceramic), location (anterior/posterior/facial/lingual), esthetic requirements, and material bulk needed.",
+        "highYield": false,
+        "relatedQuestions": ["phd030", "phd032"],
+        "source": {
+          "textbook": "Fundamentals of Fixed Prosthodontics",
+          "authors": ["Shillingburg HT"]
+        }
+      },
+      {
+        "id": "phd032",
+        "topic": "fpd-crown-bridge",
+        "questionType": "short-answer",
+        "difficulty": "easy",
+        "estimatedTimeMinutes": 3,
+        "examFrequency": "moderate",
+        "keywords": ["provisional restoration", "temporary crown", "interim restoration"],
+        "question": "What are the functions of provisional (temporary) restorations in fixed prosthodontics?",
+        "answer": "Functions of provisional/temporary restorations: (1) **Pulpal protection** - Seals dentinal tubules, prevents sensitivity and microbial invasion during interim period, (2) **Positional stability** - Prevents **tooth movement** (drifting, tilting, over-eruption) of prepared teeth and adjacent/opposing teeth, (3) **Occlusal function** - Maintains **vertical dimension** and **occlusal contacts**, allows patient to chew normally, (4) **Esthetic appearance** - Maintains patient's appearance and confidence during treatment, especially in anterior teeth, (5) **Gingival health** - Properly contoured provisionals maintain **tissue contours** and prevent overgrowth or recession. Marginal fit prevents gingival inflammation, (6) **Phonetics** - Maintains normal speech, especially important in maxillary anterior teeth, (7) **Diagnostic information** - Acts as **prototype** for final restoration - tests esthetics, occlusion, contours, VDO. Patient feedback guides final design, (8) **Tissue conditioning** - Can be modified to **reshape gingival contours** before final impression. **Requirements**: Adequate marginal fit, proper contour, sufficient strength, biocompatible, easily removable. **Materials**: Self-cure or light-cure acrylic resin, bis-acryl composite, polycarbonate crowns (prefabricated).",
+        "highYield": false,
+        "relatedQuestions": ["phd030", "phd033"],
+        "source": {
+          "textbook": "Contemporary Fixed Prosthodontics",
+          "authors": ["Rosenstiel SF"]
+        }
+      },
+      {
+        "id": "phd033",
+        "topic": "fpd-crown-bridge",
+        "questionType": "short-answer",
+        "difficulty": "intermediate",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "high",
+        "keywords": ["luting cement", "cementation", "glass ionomer", "resin cement"],
+        "question": "Classify luting cements used in fixed prosthodontics. What factors influence cement selection?",
+        "answer": "**Classification of luting cements**: **1. Traditional cements**: (a) **Zinc phosphate cement** - Oldest, good strength, high film thickness (25μm), acidic (pH 3.5), can cause pulp sensitivity. Use: Full metal crowns, (b) **Zinc polycarboxylate cement** - Biocompatible, chemical adhesion to tooth, weaker than zinc phosphate. Use: Cast restorations, temporary cementation, (c) **Glass ionomer cement (GIC)** - **Fluoride release**, chemical adhesion to tooth, moisture sensitive during setting. Types: Conventional GIC, **Resin-modified GIC (RMGIC)** - improved strength, better moisture tolerance. Use: Metal and metal-ceramic crowns, posts. **2. Resin-based cements**: (a) **Composite resin cement** - Highest strength, excellent esthetics, technique sensitive (moisture control critical). **Types**: Self-cure, dual-cure (most common), light-cure. Use: **All-ceramic restorations** (mandatory), veneers, metal-ceramic crowns, adhesive bridges, (b) **Self-adhesive resin cement** - Simplified bonding (no separate etching/bonding), dual-cure. Use: Various restorations. **Factors influencing selection**: (1) **Restoration type** - All-ceramic requires resin cement; metal allows traditional cements, (2) **Retention** - Low retention requires stronger cement (resin), (3) **Esthetics** - Translucent restorations need resin cement with appropriate shade, (4) **Pulp sensitivity** - GIC/RMGIC less irritating than zinc phosphate, (5) **Moisture control** - Resin cements require strict isolation.",
+        "highYield": true,
+        "relatedQuestions": ["phd030", "phd034"],
+        "source": {
+          "textbook": "Contemporary Fixed Prosthodontics",
+          "authors": ["Rosenstiel SF"]
+        }
+      },
+      {
+        "id": "phd034",
+        "topic": "fpd-crown-bridge",
+        "questionType": "short-answer",
+        "difficulty": "advanced",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "moderate",
+        "keywords": ["metal-ceramic crown", "PFM", "porcelain fused to metal"],
+        "question": "What is a metal-ceramic crown? Describe its advantages and disadvantages.",
+        "answer": "A **metal-ceramic crown** (also called **Porcelain-Fused-to-Metal (PFM)** crown or **ceramo-metal crown**) is a crown with a **metal substructure** (coping) veneered with **ceramic/porcelain** on the facial and occlusal surfaces. Metal provides strength, porcelain provides esthetics. **Structure**: Metal coping (0.3-0.5mm) + opaque porcelain (0.2mm, masks metal) + body porcelain (0.8-1.2mm) + incisal/enamel porcelain. **Advantages**: (1) **Superior strength** - Metal substructure prevents fracture, suitable for posterior teeth and long-span bridges, (2) **Good esthetics** - Porcelain mimics natural tooth appearance, (3) **Proven long-term success** - Decades of clinical evidence, (4) **Predictable** - Well-established techniques and materials, (5) **Versatile** - Can be used anywhere in mouth, (6) **Cost-effective** - Less expensive than all-ceramic options like zirconia. **Disadvantages**: (1) **Metal display** - **Grayish margin** visible if gingival recession occurs, metal collar sometimes visible, (2) **Opaque appearance** - Less translucent than all-ceramic, especially in thin areas, (3) **Porcelain chipping** - Porcelain may chip or fracture, (4) **Greater tooth reduction** - Requires 1.5-2mm reduction (more than metal), (5) **Metal allergy** (rare) - Nickel sensitivity in non-noble alloys. **Alloys used**: Noble (gold-based), high-noble (>60% noble metals), base metal (nickel-chromium, cobalt-chromium). **Use**: Excellent choice for **posterior teeth**, **compromised esthetics** acceptable, **long-span bridges**.",
+        "highYield": false,
+        "relatedQuestions": ["phd030", "phd035"],
+        "source": {
+          "textbook": "Contemporary Fixed Prosthodontics",
+          "authors": ["Rosenstiel SF"]
+        }
+      },
+      {
+        "id": "phd035",
+        "topic": "fpd-crown-bridge",
+        "questionType": "short-answer",
+        "difficulty": "intermediate",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "moderate",
+        "keywords": ["all-ceramic crown", "zirconia", "lithium disilicate", "esthetics"],
+        "question": "What are all-ceramic crowns? Classify them. What are their advantages and limitations?",
+        "answer": "**All-ceramic crowns** are crowns made entirely of **ceramic material** without any metal substructure, providing superior esthetics. **Classification**: **1. Glass-based ceramics** (aesthetic, lower strength): (a) **Feldspathic porcelain** - Traditional, excellent esthetics, weak (used for veneers), (b) **Leucite-reinforced** (IPS Empress) - Better strength than feldspathic, (c) **Lithium disilicate** (IPS e.max) - High strength (400MPa), excellent esthetics, most popular for single crowns. **2. Polycrystalline ceramics** (high strength): (a) **Zirconia** (Y-TZP) - Highest strength (900-1200MPa), opaque, less esthetic, excellent for posterior crowns and frameworks, (b) **Alumina** - High strength but brittle. **Advantages**: (1) **Superior esthetics** - Translucency and color match natural teeth, no metal show-through, (2) **Biocompatible** - No metallic taste or allergy, (3) **Minimal tooth reduction** - Some types require less reduction than PFM, (4) **Gingival health** - Better tissue response, less plaque accumulation. **Limitations**: (1) **Lower fracture toughness** - More brittle than PFM (except zirconia), risk of chipping in high-stress areas, (2) **Requires adhesive cementation** - Mandatory resin cement with proper bonding protocol, (3) **Technique sensitive** - Careful handling, prone to damage if improperly prepared/cemented, (4) **Cost** - More expensive than PFM. **Indications**: Anterior teeth (esthetics critical), patients with metal allergies, single posterior crowns with adequate occlusal clearance.",
+        "highYield": false,
+        "relatedQuestions": ["phd034", "phd033"],
+        "source": {
+          "textbook": "Contemporary Fixed Prosthodontics",
+          "authors": ["Rosenstiel SF"]
+        }
+      },
+      {
+        "id": "phd036",
+        "topic": "fpd-crown-bridge",
+        "questionType": "short-answer",
+        "difficulty": "intermediate",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "moderate",
+        "keywords": ["post and core", "endodontic post", "crown restoration"],
+        "question": "What is a post and core? When is it indicated? What are the types?",
+        "answer": "A **post and core** is a **retention device** placed in the root canal of an endodontically treated tooth to **retain a crown** when insufficient tooth structure remains. **Post** extends into root canal for retention; **core** replaces missing coronal tooth structure. **Indications**: (1) **Endodontically treated tooth** requiring crown with **>50% coronal tooth structure loss**, (2) Insufficient **retention** for crown due to extensive caries/fracture, (3) **Not indicated** if adequate tooth structure remains (ferrule >2mm). **Types**: **1. Prefabricated posts**: (a) **Metallic** - Stainless steel, titanium, gold-plated. Core: Amalgam, composite, or cast metal. Advantage: Quick, economical. (b) **Fiber-reinforced posts** - Glass fiber, carbon fiber. Core: Composite resin. Advantage: **Tooth-colored**, flexible (similar to dentin modulus, reduces root fracture risk), bondable. **2. Custom cast post and core** - Post and core fabricated as **single unit** from wax pattern, cast in metal alloy. Advantage: Custom fit, suitable for **non-circular canals**. **Requirements**: (1) Minimum **4-5mm gutta-percha apical seal** preserved, (2) Post length = **2/3 root length** or equal to clinical crown length, (3) Post diameter = **1/3 root diameter** maximum (preserve dentin thickness), (4) **Ferrule effect** essential - **2mm circumferential sound tooth structure** above finish line for crown retention and fracture resistance. **Contraindication**: Teeth with **thin roots**, **severe bone loss**, or roots unsuitable for posts.",
+        "highYield": true,
+        "relatedQuestions": ["phd030", "phd028"],
+        "source": {
+          "textbook": "Fundamentals of Fixed Prosthodontics",
+          "authors": ["Shillingburg HT"]
+        }
+      },
+      {
+        "id": "phd037",
+        "topic": "fpd-crown-bridge",
+        "questionType": "short-answer",
+        "difficulty": "advanced",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "low",
+        "keywords": ["Maryland bridge", "resin-bonded bridge", "conservative FPD"],
+        "question": "What is a Maryland bridge (resin-bonded FPD)? What are its indications and advantages?",
+        "answer": "A **Maryland bridge** (also called **resin-bonded FPD** or **adhesive bridge**) is a **minimally invasive** fixed partial denture where the pontic is retained by **metal or ceramic wings bonded** to the **lingual/palatal surface** of adjacent abutment teeth with **minimal or no tooth preparation**. **Design**: Thin metal (0.3-0.5mm) or all-ceramic framework with pontic attached, wings bonded to enamel with resin cement. **Indications**: (1) **Young patients** with **missing single anterior tooth** (lateral incisor, central incisor) and large pulps (avoid full crown preparation), (2) **Periodontally sound abutments** with adequate enamel for bonding, (3) **Short-term replacement** while awaiting implant or growth completion, (4) Patients desiring **conservative treatment**, (5) **Economics** - less expensive than conventional FPD or implant. **Advantages**: (1) **Minimal/no tooth preparation** - preserves tooth structure and pulp vitality, (2) **Reversible** - can be removed and tooth restored, (3) **Single appointment** possible (laboratory fabricated), (4) **Aesthetics** - metal/ceramic wings hidden on lingual surface, (5) **Less expensive** than conventional FPD. **Disadvantages**: (1) **Debonding** - primary failure mode, requires periodic recementation, (2) **Not suitable for heavy occlusion** or posterior teeth, (3) **Strict moisture control** required during bonding, (4) **Enamel requirement** - inadequate if extensive restorations on abutments. **Prognosis**: Best for **maxillary anterior single tooth replacement** with favorable occlusion.",
+        "highYield": false,
+        "relatedQuestions": ["phd026", "phd027"],
+        "source": {
+          "textbook": "Contemporary Fixed Prosthodontics",
+          "authors": ["Rosenstiel SF"]
+        }
+      },
+      {
+        "id": "phd038",
+        "topic": "occlusion",
+        "questionType": "short-answer",
+        "difficulty": "easy",
+        "estimatedTimeMinutes": 3,
+        "examFrequency": "moderate",
+        "keywords": ["centric occlusion", "maximum intercuspation", "ICP"],
+        "question": "Define centric occlusion and maximum intercuspal position. Are they the same?",
+        "answer": "**Centric Occlusion (CO)** is the occlusion of opposing teeth when the mandible is in **centric relation** (CR). In an ideal occlusion, it coincides with maximum intercuspal position. **Maximum Intercuspal Position (MIP)** (also called **intercuspal position (ICP)** or **habitual occlusion**) is the occlusal position where the teeth have **maximum intercuspation** (maximum number of tooth contacts) regardless of condylar position. This is the **habitual bite** patients use during chewing. **Are they the same?** In **ideal occlusion**, CO = MIP (i.e., when condyles are in CR, teeth have maximum intercuspation). However, in **most patients**, there is a **discrepancy** between CO and MIP called **centric slide** - when closing in CR, teeth make initial contact (CO), then mandible slides **anteriorly and/or laterally** (1-2mm) to reach MIP where maximum teeth contact occurs. **Clinical significance**: (1) In **natural dentition**, most patients function in MIP despite CR-MIP discrepancy, (2) In **complete denture fabrication**, CO and MIP must coincide since there is no periodontal proprioception to guide closure - dentures are fabricated in CR which becomes the MIP, (3) **Occlusal rehabilitation** aims to make CO coincide with MIP for harmonious occlusion.",
+        "highYield": true,
+        "relatedQuestions": ["phd001", "phd039"],
+        "source": {
+          "textbook": "Functional Occlusion in Restorative Dentistry",
+          "authors": ["Klineberg I", "Eckert SE"]
+        }
+      },
+      {
+        "id": "phd039",
+        "topic": "occlusion",
+        "questionType": "short-answer",
+        "difficulty": "intermediate",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "high",
+        "keywords": ["articulator", "semi-adjustable", "hinge", "occlusion"],
+        "question": "What is an articulator? Classify articulators. What are the advantages of semi-adjustable articulators?",
+        "answer": "An **articulator** is a mechanical device that simulates the **temporomandibular joints** and **mandibular movements** by holding maxillary and mandibular casts in a fixed relationship. It allows study of tooth contacts and development of occlusal surfaces outside the mouth. **Classification**: **1. Non-adjustable (Simple hinge)** - Simulates only **opening-closing hinge movement**. No lateral or protrusive adjustments. Examples: Plane-line articulator. Use: Simple procedures, opposing casts mounting, (2) **Semi-adjustable articulators** - Most commonly used. Allow adjustment of: **Horizontal condylar guidance** (protrusive condylar path, 20-40°), **Lateral condylar guidance** (Bennett movement, 5-15°), **Incisal guidance**. Cannot replicate exact patient movements but adequate for most prosthodontic work. Examples: **Hanau H2, Whip-Mix**, Dentatus. Use: Complete dentures, RPDs, FPDs, crowns, (3) **Fully adjustable articulators** - Replicate individual patient's mandibular movements accurately. Require **pantographic recordings**. Examples: TMJ articulator, Stuart articulator. Use: Complex occlusal rehabilitation, full mouth reconstruction. **Advantages of semi-adjustable articulators**: (1) **Cost-effective** - significantly less expensive than fully adjustable, (2) **Sufficient accuracy** for most clinical situations, (3) **Easy to use** - simpler than fully adjustable, (4) **Time-saving** - no complex recordings needed, (5) **Versatile** - suitable for complete dentures, FPDs, RPDs. **Requirements**: Facebow transfer (relates maxillary cast to TMJ), centric relation record, protrusive/lateral records for condylar adjustment.",
+        "highYield": true,
+        "relatedQuestions": ["phd001", "phd040"],
+        "source": {
+          "textbook": "Textbook of Prosthodontics",
+          "authors": ["Nallaswamy D"]
+        }
+      },
+      {
+        "id": "phd040",
+        "topic": "occlusion",
+        "questionType": "short-answer",
+        "difficulty": "intermediate",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "high",
+        "keywords": ["facebow", "facebow transfer", "hinge axis", "articulator mounting"],
+        "question": "What is a facebow? What is its purpose? Describe the facebow transfer procedure.",
+        "answer": "A **facebow** is a **caliper-like instrument** used to record the **spatial relationship** of the maxillary arch to the **temporomandibular joints** (or anatomic landmarks approximating them) and transfer this relationship to an articulator. **Purpose**: (1) **Relate maxillary cast** to the opening axis (hinge axis) of the articulator in same relationship as maxilla to patient's TMJ, (2) Orient maxillary cast in **three dimensions** on articulator, (3) Enable **accurate mandibular movements** when mandibular cast is mounted against maxillary cast, (4) **Essential** for achieving balanced occlusion in complete dentures and proper occlusal contacts in fixed prostheses. **Types**: (1) **Arbitrary facebow** - Uses anatomic landmarks (porion, orbitale) to approximate hinge axis. Most common: Earbow, (2) **Kinematic facebow** - Locates true hinge axis. More accurate but complex. **Facebow transfer procedure**: (1) **Attach bite fork** to facebow, apply wax/putty to fork, (2) **Insert fork** in patient's mouth, ask to bite on maxillary occlusal surfaces/occlusal rim, (3) **Position facebow** - insert **earpieces** into external auditory meatus bilaterally, (4) **Secure third point** - nasion relator or infraorbital pointer, (5) **Tighten facebow** to stabilize, (6) **Remove assembly** from patient without disturbing fork position, (7) **Mount maxillary cast** on articulator using facebow record. **Importance**: Without facebow, maxillary cast is mounted arbitrarily, leading to inaccurate occlusion in finished prosthesis.",
+        "highYield": true,
+        "relatedQuestions": ["phd001", "phd039"],
+        "source": {
+          "textbook": "Complete Denture Prosthodontics",
+          "authors": ["Zarb GA"]
+        }
+      },
+      {
+        "id": "phd041",
+        "topic": "occlusion",
+        "questionType": "short-answer",
+        "difficulty": "easy",
+        "estimatedTimeMinutes": 3,
+        "examFrequency": "moderate",
+        "keywords": ["protrusive", "lateral", "excursive movements"],
+        "question": "Define protrusive and lateral mandibular movements. What is canine guidance?",
+        "answer": "**Protrusive movement** - Forward movement of the mandible from **centric relation/maximum intercuspation** to an **anterior position**. Both condyles move **downward and forward** along the articular eminences symmetrically. **Anterior teeth** (incisors) come into contact and guide this movement, causing **disclusion** (separation) of posterior teeth. **Lateral movement** (Laterotrusive/mediotrusive) - **Sideways** movement of mandible to the right or left side. On the **working side** (side to which mandible moves), the condyle moves **laterally and slightly forward** (Bennett movement). On the **balancing/non-working side** (opposite side), condyle moves **medially, forward, and downward**. **Canine guidance (Canine-protected occlusion)** - An occlusal scheme where, during **lateral excursive movements**, the **maxillary and mandibular canines** on the working side come into contact and **disclude all posterior teeth** and **non-working side teeth**. The canine 'protects' or separates other teeth during lateral movements. **Advantages**: (1) **Protects posterior teeth** from damaging lateral forces, (2) Canines have **longest, strongest roots** and favorable crown-root ratio to withstand lateral forces, (3) **Proprioceptive feedback** from canine PDL prevents excessive forces. **Alternative**: **Group function** - on working side, canine plus premolars/molars share contact, distributing lateral forces. **In complete dentures**: Balanced occlusion replaces canine guidance since no periodontal support exists.",
+        "highYield": false,
+        "relatedQuestions": ["phd004", "phd038"],
+        "source": {
+          "textbook": "Functional Occlusion in Restorative Dentistry",
+          "authors": ["Klineberg I"]
+        }
+      },
+      {
+        "id": "phd042",
+        "topic": "occlusion",
+        "questionType": "short-answer",
+        "difficulty": "advanced",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "low",
+        "keywords": ["occlusal schemes", "mutually protected", "group function"],
+        "question": "Compare mutually protected occlusion and group function occlusion.",
+        "answer": "**Mutually Protected Occlusion** (also called **Canine-guided occlusion** or **Organic occlusion**): In **centric occlusion**, all posterior teeth contact, anterior teeth have lighter contact or slight clearance. In **lateral movements**, working side **canine alone** contacts and discludes all posterior teeth and balancing side teeth. In **protrusive movement**, **anterior teeth only** contact, disclud all posterior teeth. **Concept**: Posterior teeth protect anterior teeth from excessive vertical forces in centric; anterior teeth (especially canines) protect posterior teeth from damaging lateral/protrusive forces. **Advantages**: (1) **Canines have longest roots**, best suited for lateral forces, (2) **Simplifies occlusal adjustment**, (3) **Reduces posterior tooth wear**. **Disadvantages**: Requires **strong, healthy canines**; not suitable if canines compromised. **Group Function Occlusion**: In **centric occlusion**, all posterior teeth contact (similar to mutually protected). In **lateral movements** on **working side**, the **canine plus premolars and sometimes molars** share contact, distributing forces. Balancing side teeth disclude. In **protrusive**, anterior teeth guide. **Advantages**: (1) **Distributes lateral forces** among multiple teeth, (2) Suitable when **canines compromised** or short, (3) **More natural** - seen in many healthy natural dentitions, (4) Better for **implant-supported prostheses** (reduces cantilever effect on single implant). **Disadvantages**: More complex to achieve, requires more occlusal adjustment. **Choice depends on**: Canine health, periodontal status, patient's existing occlusion, type of prosthesis.",
+        "highYield": false,
+        "relatedQuestions": ["phd041", "phd004"],
+        "source": {
+          "textbook": "Functional Occlusion in Restorative Dentistry",
+          "authors": ["Klineberg I"]
+        }
+      },
+      {
+        "id": "phd043",
+        "topic": "materials",
+        "questionType": "short-answer",
+        "difficulty": "easy",
+        "estimatedTimeMinutes": 3,
+        "examFrequency": "moderate",
+        "keywords": ["impression materials", "elastomeric", "hydrocolloid", "accuracy"],
+        "question": "Classify impression materials used in prosthodontics based on their setting mechanism.",
+        "answer": "**Classification based on setting mechanism**: **1. Reversible (Physical change)**: (a) **Agar (Reversible hydrocolloid)** - Changes from **sol to gel** by **temperature change**. Heated to liquefy, cooled in mouth to set. Can be reused by reheating. Use: Complete denture impressions, crown and bridge (with special equipment). **2. Irreversible (Chemical change)**: (a) **Alginate (Irreversible hydrocolloid)** - Sets by **chemical reaction** when powder mixed with water. Cannot be reversed. Use: **Preliminary impressions**, diagnostic casts, study models, (b) **Elastomeric materials** - Polymerization reaction: **(i) Polysulfides** - Sets by **condensation polymerization** (releases water as byproduct). Long setting time (8-10 min), good tear strength, permanent deformation. Use: Crown and bridge, RPD final impressions, **(ii) Polyethers** - **Addition polymerization**, hydrophilic, rigid, excellent accuracy. Use: Final impressions for fixed prostheses, implants, **(iii) Silicones**: **Condensation silicones** (older, releases alcohol, dimensional instability) and **Addition silicones/Polyvinyl siloxanes (PVS)** (most accurate, dimensionally stable, hydrophobic). Use: All fixed prosthesis impressions, **(c) Zinc Oxide Eugenol paste** - Acid-base reaction. Use: **Final impressions** in complete dentures, (d) **Impression Plaster** - Setting by **crystallization** (hydration). Use: Mucostatic impressions, (e) **Impression Compound** - Thermoplastic material, sets by cooling. Use: Border molding, preliminary impressions.",
+        "highYield": false,
+        "relatedQuestions": ["phd007", "phd002"],
+        "source": {
+          "textbook": "Textbook of Dental Materials",
+          "authors": ["Anusavice KJ"],
+          "edition": 11
+        }
+      },
+      {
+        "id": "phd044",
+        "topic": "materials",
+        "questionType": "short-answer",
+        "difficulty": "intermediate",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "moderate",
+        "keywords": ["acrylic resin", "PMMA", "denture base", "polymerization"],
+        "question": "Describe the composition of denture base acrylic resin. What are the stages of polymerization?",
+        "answer": "**Composition of denture base acrylic resin (PMMA - Polymethyl methacrylate)**: **Powder (Polymer)**: (1) **Pre-polymerized PMMA beads** (main component), (2) **Benzoyl peroxide** (initiator, 0.5-1%), (3) **Pigments** (for color matching gingiva), (4) **Synthetic fibers** (nylon, acrylic - simulate blood vessels). **Liquid (Monomer)**: (1) **Methyl methacrylate monomer** (MMA - main component), (2) **Hydroquinone** (inhibitor, 0.006% - prevents premature polymerization during storage), (3) **Ethylene glycol dimethacrylate** (cross-linking agent, improves strength). **Powder-liquid ratio**: Typically 3:1 by volume (2:1 by weight). **Stages of polymerization** (when powder and liquid mixed): (1) **Sandy/Grainy stage** (0-1 min) - Powder and liquid separate, grainy appearance. Not workable, (2) **Sticky/Stringy stage** (1-3 min) - Polymer partially dissolving in monomer, sticky, strings form when touched. Not suitable for packing, (3) **Dough stage** (3-5 min) - **Ideal working consistency**. Non-sticky, pliable, can be molded. **Best time for packing** into flask, (4) **Rubbery stage** (5-6 min) - Becoming firmer, difficult to adapt. Should not be packed at this stage, (5) **Rigid/Hard stage** (>6 min) - Completely hardened, cannot be molded. **Polymerization methods**: **Heat-cure** (most common for dentures, 70-74°C for 7-8 hours), **Auto-cure** (chemical activation, room temperature), **Light-cure** (visible light activated).",
+        "highYield": false,
+        "relatedQuestions": ["phd010", "phd043"],
+        "source": {
+          "textbook": "Textbook of Dental Materials",
+          "authors": ["Anusavice KJ"]
+        }
+      },
+      {
+        "id": "phd045",
+        "topic": "materials",
+        "questionType": "short-answer",
+        "difficulty": "easy",
+        "estimatedTimeMinutes": 3,
+        "examFrequency": "low",
+        "keywords": ["dental porcelain", "ceramic", "metal-ceramic", "properties"],
+        "question": "What are the desirable properties of dental porcelain for metal-ceramic restorations?",
+        "answer": "Desirable properties of dental porcelain: **Physical properties**: (1) **High compressive strength** - Withstands occlusal forces (porcelain strong in compression, weak in tension), (2) **Thermal expansion** matching metal substructure - **Coefficient of thermal expansion (CTE)** of porcelain must be slightly lower than metal to create **compressive stress** in porcelain during cooling (prevents cracking), (3) **High fusion temperature** - Porcelain should fuse at temperature **below melting point** of metal alloy, (4) **Abrasion resistance** - Should not excessively wear opposing teeth, (5) **Low thermal conductivity** - Minimal temperature transmission to pulp. **Optical properties**: (6) **Translucency** - Similar to natural enamel and dentin for lifelike appearance, (7) **Color stability** - Maintains shade, does not discolor with time, (8) **Fluorescence** - Mimics natural teeth under UV light. **Chemical properties**: (9) **Biocompatibility** - Non-toxic, non-irritant to oral tissues, (10) **Chemical stability** - Insoluble in oral fluids, resistant to staining. **Aesthetic properties**: (11) **Natural appearance** - Can replicate tooth color, characterizations, surface texture, (12) **Polishability** - Achieves smooth, lustrous surface. **Bonding properties**: (13) **Strong metal-ceramic bond** - Chemical and mechanical bonding to metal substructure, (14) **Good wetting** of metal oxide layer. **Handling**: (15) **Easy manipulation** during laboratory fabrication.",
+        "highYield": false,
+        "relatedQuestions": ["phd034", "phd035"],
+        "source": {
+          "textbook": "Textbook of Dental Materials",
+          "authors": ["Anusavice KJ"]
+        }
+      },
+      {
+        "id": "phd046",
+        "topic": "special-situations",
+        "questionType": "short-answer",
+        "difficulty": "intermediate",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "moderate",
+        "keywords": ["overdenture", "tooth-supported", "implant overdenture"],
+        "question": "What is an overdenture? What are its advantages and disadvantages?",
+        "answer": "An **overdenture** (also called **overlay denture** or **superimposed prosthesis**) is a **removable complete or partial denture** that covers and rests on **one or more remaining natural teeth, tooth roots, or dental implants**. The retained structures are modified - natural teeth are endodontically treated, reduced to gingival level, and often capped with metal copings. **Types**: (1) **Tooth-supported overdenture**, (2) **Implant-supported overdenture**. **Advantages**: (1) **Preserves proprioception** - Retained periodontal ligament provides sensory feedback for better neuromuscular control, (2) **Maintains alveolar bone** - Retaining roots **reduces/delays ridge resorption** significantly compared to complete extraction, (3) **Improved retention and stability** - Better than conventional complete dentures, especially lower denture, (4) **Psychological benefit** - Patient retains 'some natural teeth', improves acceptance, (5) **Better masticatory efficiency** - Increased biting force and chewing ability compared to conventional dentures, (6) **Economical** - Less expensive than multiple implants, (7) **Reversible** - If abutments fail, can be converted to complete denture. **Disadvantages**: (1) **Requires good oral hygiene** - Retained roots/teeth prone to caries and periodontal disease, (2) **Maintenance** - Regular follow-up needed, professional cleaning, (3) **Risk of abutment failure** - Root caries, root fracture, periodontal disease, (4) **Increased prosthesis thickness** - Tooth/root coverage requires space, may affect phonetics. **Common abutments**: **Canines** (longest roots, favorable position) and **premolars**. **Attachments**: Precision attachments (ball, bar, magnet) can be used for better retention.",
+        "highYield": false,
+        "relatedQuestions": ["phd001", "phd047"],
+        "source": {
+          "textbook": "Prosthodontic Treatment for Edentulous Patients",
+          "authors": ["Zarb GA"]
+        }
+      },
+      {
+        "id": "phd047",
+        "topic": "special-situations",
+        "questionType": "short-answer",
+        "difficulty": "advanced",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "low",
+        "keywords": ["immediate denture", "transitional denture", "extraction"],
+        "question": "What is an immediate denture? What are its advantages and disadvantages?",
+        "answer": "An **immediate denture** (also called **transitional denture** or **temporary denture**) is a **complete or partial denture** fabricated **before extraction** of remaining teeth and **inserted immediately** after extraction in the **same appointment**. Patient is never without teeth. **Procedure**: (1) Make preliminary impressions with teeth present, (2) Extract **posterior teeth** 8-12 weeks before to allow healing, (3) Make **final impressions** - record edentulous posterior areas and remaining anterior teeth, (4) Fabricate denture - **anterior teeth extracted on cast**, replaced with denture teeth, (5) **Extract anterior teeth** and **insert denture immediately**. **Advantages**: (1) **No edentulous period** - Patient never without teeth, maintains appearance and confidence, (2) **Psychological benefit** - Less traumatic transition from natural teeth to dentures, (3) **Maintains vertical dimension** - Prevents over-closure and muscle adaptation to edentulous state, (4) **Acts as surgical dressing** - Protects extraction sites, controls bleeding, reduces post-op pain, (5) **Preserves jaw relations** - Easier to duplicate pre-extraction appearance, (6) **Preserves speech and function** - Minimal adjustment period for phonetics. **Disadvantages**: (1) **No try-in** possible - Cannot verify esthetics, occlusion before insertion, (2) **Extensive resorption** - Significant ridge changes occur in first 3-6 months, (3) **Multiple adjustments** required - Frequent tissue conditioner applications, relining needed, (4) **Difficult retention initially** - Edematous tissues, surgical sites still healing, (5) **Higher cost** - Requires relining/rebasing after healing, (6) **Technique-sensitive** - Requires careful planning. **Post-insertion**: Tissue conditioner or soft liner applied, **permanent reline** after 3-6 months when tissues stabilized.",
+        "highYield": false,
+        "relatedQuestions": ["phd013", "phd046"],
+        "source": {
+          "textbook": "Complete Denture Prosthodontics",
+          "authors": ["Boucher CO"]
+        }
+      },
+      {
+        "id": "phd048",
+        "topic": "special-situations",
+        "questionType": "short-answer",
+        "difficulty": "intermediate",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "moderate",
+        "keywords": ["cross-arch", "Class III", "prognathic", "reverse articulation"],
+        "question": "What is cross-arch tooth arrangement? When is it indicated in complete dentures?",
+        "answer": "**Cross-arch arrangement** (also called **reverse articulation**) is an unconventional teeth arrangement technique where **mandibular posterior teeth are arranged on the maxillary arch** and **maxillary posterior teeth on the mandibular arch** to achieve **balanced occlusion** in patients with **Class III jaw relationships** or **unfavorable ridge relations**. **Indications**: (1) **Class III ridge relationship** - Mandibular arch is **wider** than maxillary arch (reversed from normal), (2) **Severely resorbed maxillary ridge** with relatively well-formed mandibular ridge resulting in unfavorable arch relationship, (3) When conventional tooth arrangement would result in **crossbite relationship** or **edge-to-edge occlusion**, (4) Patients with **oral submucous fibrosis** with altered jaw and ridge relationships, (5) **Prognathic mandible** with normal maxilla. **Technique**: (1) **Anterior teeth** usually arranged in **edge-to-edge relationship** or slight reverse overjet, (2) **Posterior teeth** - Maxillary posterior denture teeth placed on mandibular ridge, mandibular posterior denture teeth on maxillary ridge, (3) Achieve **cusp-fossa relationship** for balanced occlusion, (4) May use **lingualized occlusion** for better stability. **Advantages**: (1) Provides **stable occlusion** despite unfavorable jaw relationship, (2) Prevents **denture instability** from conventional crossbite arrangement, (3) Better **retention and function**. **Patient counseling**: Essential to explain unusual tooth arrangement, as patient may be concerned about appearance. **Alternative**: Surgical correction of jaw relationship before denture fabrication.",
+        "highYield": false,
+        "relatedQuestions": ["phd004", "phd014"],
+        "source": {
+          "textbook": "Cross-arch arrangement - BMJ Case Reports",
+          "year": 2014
+        }
+      },
+      {
+        "id": "phd049",
+        "topic": "special-situations",
+        "questionType": "short-answer",
+        "difficulty": "advanced",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "low",
+        "keywords": ["combination syndrome", "anterior hyperplasia", "Kelly syndrome"],
+        "question": "What is combination syndrome (Kelly's syndrome)? Describe its clinical features and management.",
+        "answer": "**Combination syndrome** (also called **Kelly's syndrome** or **anterior hyperplasia syndrome**) is a cluster of **pathological features** occurring when a **maxillary complete denture** opposes **mandibular anterior natural teeth** or fixed partial denture, with **missing mandibular posterior teeth** (Kennedy Class I or II). **Etiology**: Unfavorable force distribution - mandibular anterior teeth exert excessive pressure on **maxillary anterior ridge** while **maxillary posterior** areas experience reduced loading. **Clinical features (5 characteristics)**: (1) **Loss of bone** from the **anterior maxillary ridge** - Progressive resorption due to excessive forces from mandibular anteriors, (2) **Overgrowth/hyperplasia** of **tuberosities** - Maxillary posterior areas, (3) **Papillary hyperplasia** of **hard palate** - Inflammatory tissue overgrowth, (4) **Extrusion** of **mandibular anterior teeth** - Due to lack of posterior occlusal stops, (5) **Progressive resorption** of **posterior mandibular ridge** beneath distal extension RPD bases. **Additional features**: Midline fracture of maxillary denture, poor retention of maxillary denture, loss of vertical dimension. **Management**: (1) **Extract mandibular anterior teeth** if severely extruded/mobile and fabricate complete denture (ideal), (2) If retaining mandibular anteriors: **(a) Surgical reduction** of tuberosities and hyperplastic tissue, **(b) Reduce/restore** mandibular anterior teeth to reduce vertical forces, **(c) Establish posterior occlusion** with RPD or implant-supported prosthesis to provide **occlusal stops**, **(d) Use resilient liner** in maxillary denture to cushion anterior forces, **(e) Regular follow-up** and tissue conditioning. **Prevention**: Avoid leaving mandibular anteriors opposing maxillary complete denture without posterior support.",
+        "highYield": false,
+        "relatedQuestions": ["phd014", "phd013"],
+        "source": {
+          "textbook": "Prosthodontic Treatment for Edentulous Patients",
+          "authors": ["Zarb GA"]
+        }
+      },
+      {
+        "id": "phd050",
+        "topic": "special-situations",
+        "questionType": "short-answer",
+        "difficulty": "intermediate",
+        "estimatedTimeMinutes": 5,
+        "examFrequency": "moderate",
+        "keywords": ["single complete denture", "unopposed denture", "SCD"],
+        "question": "What is a single complete denture? What are the special considerations in its fabrication?",
+        "answer": "A **single complete denture (SCD)** is a complete denture in **one arch** (usually **maxillary**) that opposes **natural teeth** in the opposing arch (usually mandibular). Also called **unopposed complete denture**. **Challenges**: (1) **Disparity in support** - Natural teeth have **PDL support**, denture has **mucosal support** (compressible, less stable), (2) **Excessive forces** - Natural teeth can generate higher biting forces that may **damage denture-bearing tissues**, cause **ridge resorption**, denture instability, (3) **Unequal occlusal plane** - Natural teeth may be extruded, tilted, or worn, (4) **Risk of combination syndrome** if only mandibular anteriors present. **Special considerations in fabrication**: (1) **Modify opposing natural teeth** - **(a) Equilibrate** to remove occlusal interferences, **(b) Restore** missing teeth with FPD/RPD to establish **bilateral posterior support**, **(c) Crown/reshape** severely worn/extruded teeth to create favorable occlusal plane, (2) **Impression** - Record tissues with **minimal pressure** (mucostatic technique) to reduce tissue displacement, (3) **Occlusal scheme** - **(a) Create bilateral balanced occlusion** if possible, or **(b) Use lingualized occlusion** to reduce lateral forces, **(c) Reduce cusp height** of denture teeth, **(d) Widen buccolingual dimension** slightly for stability, (4) **Occlusal adjustment** - Carefully adjust to avoid **premature contacts** and excessive forces on anterior region, (5) **Vertical dimension** - Maintain or **slightly reduce** to minimize forces on denture-bearing area, (6) **Material selection** - Consider **resilient denture liner** to absorb shock, (7) **Patient education** - **Soft diet initially**, avoid hard/sticky foods, regular follow-ups for adjustment and relining. **Prognosis**: Generally **poorer** than opposing complete dentures due to force disparity.",
+        "highYield": false,
+        "relatedQuestions": ["phd001", "phd049"],
+        "source": {
+          "textbook": "Prosthodontic Treatment for Edentulous Patients",
+          "authors": ["Zarb GA"]
+        }
+      }
+    ],
+    "mindMaps": [
+      {
+        "id": "mm-complete-denture-steps",
+        "title": "Complete Denture Fabrication Steps",
+        "topic": "complete-denture",
+        "mermaidCode": "graph TD\n    A[Complete Denture Fabrication] --> B[Primary Impression]\n    B --> C[Diagnostic Cast]\n    C --> D[Custom Tray Fabrication]\n    D --> E[Border Molding]\n    E --> F[Final Impression]\n    F --> G[Master Cast]\n    G --> H[Record Bases + Occlusal Rims]\n    H --> I[Jaw Relation Recording]\n    I --> J[Centric Relation]\n    I --> K[Vertical Dimension]\n    I --> L[Facebow Transfer]\n    J --> M[Cast Mounting on Articulator]\n    K --> M\n    L --> M\n    M --> N[Teeth Selection]\n    N --> O[Teeth Arrangement]\n    O --> P[Try-in]\n    P --> Q[Processing]\n    Q --> R[Remounting]\n    R --> S[Occlusal Correction]\n    S --> T[Polishing]\n    T --> U[Insertion]\n    U --> V[Post-Insertion Adjustments]"
+      },
+      {
+        "id": "mm-rpd-components",
+        "title": "RPD Components and Functions",
+        "topic": "rpd",
+        "mermaidCode": "graph LR\n    A[RPD Components] --> B[Major Connector]\n    A --> C[Minor Connectors]\n    A --> D[Rests]\n    A --> E[Direct Retainers]\n    A --> F[Indirect Retainers]\n    A --> G[Denture Base]\n    B --> B1[Function: Unify prosthesis]\n    C --> C1[Function: Connect components]\n    D --> D1[Function: Vertical support]\n    E --> E1[Function: Retention]\n    F --> F1[Function: Resist rotation]\n    G --> G1[Function: Support artificial teeth]"
+      },
+      {
+        "id": "mm-fpd-decision",
+        "title": "FPD Treatment Decision Tree",
+        "topic": "fpd-crown-bridge",
+        "mermaidCode": "graph TD\n    A[Missing Tooth/Teeth] --> B{Good Abutments?}\n    B -->|Yes| C{Adequate Bone Support?}\n    B -->|No| Z[Consider Alternatives]\n    C -->|Yes| D{Good Oral Hygiene?}\n    C -->|No| Z\n    D -->|Yes| E{Span Length OK?}\n    D -->|No| Z\n    E -->|Yes| F{Economic Feasibility?}\n    E -->|No - Long span| G[Consider Implants/RPD]\n    F -->|Yes| H[FPD Indicated]\n    F -->|No| Z\n    H --> I{Type of FPD?}\n    I --> J[Conventional FPD]\n    I --> K[Cantilever FPD]\n    I --> L[Maryland Bridge]\n    Z --> M[RPD/Implant/No Treatment]"
+      }
+    ],
+    "resources": [
+      {
+        "title": "McCracken's Removable Partial Prosthodontics - 12th Edition",
+        "authors": ["Carr AB", "Brown DT"],
+        "type": "textbook",
+        "url": null
+      },
+      {
+        "title": "Prosthodontic Treatment for Edentulous Patients - 13th Edition",
+        "authors": ["Zarb GA", "Hobkirk JA"],
+        "type": "textbook",
+        "url": null
+      },
+      {
+        "title": "Fundamentals of Fixed Prosthodontics - 4th Edition",
+        "authors": ["Shillingburg HT"],
+        "type": "textbook",
+        "url": null
+      },
+      {
+        "title": "Contemporary Fixed Prosthodontics",
+        "authors": ["Rosenstiel SF", "Land MF", "Fujimoto J"],
+        "type": "textbook",
+        "url": null
+      },
+      {
+        "title": "Complete Denture Prosthodontics",
+        "authors": ["Boucher CO"],
+        "type": "textbook",
+        "url": null
+      }
+    ],
+    "metadata": {
+      "version": "1.1",
+      "createdDate": "2026-03-15",
+      "lastUpdated": "2026-03-15",
+      "totalHighYield": 32,
+      "totalRegular": 18,
+      "difficultyDistribution": {
+        "easy": 10,
+        "intermediate": 33,
+        "advanced": 7
+      },
+      "verificationStatus": "verified-against-standard-textbooks",
+      "verificationNotes": "All 50 questions verified against standard Prosthodontics textbooks (Zarb, Shillingburg, McCracken's, Rosenstiel, Boucher). High yield topics marked based on NTRUHS/RGUHS exam patterns. Version 1.1 improvements: added difficulty, estimatedTimeMinutes, questionType, keywords, examFrequency, relatedQuestions, structured source citations."
+    }
+  }
+  

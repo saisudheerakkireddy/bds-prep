@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "purpose": "JSON prompt for next implementation phase: Supabase + Google OAuth and optional Conservative Dentistry content. Feed this to an LLM or use as a spec.",
+    "generated_after": "Pre-Phase-2 and Phase-2 verification",
+    "steelman_notes": "Strongest case for moving now: local flow is usable (browse, filter, progress, quiz, timer); sync will unblock multi-device use. Risk: migrating existing localStorage progress on first login (merge vs overwrite) must be decided. Content ingestion is independent and can be done before or after auth."
+  },
+
+  "verification_summary": {
+    "pre_phase2_tasks": {
+      "task_1_answer_readability": "DONE — CSS var --answer-text, used in QAAccordion and Quiz",
+      "task_2_answer_spacing": "DONE — formatAnswer in src/lib/formatAnswer.tsx handles \\n\\n and numbered (1) (2) breaks",
+      "task_3_bold": "DONE — **text** → <strong> in formatAnswer",
+      "task_4_analogies": "DONE — optional analogy field, 'Remember it like this' in QAAccordion and QuizSession",
+      "task_5_phase2_plan_doc": "DONE — docs/PHASE2-QUIZ-PLAN.md exists"
+    },
+    "phase2_quiz": {
+      "status": "IMPLEMENTED",
+      "route": "src/pages/subjects/[slug]/quiz.astro",
+      "component": "src/components/QuizSession.tsx",
+      "features": [
+        "Entry from subject page via 'Start quiz' link",
+        "All questions for subject (no slice); pagination 10 per page with page nav",
+        "Show answer / Hide answer; Next; Mark done & Next; Previous",
+        "Progress persisted via existing localStorage (toggleQuestionCompleted)",
+        "Premium gold card style; left stepper (current page 1–10, Page X of Y)",
+        "formatAnswer + formatParagraph from src/lib/formatAnswer.tsx; analogy block when present"
+      ],
+      "gaps_vs_phase2_plan": [
+        "No 'setup' step: filter All/High Yield and count (5/10/20/All) not in UI — currently shows all questions with pagination. Can be added later.",
+        "No 'Only not completed' filter option. Can be added later."
+      ]
+    },
+    "other_basics": {
+      "high_yield_filter": "DONE — QAAccordion with highYieldIds",
+      "progress_localStorage": "DONE — src/lib/progress.ts; Mark done in Q&A and Quiz",
+      "topic_level_progress": "DONE — QAAccordion shows topic counts (e.g. RPD: 8/12)",
+      "timer_widget": "DONE — Focus/Break timer on home (src/components/Timer.tsx)",
+      "content_prostho": "50 questions in src/content/subjects/prosthodontics.json"
+    ],
+    "conclusion": "Pre-Phase-2 and Phase-2 core are complete. Ready to proceed to Supabase integration with Google OAuth."
+  },
+
+  "next_implementation": {
+    "priority_1_supabase_google_oauth": {
+      "goal": "Enable sign-in with Google; sync progress across devices using Supabase.",
+      "references": "docs/AUTH-GOOGLE-OAUTH.md",
+      "steps": [
+        "Google Cloud Console: create OAuth 2.0 client (Web application); set authorized JavaScript origins (localhost, Vercel URL) and redirect URIs (include Supabase callback URL once obtained).",
+        "Supabase: enable Google provider; add Client ID and Client Secret; note Redirect URL and add it in Google Console; set Site URL and Redirect URLs in Auth → URL Configuration for local and production.",
+        "Vercel: add PUBLIC_SUPABASE_URL and PUBLIC_SUPABASE_ANON_KEY (or Astro-compatible env names); redeploy.",
+        "App: install @supabase/supabase-js (and optionally @supabase/ssr for Astro). Create Supabase client (browser-safe with anon key).",
+        "App: sign-in flow — e.g. button 'Sign in with Google' calling supabase.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: app origin + /auth/callback } }).",
+        "App: callback route (e.g. /auth/callback) — handle redirect from Supabase; exchange code/session (Supabase client handles this); redirect user to home or dashboard.",
+        "Supabase schema: create table(s) for progress, e.g. user_progress(user_id UUID FK to auth.users, subject_slug text, question_id text, completed_at timestamptz, primary key (user_id, subject_slug, question_id)).",
+        "App: when user is logged in, read progress from Supabase and write updates to Supabase (and optionally keep localStorage as fallback or merge on first login). When not logged in, keep current localStorage-only behavior.",
+        "Migration strategy: on first login, optionally merge localStorage progress into Supabase (upsert completed IDs) so existing local progress is not lost."
+      ],
+      "steelman_criticism": {
+        "why_now": "Local flow is complete; students using multiple devices will benefit from sync. Delaying auth adds no local value.",
+        "risk_overwrite": "If we simply 'replace' local with server on login, local progress could be lost. Prefer: on first OAuth callback, read localStorage, upsert each (user_id, subject_slug, question_id) into Supabase, then clear or keep local as cache.",
+        "anon_key_safety": "Anon key is safe for client; use RLS so users can only read/write their own progress."
+      }
+    },
+
+    "priority_2_conservative_dentistry_content": {
+      "goal": "Ingest 50 Conservative Dentistry & Endodontics questions so browse and quiz work for that subject.",
+      "app_content_format": "Each subject content file lives at src/content/subjects/<slug>.json. Slug for this subject must be 'conservative-dentistry' (match src/lib/subjects.ts).",
+      "required_question_shape": {
+        "id": "string (e.g. con001)",
+        "topic": "string (display name, e.g. 'Dental Caries and Cariology')",
+        "question": "string",
+        "answer": "string (supports **bold** and \\n\\n for paragraphs)",
+        "highYield": "boolean",
+        "analogy": "string (optional)",
+        "yearsAsked": "string[] (optional)"
+      },
+      "source_data_reference": "User provided a full JSON with subjectId 'conservative-dentistry-endodontics', subjectName, paperCode, examDate, totalQuestions, topics[] (id, name, questionIds), questions[] (id, topic as topic-id e.g. 'dental-caries', questionType, difficulty, question, answer, highYield, relatedQuestions, source). mindMaps: [], resources: [], metadata: {}.",
+      "transformation_required": [
+        "Map topic id to topic display name using topics[].id and topics[].name (e.g. dental-caries → 'Dental Caries and Cariology').",
+        "Output questions array with only: id, topic (display name), question, answer, highYield; optionally analogy (if added), yearsAsked (if available).",
+        "Output file: src/content/subjects/conservative-dentistry.json with top-level keys: slug: 'conservative-dentistry', questions: []. Optionally include mindMaps: [], resources: [] if present.",
+        "Ensure question ids are unique and match what will be used for progress (e.g. con001, con002, ... con050)."
+      ],
+      "high_yield_ids": "After ingestion, derive highYieldIds as list of question id where highYield === true; QAAccordion and subject page already use highYieldIds from content.",
+      "steelman_criticism": {
+        "order": "Content can be done in parallel with or after auth; no dependency. Doing it before auth gives a second full subject for testing sync (Prostho + Cons/Endo).",
+        "answer_editing": "User said 'we can edit the answer later for better understanding' — so ingest as-is; refine answers in content later."
+      }
+    }
+  },
+
+  "implementation_order_suggestion": [
+    "1. Ingest Conservative Dentistry 50 Q into src/content/subjects/conservative-dentistry.json (transform from provided JSON). Verify subject page and quiz work for conservative-dentistry.",
+    "2. Google Cloud: OAuth client; Supabase: project, Google provider, URL config; Vercel: env vars.",
+    "3. App: Supabase client, Sign in with Google button, /auth/callback route, session handling.",
+    "4. Supabase: user_progress table + RLS. App: when signed in, read/write progress to Supabase; on first login merge localStorage into Supabase then use Supabase as source of truth."
+  ],
+
+  "file_references": {
+    "auth_doc": "docs/AUTH-GOOGLE-OAUTH.md",
+    "roadmap": "docs/ROADMAP.md",
+    "project_context": "docs/PROJECT-CONTEXT.md",
+    "subjects_slugs": "src/lib/subjects.ts (slug for Cons/Endo: 'conservative-dentistry')",
+    "progress_module": "src/lib/progress.ts (localStorage; extend or mirror for Supabase)",
+    "content_example": "src/content/subjects/prosthodontics.json (shape for questions)"
+  }
+}

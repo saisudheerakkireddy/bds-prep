@@ -1,0 +1,142 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ExamCountdown from "../components/ExamCountdown";
+import HomeProgress from "../components/HomeProgress";
+import Timer from "../components/Timer";
+import { subjects, daysUntilExam, examProgress } from "../lib/subjects";
+
+const { nextSubject, completed, total } = examProgress();
+
+const contentBySlug: Record<string, { questions: unknown[]; mindMaps: unknown[] }> = {};
+for (const s of subjects) {
+  try {
+    const mod = await import(`../content/subjects/${s.slug}.json`);
+    const data = mod.default ?? mod;
+    contentBySlug[s.slug] = {
+      questions: Array.isArray(data?.questions) ? data.questions : [],
+      mindMaps: Array.isArray(data?.mindMaps) ? data.mindMaps : [],
+    };
+  } catch {
+    contentBySlug[s.slug] = { questions: [], mindMaps: [] };
+  }
+}
+
+const progressSubjects = subjects.map((s) => ({
+  slug: s.slug,
+  shortName: s.shortName,
+  totalQuestions: contentBySlug[s.slug].questions.length,
+}));
+
+const nextSubjectDays = nextSubject ? daysUntilExam(nextSubject.examDate) : null;
+const heroUrgencyClass =
+  nextSubjectDays !== null && nextSubjectDays < 3
+    ? "countdown-critical"
+    : nextSubjectDays !== null && nextSubjectDays < 7
+      ? "countdown-urgent"
+      : "";
+const heroTodayClass = nextSubjectDays === 0 ? "countdown-today" : "";
+---
+
+<BaseLayout title="Home">
+  <div class="app-container">
+    <header class="app-header">
+      <h1>BDS Final Year <span class="gradient-text">Prep</span></h1>
+      <p>Quick-reference Q&A, mind maps & countdown for AP 2026 exams.</p>
+    </header>
+
+    {nextSubject ? (
+      <section class="hero-section" aria-label={nextSubjectDays !== null && nextSubjectDays < 7 ? `Urgent: ${nextSubjectDays} days until exam` : undefined}>
+        <div class={`hero-card glassmorphism ${heroUrgencyClass} ${heroTodayClass}`.trim()}>
+          <div class="hero-content">
+            <ExamCountdown
+              client:load
+              examDate={nextSubject.examDate}
+              subjectName={nextSubject.shortName}
+              icon={nextSubject.icon}
+            />
+          </div>
+        </div>
+      </section>
+    ) : completed === total && total > 0 ? (
+      <section class="hero-section" aria-live="polite">
+        <div class="hero-card glassmorphism">
+          <div class="hero-content">
+            <h2 class="hero-title">All exams done</h2>
+            <div class="next-exam-details">
+              <div class="next-subject">Congratulations</div>
+              <div class="next-meta">You&apos;ve completed the exam schedule. Review any subject below.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    ) : null}
+
+    <div class="mb-10 max-w-md mx-auto">
+      <div class="flex justify-between text-sm mb-2" style="color: var(--text-secondary);">
+        <span>Exam progress</span>
+        <span class="font-medium">{completed}/{total} done</span>
+      </div>
+      <div class="progress-track">
+        <div
+          class="progress-fill"
+          style={`width: ${total ? (completed / total) * 100 : 0}%`}
+        />
+      </div>
+    </div>
+
+    <section class="timer-section" aria-label="Focus and break timer">
+      <Timer client:load />
+    </section>
+
+    <HomeProgress client:load subjects={progressSubjects} />
+
+    <section class="schedule-section">
+      <h2 class="section-title">Full Schedule</h2>
+      <div class="schedule-grid">
+        {subjects.map((subject) => {
+          const days = daysUntilExam(subject.examDate);
+          const isPast = days === 0 && new Date(subject.examDate) < new Date();
+          const isCurrent = nextSubject?.slug === subject.slug;
+          const isUrgent = !isPast && (days < 7 || isCurrent);
+          const statusClass = isPast ? "past" : isCurrent ? "current" : "";
+          const urgentClass = isUrgent ? "exam-urgent" : "";
+          const subjectBorderVar = `var(--subject-${subject.color})`;
+          return (
+            <a
+              href={`/subjects/${subject.slug}`}
+              class={`exam-card exam-card--${subject.color} ${statusClass} ${urgentClass}`.trim()}
+              style={`border-left-color: ${subjectBorderVar}`}
+              aria-label={isUrgent ? `Urgent: ${days} days until exam` : undefined}
+            >
+              <div class="card-date-box">
+                <span class="date-day">
+                  {new Date(subject.examDate).getDate()}
+                </span>
+                <div class="date-month-year">
+                  <span>{new Date(subject.examDate).toLocaleDateString("en-IN", { month: "short" })}</span>
+                  <span>{new Date(subject.examDate).getFullYear()}</span>
+                </div>
+              </div>
+              <div class="flex items-start justify-between gap-2">
+                <h3 class="exam-subject">{subject.shortName}</h3>
+                <span class="text-2xl">{subject.icon}</span>
+              </div>
+              <p class="text-sm mt-1" style="color: var(--text-secondary);">
+                {subject.examDay} · Paper {subject.paperCode}
+              </p>
+              <div class="exam-meta">
+                <span>{contentBySlug[subject.slug].questions.length} questions · {contentBySlug[subject.slug].mindMaps.length} mind maps</span>
+                {!isPast && days <= 5 && (
+                  <span class={days === 0 ? "status-inprogress status-badge" : "status-upcoming status-badge"}>
+                    {days === 0 ? "Today!" : `${days}d left`}
+                  </span>
+                )}
+                {isPast && <span class="status-completed status-badge">Done</span>}
+              </div>
+            </a>
+          );
+        })}
+      </div>
+    </section>
+  </div>
+</BaseLayout>

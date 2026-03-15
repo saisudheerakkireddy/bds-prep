@@ -1,0 +1,119 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { subjects, daysUntilExam, examProgress } from "../lib/subjects";
+
+const today = new Date();
+const { completed, total } = examProgress();
+const allDone = total > 0 && completed === total;
+const upcomingSubjects = subjects.filter((s) => new Date(s.examDate) >= today);
+const minDaysUpcoming = upcomingSubjects.length > 0 ? Math.min(...upcomingSubjects.map((s) => daysUntilExam(s.examDate))) : Infinity;
+---
+
+<BaseLayout title="Study Planner">
+  <section class="app-container page-content py-8 sm:py-12">
+    <h1 class="text-2xl sm:text-3xl font-bold tracking-tight mb-2" style="color: var(--text-primary);">
+      Study Planner
+    </h1>
+    <p class="text-sm mb-8" style="color: var(--text-secondary);">
+      Your exam timeline at a glance. Focus on what&apos;s next.
+    </p>
+
+    {allDone && (
+      <div class="mb-8 p-4 rounded-xl border" style="background: rgba(35, 134, 54, 0.1); border-color: var(--success); color: var(--text-primary);">
+        <p class="font-semibold">All exams completed</p>
+        <p class="text-sm mt-1" style="color: var(--text-secondary);">Review any subject below or from the home page.</p>
+      </div>
+    )}
+
+    <div class="relative">
+      <div class="absolute left-4 sm:left-6 top-0 bottom-0 w-0.5 opacity-30" style="background: var(--border-color);" />
+
+      <div class="space-y-6">
+        {subjects.map((subject) => {
+          const days = daysUntilExam(subject.examDate);
+          const examDate = new Date(subject.examDate);
+          const isPast = examDate < today;
+          const isNext = !isPast && upcomingSubjects.length > 0 && days === minDaysUpcoming;
+
+          return (
+            <div class="relative flex items-start gap-4 sm:gap-6">
+              <div
+                class={`relative z-10 w-8 h-8 sm:w-12 sm:h-12 rounded-full flex items-center justify-center shrink-0 text-base sm:text-xl ${
+                  isPast
+                    ? "status-completed"
+                    : isNext
+                      ? "status-inprogress"
+                      : "status-upcoming"
+                }`}
+                style={isPast ? { background: "rgba(255,255,255,0.1)", color: "var(--text-secondary)" } : isNext ? { background: "rgba(35,134,54,0.2)", color: "var(--success)" } : { background: "rgba(88,166,255,0.15)", color: "var(--accent-1)" }}
+              >
+                {isPast ? "✓" : subject.icon}
+              </div>
+
+              <a
+                href={`/subjects/${subject.slug}`}
+                class={`content-card planner-schedule-block planner-schedule-block--${subject.color} flex-1 p-4 sm:p-5 ${isPast ? "opacity-60" : ""} ${isNext ? "next-exam" : ""}`.trim()}
+                style={`border-left-color: var(--subject-${subject.color});${isNext ? " border-color: var(--accent-premium);" : ""}`}
+                aria-label={isNext ? `Next exam: ${subject.shortName}, ${days} days left` : undefined}
+              >
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                  <div>
+                    <h3 class="font-bold text-sm sm:text-base" style="color: var(--text-primary);">
+                      {subject.shortName}
+                    </h3>
+                    <p class="text-xs" style="color: var(--text-secondary);">
+                      {subject.examDay},{" "}
+                      {examDate.toLocaleDateString("en-IN", {
+                        day: "numeric",
+                        month: "short",
+                      })}
+                      {" "}· Paper {subject.paperCode}
+                    </p>
+                  </div>
+                  <div class="text-right">
+                    {isPast ? (
+                      <span class="text-xs font-medium status-completed status-badge">
+                        Completed
+                      </span>
+                    ) : isNext ? (
+                      <span class="status-inprogress status-badge">
+                        {days === 0 ? "Today!" : `${days} days`}
+                      </span>
+                    ) : (
+                      <span class="text-xs" style="color: var(--text-secondary);">{days} days</span>
+                    )}
+                  </div>
+                </div>
+
+                {isNext && (
+                  <div class="mt-3 pt-3 border-t" style="border-color: var(--border-color);">
+                    <p class="text-xs font-medium" style="color: var(--accent-premium);">
+                      ⚡ Focus on this — you&apos;ve got {days > 1 ? `${days} days` : "today"} to prepare.
+                    </p>
+                  </div>
+                )}
+              </a>
+            </div>
+          );
+        })}
+
+        <div class="relative flex items-start gap-4 sm:gap-6">
+          <div
+            class="relative z-10 w-8 h-8 sm:w-12 sm:h-12 rounded-full flex items-center justify-center shrink-0 text-base sm:text-xl"
+            style="background: rgba(210, 153, 34, 0.2); color: var(--warning);"
+          >
+            🧪
+          </div>
+          <div class="content-card flex-1 p-4 sm:p-5" style="border-color: rgba(210, 153, 34, 0.3);">
+            <h3 class="font-bold text-sm sm:text-base" style="color: var(--text-primary);">
+              Practical Examinations
+            </h3>
+            <p class="text-xs mt-1" style="color: var(--text-secondary);">
+              Tentatively from 15th April 2026
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,579 @@
+{
+  "slug": "conservative-dentistry",
+  "questions": [
+    {
+      "id": "cons-001",
+      "topic": "Cavity Preparation & Pulp Protection",
+      "question": "Define cavity preparation. Discuss in detail the principles of cavity preparation according to GV Black. Explain resistance form and retention form with examples.",
+      "answer": "Cavity preparation: removal of diseased tooth structure and shaping to receive a restorative material.\n\nGV Black's principles (ORCRF mnemonic):\n• Outline form: extend to sound margins, include all fissures/defects.\n• Resistance form: shape that withstands masticatory forces — flat floor, box form, adequate depth (pulpally 0.5–2 mm), rounded internal line angles.\n• Retention form: shape that prevents displacement — undercuts in Class III/V; converging walls in Class II; dovetail in Class I.\n• Convenience form: access for instrumentation and placement.\n• Finishing: smooth margins, proper cavosurface angle (90° for amalgam).\n\nResistance form example: flat pulpal floor in Class II to resist vertical load. Retention form example: slight divergence of walls in Class V to lock the restoration.",
+      "analogy": "Like preparing a foundation for a building — outline = boundary, resistance = strong base, retention = grooves that hold the material in place.",
+      "highYield": true,
+      "yearsAsked": ["2024", "2023"]
+    },
+    {
+      "id": "cons-002",
+      "topic": "Pulp Pathology & Periapical Diseases",
+      "question": "Classify pulpal and periapical diseases. Discuss the clinical features, diagnosis, differential diagnosis, and treatment of irreversible pulpitis.",
+      "answer": "Classification — Pulpal: reversible pulpitis, irreversible pulpitis (acute/chronic), pulp necrosis. Periapical: periapical abscess (acute/chronic), periapical granuloma, radicular cyst, phoenix abscess, condensing osteitis.\n\nIrreversible pulpitis:\n• Clinical: spontaneous/throbbing pain, lingering to cold/heat, night pain, poorly localized.\n• Diagnosis: history, cold test (lingers >30 s), heat exacerbates, percussion may be +ve later.\n• DD: reversible pulpitis (pain subsides quickly), cracked tooth, referred pain from sinus/ear.\n• Treatment: RCT (pulpectomy) or extraction. Emergency: pulpotomy/pulpectomy to relieve pain.",
+      "analogy": "Like a fire that won't go out — reversible = smoulder you can cool; irreversible = need to remove the source (pulp).",
+      "highYield": true,
+      "yearsAsked": ["2024", "2022"]
+    },
+    {
+      "id": "cons-003",
+      "topic": "Amalgam Restorations",
+      "question": "High copper amalgam — composition and advantages.",
+      "answer": "Composition: Ag (40–70%), Sn (27–30%), Cu (13–30%), Zn (0–2%), Hg (≈50% in final mix). High-copper alloys have >12% Cu; include admixed (lathe-cut Ag–Sn + Ag–Cu spheres) or single-composition (unicomposition) alloys.\n\nAdvantages over low-copper (gamma-2):\n• No gamma-2 phase (Sn–Hg) — less corrosion, stronger.\n• Better marginal integrity and longevity.\n• Less creep and better resistance to fracture.\n• Lower failure rate in clinical studies.",
+      "analogy": "High-copper is like upgrading from a weak link in a chain — removing the Sn–Hg (gamma-2) link makes the whole restoration stronger.",
+      "highYield": true,
+      "yearsAsked": ["2023"]
+    },
+    {
+      "id": "cons-004",
+      "topic": "Cleaning & Shaping of Root Canals",
+      "question": "Step-back technique of root canal preparation.",
+      "answer": "Step-back (serial preparation):\n• Establish working length (0.5–1 mm short of apical foramen/constriction).\n• Prepare apical third first: enlarge with files at WL (e.g. 25, 30, 35) to create apical stop.\n• Step back 1 mm sequentially with next larger file; repeat to create taper (e.g. 40@WL-1, 45@WL-2, 50@WL-3).\n• Flaring: use Gates-Glidden or larger files in coronal third for straight-line access.\n• Recapitulate with small file to WL to remove debris.\n\nAdvantages: controlled apical preparation, less extrusion, good for hand files. Indications: curved canals, when crown-down is not preferred.",
+      "analogy": "Like widening a tunnel from the end backward — first secure the end (apical stop), then step back and flare so the canal is tapered and clean.",
+      "highYield": true,
+      "yearsAsked": ["2024", "2023"]
+    },
+    {
+      "id": "cons-005",
+      "topic": "Composites",
+      "question": "Composite resins — classification and indications.",
+      "answer": "Classification: By filler size — macrofill, microfill, hybrid, nanofill, nanohybrid; by consistency — packable, flowable; by curing — light-cure, chemical-cure, dual-cure.\n\nIndications: Class I–VI cavities, anterior and posterior (with appropriate type), pit and fissure sealants, preventive resin restorations, veneers, core build-up, repair of restorations. Contraindications: high moisture areas without isolation, subgingival margins (relative).",
+      "analogy": "Like different grades of paint — flowable for thin layers and grooves, packable for bulk fill; nanofill for smooth finish, hybrid for strength.",
+      "highYield": true,
+      "yearsAsked": ["2023"]
+    },
+    {
+      "id": "cons-006",
+      "topic": "Obturation Techniques",
+      "question": "Lateral condensation technique of obturation.",
+      "answer": "Procedure: Select master cone (same size as last file at WL); coat canal with sealer; place master cone to WL; spreader inserted alongside to create space, then removed; insert accessory cone in space; repeat until canal is filled; cut excess with hot instrument; vertical condensation of coronal gutta-percha.\n\nRequirements: adequate taper, sealer (e.g. zinc oxide–eugenol, resin-based), spreaders (finger or hand). Advantages: well taught, predictable, good control. Disadvantages: multiple cones, some voids possible.",
+      "analogy": "Like packing books on a shelf — main book (master cone), then use a wedge (spreader) to make room and add more books (accessory cones) until full.",
+      "highYield": true,
+      "yearsAsked": ["2024", "2022"]
+    },
+    {
+      "id": "cons-007",
+      "topic": "GIC & Dental Ceramics",
+      "question": "Glass ionomer cement — classification and uses.",
+      "answer": "Classification: Type I (luting), Type II (restorative — conventional, resin-modified RMGIC), Type III (liner/base), Type IX (high-viscosity, e.g. ART).\n\nUses: Luting crowns and bridges; Class III/V restorations (low stress); liner/base under composite; ART; cervical abrasion/erosion; fissure sealant (RMGIC); core build-up in low-stress areas; paediatric restorations. Advantages: fluoride release, chemical bond to tooth, biocompatible. Disadvantages: weaker than composite, moisture sensitive during set.",
+      "analogy": "Like a versatile adhesive that also releases fluoride — good for low-stress areas and when you want a chemical bond and fluoride boost.",
+      "highYield": true,
+      "yearsAsked": ["2023"]
+    },
+    {
+      "id": "cons-008",
+      "topic": "Dentin Hypersensitivity",
+      "question": "Dentin hypersensitivity — theories and management.",
+      "answer": "Theories: Hydrodynamic (Brännström) — fluid movement in tubules stimulates nerves; odontoblast receptor; direct innervation.\n\nManagement: (1) At-home: desensitising toothpaste (KNO3, stannous fluoride, NovaMin, arginine); soft brush, avoid abrasives. (2) In-office: topical agents (fluoride varnish, oxalates, glutaraldehyde, resin sealers); restorations if defect; laser. (3) Treat cause: erosion, abrasion, abfraction, recession, bleaching.",
+      "analogy": "Like a pipe with tiny holes — when fluid moves (cold/sweet), it triggers pain. Seal the holes or reduce the stimulus.",
+      "highYield": true,
+      "yearsAsked": ["2022"]
+    },
+    {
+      "id": "cons-009",
+      "topic": "Cleaning & Shaping of Root Canals",
+      "question": "Working length determination — methods.",
+      "answer": "Working length = distance from reference point (e.g. incisal/occlusal) to apical constriction (0.5–1 mm short of radiographic apex).\n\nMethods: (1) Radiographic — file to estimated length, take radiograph; adjust so file tip is 0.5–1 mm from apex. (2) Apex locator (electronic) — measure canal length to constriction; often used with radiograph. (3) Tactile — feel for apical stop (less reliable). (4) Paper point — when canal is dry, insert to binding point. Best practice: combine apex locator + radiograph.",
+      "analogy": "Like measuring how deep to dig — you need a fixed reference and a clear end point (apical constriction) so you don't go past the 'finish line'.",
+      "highYield": true,
+      "yearsAsked": ["2024"]
+    },
+    {
+      "id": "cons-010",
+      "topic": "Vital Pulp Therapy",
+      "question": "Pulp capping — types and indications.",
+      "answer": "Types: (1) Direct pulp capping — capping material (e.g. MTA, Ca(OH)2) placed directly on exposed pulp (mechanical or small carious). (2) Indirect pulp capping — layer over remaining dentine, no direct pulp exposure.\n\nIndications — Direct: small mechanical/carious exposure, vital pulp, no spontaneous pain, haemorrhage controllable. Indirect: deep caries, no pulp exposure, reversible pulpitis. Contraindications: irreversible pulpitis, necrosis, large exposure, poor isolation.",
+      "analogy": "Direct = putting a bandage right on the wound; indirect = putting a barrier over the last thin layer so the pulp can recover underneath.",
+      "highYield": true,
+      "yearsAsked": ["2023"]
+    },
+    {
+      "id": "cons-011",
+      "topic": "Cavity Preparation & Pulp Protection",
+      "question": "Bases and liners — difference.",
+      "answer": "Liner: thin layer (0.5 mm) over dentine; provides barrier and/or therapeutic effect; e.g. Ca(OH)2, resin-modified GIC. Base: thicker (1–2 mm) for strength and thermal protection; e.g. zinc phosphate, GIC, RMGIC. Placed in deep cavities. Difference: liner = thin, often therapeutic; base = thicker, structural/insulating. Some materials (e.g. RMGIC) can serve as both.",
+      "analogy": "Liner = a thin coat of primer; base = the actual cushion layer that supports the restoration and protects the pulp.",
+      "highYield": true,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-012",
+      "topic": "Amalgam Restorations",
+      "question": "Mercury hygiene.",
+      "answer": "Prevention of mercury exposure: use pre-dosed capsules; avoid skin contact; use high-volume evacuation; work in well-ventilated area; use amalgam separator in suction; store scrap in sealed container; no heating of amalgam; wear gloves; change gloves after handling. Spill: use mercury spill kit (sulphur powder, aspirator); never vacuum. Pregnancy: avoid handling where possible; follow institutional policy.",
+      "analogy": "Like handling a toxic chemical in the lab — contained form, no spills, proper disposal, and minimal skin/air exposure.",
+      "highYield": false,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-013",
+      "topic": "Composites",
+      "question": "Acid etch technique.",
+      "answer": "Etch enamel (and dentine if needed) with 37% phosphoric acid gel for 15–30 s (enamel) or 10–15 s (dentin); rinse 15 s; air dry (enamel frosty; dentine moist for wet-bonding). Apply bonding agent (prime + bond or single bottle); air thin; light cure. Then place composite. Purpose: micromechanical retention; hybrid layer on dentine; improves bond strength.",
+      "analogy": "Like roughening a surface before glue — the etch creates tiny pores so the bond can lock in (micromechanical retention).",
+      "highYield": true,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-014",
+      "topic": "Composites",
+      "question": "Sandwich technique.",
+      "answer": "Layering: place GIC (or RMGIC) as base/liner in deep cavity; then etch (if needed), bond, and place composite over it. Combines benefits: GIC — fluoride release, chemical bond, biocompatibility; composite — strength, aesthetics. Indicated in deep Class II, cervical lesions, when dentine replacement is needed. Open sandwich: GIC at gingival margin. Closed: GIC fully covered by composite.",
+      "analogy": "Like a sandwich — GIC is the inner layer (fluoride + bond to tooth), composite is the outer layer (strong and aesthetic).",
+      "highYield": true,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-015",
+      "topic": "Pulp Pathology & Periapical Diseases",
+      "question": "Phoenix abscess.",
+      "answer": "Acute exacerbation of a chronic periapical lesion (e.g. granuloma). Cause: drainage blocked, or lowered resistance; bacteria proliferate. Features: sudden pain, swelling, tooth elevated, previously asymptomatic chronic lesion. Radiograph: periapical radiolucency. Treatment: establish drainage (RCT, incision if fluctuant), antibiotics if systemic spread, complete RCT.",
+      "analogy": "Like a dormant volcano erupting — the chronic lesion was quiet until something blocked the exit or lowered defences.",
+      "highYield": true,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-016",
+      "topic": "Endodontic Diagnosis & Emergencies",
+      "question": "Apexification.",
+      "answer": "Procedure to induce apical closure in immature permanent teeth with open apex (pulp necrosis). Steps: access, extirpation, gentle debridement; place Ca(OH)2 or MTA in apical region; replace Ca(OH)2 every 3–6 months until apical barrier forms (radiograph); then obturate. MTA one-visit apexification: place MTA apical plug, then backfill. Aims: apical barrier for obturation, strengthen root.",
+      "analogy": "Like building a dam at the open end of a pipe — we encourage the body to form a barrier (or place MTA) so we can fill the canal properly.",
+      "highYield": true,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-017",
+      "topic": "Obturation Techniques",
+      "question": "Gutta percha — composition.",
+      "answer": "Gutta-percha: trans-1,4-polyisoprene (≈20% of cone); zinc oxide (≈65%); radiopacifiers (e.g. BaSO4); plasticizers; antioxidants. Forms: alpha (heated, more flow); beta (standard cones). Properties: inert, compactable, removable for retreatment, radiopaque. Does not bond to canal wall — used with sealer.",
+      "analogy": "Like a flexible, inert rubber that can be compressed into shape and shows up on X-ray — the real seal comes from the sealer.",
+      "highYield": false,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-018",
+      "topic": "Vital Pulp Therapy",
+      "question": "Calcium hydroxide — uses in endodontics.",
+      "answer": "Uses: intracanal medicament (antibacterial, raises pH); apexification (induce apical barrier); direct/indirect pulp capping; root resorption (external/internal) — alkaline environment inhibits clasts; dressing between appointments. Form: paste (with vehicle e.g. saline, CMCP); setting type for apexification. Limitation: does not seal; may weaken dentine if long term.",
+      "analogy": "Like a disinfectant and a 'builder' — kills bacteria and encourages the body to form a barrier at the apex in immature teeth.",
+      "highYield": true,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-019",
+      "topic": "Cleaning & Shaping of Root Canals",
+      "question": "Rubber dam — indications.",
+      "answer": "Indications: isolation for RCT (mandatory in most guidelines), composite/amalgam (moisture control), bleaching, bonding. Advantages: dry field, infection control, retraction, patient protection (aspiration, soft tissue). Contraindications: very anxious patient (relative), some asthmatics, mouth breathers — manage case by case.",
+      "analogy": "Like a tent over the tooth — only the tooth is in the 'dry zone'; everything else is outside, so no moisture or debris in the way.",
+      "highYield": true,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-020",
+      "topic": "Amalgam Restorations",
+      "question": "Discuss the composition of dental amalgam. Explain the functions of each ingredient. Add a note on high copper amalgam and non–gamma-2 alloys.",
+      "answer": "Composition (conventional): Ag (strength, expansion), Sn (setting expansion control, but forms gamma-2), Cu (strength, reduces gamma-2 in high-copper), Zn (reduces oxidation; can cause delayed expansion if contaminated), Hg (liquid that amalgamates with alloy).\n\nHigh-copper: Cu >12%. Admixed = lathe-cut Ag–Sn + Ag–Cu spheres; single composition = one alloy. Gamma-2 (Sn–Hg) is eliminated — less corrosion, better longevity, stronger. Non–gamma-2 = high-copper alloys; clinical performance superior to low-copper.",
+      "analogy": "Silver and tin form the skeleton; copper strengthens and removes the weak link (gamma-2); mercury is the 'glue' that sets everything.",
+      "highYield": true,
+      "yearsAsked": ["2024"]
+    },
+    {
+      "id": "cons-021",
+      "topic": "Cleaning & Shaping of Root Canals",
+      "question": "Write on standardization of root canal instruments. Describe in detail the indications, advantages, and procedure of step-back technique of root canal preparation.",
+      "answer": "Standardization (ISO): diameter at D0 (tip) in 1/100 mm (e.g. 25 = 0.25 mm); taper 0.02 (2% per mm); length 21, 25, 30 mm; colour coding. Now also: variable taper (0.04, 0.06); different tip sizes.\n\nStep-back: (1) Determine WL. (2) Apical preparation at WL with increasing sizes (e.g. 25, 30, 35). (3) Step back 1 mm with next size; repeat to create taper. (4) Flare coronal third. (5) Recapitulate. Indications: curved canals, hand instrumentation. Advantages: controlled apical stop, less extrusion, predictable. Procedure as in cons-004.",
+      "analogy": "Standardization = same 'ruler' for every file so you know exactly what size you're using; step-back = widening from the tip backward in steps.",
+      "highYield": true,
+      "yearsAsked": ["2023"]
+    },
+    {
+      "id": "cons-022",
+      "topic": "Cavity Preparation & Pulp Protection",
+      "question": "Cavity varnish — composition, objectives, and application.",
+      "answer": "Composition: natural/synthetic resin (e.g. copal, rosin) in organic solvent (e.g. ether, acetone). Thin layer; solvent evaporates.\n\nObjectives: reduce microleakage; reduce marginal staining; seal dentinal tubules; protect pulp from irritants.\n\nApplication: 2–3 thin coats with brush/cotton; allow drying between coats; apply before amalgam placement. Not used under composite (bonding used). Limitations: thin, may not prevent thermal conduction; less effective than liners for deep cavities.",
+      "analogy": "Like a coat of varnish on wood — seals the surface so moisture and stains don't get in; multiple thin coats work better than one thick one.",
+      "highYield": true,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-023",
+      "topic": "Composites",
+      "question": "Pit and fissure sealants.",
+      "answer": "Material: resin (filled/unfilled) or GIC; flows into pits and fissures; bonds to etched enamel. Indications: deep fissures, high caries risk, first molars (6–7 y), second molars (12–14 y). Contraindications: well-coalesced fissures, tooth not erupted enough for isolation, existing caries (restore first). Technique: clean, etch, rinse, dry, apply sealant, cure. Retention check at recall.",
+      "analogy": "Like sealing cracks in a floor so dirt and germs can't get in — done early on back teeth when fissures are deep.",
+      "highYield": true,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-024",
+      "topic": "Cavity Preparation & Pulp Protection",
+      "question": "Matrix bands — types and functions.",
+      "answer": "Types: circumferential (band wrapped around tooth — Tofflemire, Omni-Matrix); sectional (small pieces for proximal). Functions: restore missing wall for proper contour and contact; confine material; prevent overhang. Tofflemire: universal size; retainer holds band; used for Class II. Placement: select band, assemble, wedge for contact, place restoration.",
+      "analogy": "Like a mould that holds the shape of the side of the tooth so the filling gets the right contour and doesn't spill out.",
+      "highYield": false,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-025",
+      "topic": "Conservative Dentistry",
+      "question": "ART (Atraumatic Restorative Treatment).",
+      "answer": "Definition: minimal intervention; hand instruments only (no electrical); GIC as restorative material; often without local anaesthesia. Indications: single-surface cavities, accessible lesions, where equipment is limited (field settings, outreach). Steps: remove caries with hand excavator; condition cavity (GIC); place high-viscosity GIC; seal adjacent fissures. Advantages: low cost, minimal equipment, acceptable success in single surfaces.",
+      "analogy": "Like fixing a small hole with hand tools and a single material — no drill, no electricity, so it works where resources are limited.",
+      "highYield": true,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-026",
+      "topic": "Vital Pulp Therapy",
+      "question": "Vital pulp therapy — types and indications.",
+      "answer": "Types: indirect pulp capping; direct pulp capping; pulpotomy (partial/cervical); pulpectomy (full RCT in vital tooth). Indications: indirect — deep caries, no exposure. Direct — small exposure, vital. Pulpotomy — vital pulp, especially in immature teeth (apexogenesis); or as emergency. Pulpectomy — vital tooth needing full RCT. Choice depends on exposure size, symptoms, stage of root development.",
+      "analogy": "From least to most invasive: seal over the danger zone (indirect) → bandage the exposure (direct) → remove only the top part of pulp (pulpotomy) → remove all pulp (pulpectomy).",
+      "highYield": true,
+      "yearsAsked": ["2024"]
+    },
+    {
+      "id": "cons-027",
+      "topic": "Cleaning & Shaping of Root Canals",
+      "question": "Irrigating solutions in endodontics.",
+      "answer": "Functions (LDSL mnemonic): Lubrication, Debris removal, Smear layer removal, Lubrication (and disinfection). Common: Sodium hypochlorite (0.5–5.25%) — antimicrobial, tissue dissolution; EDTA (17%) — chelation, smear layer removal; CHX (2%) — antimicrobial, residual effect; combination (NaOCl + EDTA). Protocol: NaOCl during instrumentation; final rinse EDTA then NaOCl (or per protocol). Safety: avoid extrusion (needle not binding); NaOCl can cause tissue damage.",
+      "analogy": "Like washing and disinfecting a pipe — bleach kills bugs and dissolves soft tissue; EDTA strips the smear so the seal can stick.",
+      "highYield": true,
+      "yearsAsked": ["2023"]
+    },
+    {
+      "id": "cons-028",
+      "topic": "Cleaning & Shaping of Root Canals",
+      "question": "Intracanal medicaments.",
+      "answer": "Used between appointments to disinfect. Common: Ca(OH)2 paste — antibacterial, high pH; CHX — antimicrobial; corticosteroid-antibiotic (e.g. Ledermix) — anti-inflammatory, limited use. Indications: necrotic pulp, periapical lesion, persistent infection, multi-visit RCT. Place with lentulo or syringe; seal with temporary; remove at next visit. Trend: single-visit RCT when possible; medicament when needed for infection control.",
+      "analogy": "Like leaving a disinfectant inside the canal overnight so when you come back, the canal is cleaner and safer to fill.",
+      "highYield": true,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-029",
+      "topic": "Obturation Techniques",
+      "question": "Root canal sealers — requirements.",
+      "answer": "Grossman's sealer requirements (SERB RAD mnemonic): Seal (apical and lateral); Easy removal for retreatment; Radiopaque; Biocompatible; Fine particle; Dimensionally stable; Adhere to canal wall. Types: ZOE, resin-based, Ca(OH)2-based, silicone, MTA-based. Function: fill irregularities and minor gaps between GP and canal; not primary seal (GP is).",
+      "analogy": "Like grout between tiles — fills the small gaps so the main fill (gutta-percha) is backed by a complete seal.",
+      "highYield": true,
+      "yearsAsked": ["2022"]
+    },
+    {
+      "id": "cons-030",
+      "topic": "Pulp Pathology & Periapical Diseases",
+      "question": "Cracked tooth syndrome.",
+      "answer": "Incomplete fracture of tooth (often molar); pain on release after biting (flexure then release). Symptoms: sharp pain, sensitivity to cold, poorly localized. Diagnosis: transillumination, bite test (e.g. Tooth Slooth), dye, CBCT. Treatment: early — bonded restoration, cuspal coverage; if pulp involved — RCT + full coverage. Prognosis: depends on extent; full crack = poor.",
+      "analogy": "Like a cracked cup — when you release the bite, the crack opens and triggers pain; find and protect before it splits completely.",
+      "highYield": true,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-031",
+      "topic": "Dentin Hypersensitivity",
+      "question": "Abfraction.",
+      "answer": "Non-carious cervical lesion due to occlusal stress (flexure) — microfractures, loss of tooth structure at CEJ. Wedge-shaped; often with bruxism. Theory: biomechanical loading causes flexure and breakdown. Management: reduce stress (occlusal adjustment, night guard); restore if needed (bonded composite); desensitise.",
+      "analogy": "Like a piece of metal flexing repeatedly at one spot until it cracks — the neck of the tooth flexes under load and wears.",
+      "highYield": false,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-032",
+      "topic": "Pulp Pathology & Periapical Diseases",
+      "question": "Dead tracts.",
+      "answer": "In dentine: tubules that have lost their odontoblast processes (e.g. after caries, cavity prep); appear dark in ground section (air in tubules). Sclerotic dentine may seal them. Not a disease per se — histological finding. Relevance: may be more permeable; base/liner may be considered in deep cavities.",
+      "analogy": "Like empty pipes where the 'live' connection is gone — the tubules are there but no longer active.",
+      "highYield": false,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-033",
+      "topic": "Cavity Preparation & Pulp Protection",
+      "question": "Gingival margin trimmer (GMT).",
+      "answer": "Hand instrument; double-ended; curved blade; used to bevel gingival margin in Class II cavities (gingival seat). Creates concave margin; removes unsupported enamel. Part of GV Black's instrumentation. Less used now with adhesive restorations where minimal bevel may be used.",
+      "analogy": "Like a small chisel that shapes the gum-line edge of the cavity so the margin is clean and strong.",
+      "highYield": false,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-034",
+      "topic": "Cavity Preparation & Pulp Protection",
+      "question": "Spoon excavator.",
+      "answer": "Hand instrument; spoon-shaped blade; used to remove soft caries and debris from cavity. Sizes: small (pit caries), large (bulk caries). Part of minimal intervention — remove only infected dentine. Sharp; used with finger rest.",
+      "analogy": "Like a tiny spoon that scoops out the soft, infected part of the tooth while sparing the harder structure.",
+      "highYield": false,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-035",
+      "topic": "Composites",
+      "question": "Polymerization shrinkage.",
+      "answer": "Composite shrinks (2–5%) during setting — pulls away from walls, can cause marginal gap, cusp flexure, postoperative sensitivity. Minimise: incremental placement; soft-start cure; use low-shrink formulations; proper bonding; stress-breaking layer (e.g. flowable).",
+      "analogy": "Like dough shrinking in the oven — if it's stuck to the walls, the pull can create gaps or crack the tooth; we layer and bond to manage the stress.",
+      "highYield": true,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-036",
+      "topic": "Cleaning & Shaping of Root Canals",
+      "question": "Smear layer.",
+      "answer": "Layer of debris (dentine chips, bacteria, organic matter) produced by instrumentation; covers canal walls. Thickness 1–2 µm. Pros: may reduce permeability. Cons: harbours bacteria; prevents sealer penetration. Remove with EDTA (17%) or citric acid after NaOCl; then final NaOCl rinse. Improves sealer bond and disinfection.",
+      "analogy": "Like mud on a pipe wall — you need to remove it (EDTA) before the sealer can stick properly and before you can say the canal is clean.",
+      "highYield": true,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-037",
+      "topic": "Pulp Pathology & Periapical Diseases",
+      "question": "Pulp stones.",
+      "answer": "Calcifications in pulp (denticles); true (with dentine) or false (degeneration). Free, attached, or embedded. Often asymptomatic; may be seen on radiograph. Can complicate RCT (blockage). No treatment unless causing symptoms or obstructing access.",
+      "analogy": "Like small pebbles forming inside a pipe — usually harmless but can get in the way when you need to clean the pipe (RCT).",
+      "highYield": false,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-038",
+      "topic": "Endodontic Diagnosis & Emergencies",
+      "question": "Electric pulp test.",
+      "answer": "EPT: applies electric current to tooth; vital pulp responds with sensation. Dry tooth, isolate, place gel on probe, touch tooth, increase current; patient indicates when they feel. Vital = response; non-vital = no response. False +/- : immature apex, calcified canal, recent trauma, multi-rooted (one root vital). Use with thermal tests and radiograph.",
+      "analogy": "Like a doorbell — if the 'wire' (pulp) is live, you get a response; no response suggests the pulp is dead or not connected.",
+      "highYield": true,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-039",
+      "topic": "Cleaning & Shaping of Root Canals",
+      "question": "Ni-Ti files.",
+      "answer": "Nickel–titanium alloy: superelasticity, shape memory, flexibility. Advantages: follow curved canals with less transportation; less hand fatigue; can be used in rotary. Used in crown-down or hybrid techniques. Care: avoid excessive force (cyclic fatigue); single use or limited use per protocol.",
+      "analogy": "Like a flexible wire that bends around corners instead of cutting a straight path — so the canal shape is preserved.",
+      "highYield": true,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-040",
+      "topic": "Vital Pulp Therapy",
+      "question": "MTA (Mineral Trioxide Aggregate).",
+      "answer": "Composition: tricalcium silicate, dicalcium silicate, bismuth oxide; sets in presence of moisture; pH ~12.5. Uses: apexification; perforation repair; direct pulp capping; root-end filling; vital pulp therapy. Advantages: biocompatible, bioactive, seals well, sets in moisture. Disadvantages: cost, handling, slow set, can stain (grey MTA); white MTA less staining.",
+      "analogy": "Like a bioactive cement that the body likes — it seals and encourages healing, so it's used for barriers and repairs.",
+      "highYield": true,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-041",
+      "topic": "Amalgam Restorations",
+      "question": "Bonded amalgam restorations.",
+      "answer": "Amalgam placed with adhesive (bonding agent) on cavity walls. Theory: micromechanical retention + possible reduction in marginal leakage and postoperative sensitivity. Technique: etch (optional for amalgam), bond, place amalgam. Evidence: some support for retention in minimal prep; less clear for large cavities. Not a substitute for retention form in large restorations.",
+      "analogy": "Like glue under the filling — may help seal and hold in shallow preps, but the main retention still comes from cavity shape in big cavities.",
+      "highYield": true,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-042",
+      "topic": "Cleaning & Shaping of Root Canals",
+      "question": "Crown-down technique of canal preparation.",
+      "answer": "Prepare from crown to apex: first enlarge coronal third, then middle, then apical. Reduces extrusion of debris; less binding in curved canals; often used with Ni-Ti rotary. Sequence: orifice openers, then progressively smaller files to WL. Contrast: step-back (apical first).",
+      "analogy": "Like clearing a path from the entrance inward — open the top first so debris and files have room, then work down to the tip.",
+      "highYield": true,
+      "yearsAsked": ["2024"]
+    },
+    {
+      "id": "cons-043",
+      "topic": "Composites",
+      "question": "Preventive resin restoration.",
+      "answer": "Minimal intervention: remove only carious fissure; etch, bond, place composite in prepared area; then seal remaining fissures. Combines small restoration + sealant. Indicated when caries is limited to one or two fissures. Preserves tooth structure.",
+      "analogy": "Like fixing only the broken tile and then sealing the rest so nothing else gets in.",
+      "highYield": true,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-044",
+      "topic": "Obturation Techniques",
+      "question": "Thermoplasticized gutta percha obturation.",
+      "answer": "Heated GP injected or compacted (e.g. continuous wave, injectable). Techniques: Thermafil (carrier-based); Obtura (injection); warm vertical compaction. Advantages: fills canal and lateral canals; good adaptation. Requires proper cleaning and shaping. Used in selected cases.",
+      "analogy": "Like melted wax filling every crevice — heated GP flows into the canal system for a dense fill.",
+      "highYield": true,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-045",
+      "topic": "Vital Pulp Therapy",
+      "question": "Pulpotomy — indications and procedure.",
+      "answer": "Indications: vital pulp; exposure too large for capping; immature permanent tooth (apexogenesis); primary tooth (until exfoliation); emergency pain relief. Procedure: remove coronal pulp; irrigate (NaOCl); haemostasis; place MTA or Ca(OH)2 over orifices; seal. Follow-up: permanent — monitor for apexogenesis; primary — monitor until exfoliation.",
+      "analogy": "Like removing only the top part of the pulp (the 'engine') and leaving the root part to continue growing in immature teeth.",
+      "highYield": true,
+      "yearsAsked": ["2023"]
+    },
+    {
+      "id": "cons-046",
+      "topic": "Endodontic Diagnosis & Emergencies",
+      "question": "Endodontic emergencies — management.",
+      "answer": "Acute pulpitis: pulpotomy or pulpectomy to relieve pain; analgesics. Acute periapical abscess: drainage (through tooth or incision); RCT or extraction; antibiotics if systemic spread or cellulitis. Trauma: stabilize; pulp test; treat as needed. Objectives: relieve pain, control infection, then definitive treatment.",
+      "analogy": "First put out the fire (drainage, remove pulp), then plan the full repair (complete RCT).",
+      "highYield": true,
+      "yearsAsked": ["2024"]
+    },
+    {
+      "id": "cons-047",
+      "topic": "GIC & Dental Ceramics",
+      "question": "All ceramic restorations.",
+      "answer": "Types: porcelain jacket crown; bonded ceramic (etchable); zirconia (high strength); lithium disilicate (e.g. e.max). Indications: anterior crowns, veneers, inlays/onlays. Advantages: aesthetics, biocompatibility. Considerations: bond or cement; thickness for strength; shade. Conservative prep when possible.",
+      "analogy": "Like a strong, tooth-colored shell — from thin veneers to full crowns, all without metal.",
+      "highYield": false,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-048",
+      "topic": "Cleaning & Shaping of Root Canals",
+      "question": "Apex locators — principle and uses.",
+      "answer": "Principle: measure impedance or resistance between file (in canal) and lip clip; at apical constriction (or foramen) reading changes — device indicates 'apex'. Generations: 1st (resistance), 2nd (frequency), 3rd (multiple frequencies). Use: determine WL without multiple radiographs; combine with radiograph for confirmation. Not 100% in all cases (blood, NaOCl, large lesion can affect).",
+      "analogy": "Like a metal detector that beeps when the file tip reaches the 'end' of the canal — so you know how deep to go.",
+      "highYield": true,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-049",
+      "topic": "Dentin Hypersensitivity",
+      "question": "Erosion vs Abrasion.",
+      "answer": "Erosion: loss of tooth structure by chemical (acid) — dietary, gastric (reflux, vomiting). Surfaces: smooth, cupped, often on facial or palatal. Abrasion: mechanical wear — brushing, habits (e.g. pipe, nails). Often notch at CEJ, sharp margin. Both can cause hypersensitivity. Management: reduce acid exposure or mechanical insult; restore if needed; desensitise.",
+      "analogy": "Erosion = acid eating away (like rust); abrasion = something rubbing (like a groove from a rope).",
+      "highYield": true,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-050",
+      "topic": "Amalgam Restorations",
+      "question": "Trituration.",
+      "answer": "Mixing of amalgam alloy and mercury (in capsule) in amalgamator. Undertrituration: crumbly, weak. Overtrituration: too soft, excess Hg. Optimal: smooth, cohesive mix. Time and speed depend on alloy and manufacturer. Condensation soon after mix.",
+      "analogy": "Like mixing dough — too little = dry and crumbly; too much = overworked; just right = smooth and ready to pack.",
+      "highYield": false,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-051",
+      "topic": "Composites",
+      "question": "Nanofill composites.",
+      "answer": "Filler includes nano-sized particles (e.g. 20–75 nm); can have nanomer and nanocluster. Advantages: smooth surface, polishability, aesthetics; good strength. Use: anterior, posterior (where aesthetics and polish matter). Part of MHNF (macrofill, hybrid, nanofill, flowable) classification.",
+      "analogy": "Tiny particles that pack tightly — like fine sand for a smooth, glossy finish.",
+      "highYield": false,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-052",
+      "topic": "Composites",
+      "question": "Flowable composites.",
+      "answer": "Low viscosity; higher resin content; used in thin layers — liner in deep cavities, narrow grooves, pit and fissure, repair. Less strength than hybrid; use in non–stress-bearing areas or as first layer. Apply with syringe.",
+      "analogy": "Like runny paint that gets into small cracks — good for lining and sealing, not for bearing load alone.",
+      "highYield": false,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-053",
+      "topic": "GIC & Dental Ceramics",
+      "question": "Resin modified GIC.",
+      "answer": "RMGIC: GIC + resin (HEMA); dual cure (acid-base + light). Combines fluoride release and chemical bond with better early strength and less moisture sensitivity than conventional GIC. Uses: liner/base, Class III/V, ART, luting. Not for thick bulk in high-stress areas.",
+      "analogy": "GIC with a resin upgrade — still releases fluoride and bonds, but sets faster and is less fussy about moisture.",
+      "highYield": true,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-054",
+      "topic": "Pulp Pathology & Periapical Diseases",
+      "question": "Reversible pulpitis.",
+      "answer": "Pulp inflamed but capable of recovery. Symptoms: sharp pain to cold/sweet, subsides quickly (seconds). No spontaneous pain, no lingering. Treatment: remove cause (caries, restoration); indirect/direct pulp cap if needed; restore. No RCT.",
+      "analogy": "Like a mild burn that will heal if you remove the heat source — no need to remove the pulp.",
+      "highYield": true,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-055",
+      "topic": "Cleaning & Shaping of Root Canals",
+      "question": "Recapitulation.",
+      "answer": "During instrumentation: reinsert a small file (e.g. size 10 or 15) to full working length between larger sizes. Purpose: remove dentine debris and prevent blockage; maintain patency. Done after each file size or as needed.",
+      "analogy": "Like running a thin wire through the pipe between passes so it doesn't get blocked with debris.",
+      "highYield": false,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-056",
+      "topic": "Cleaning & Shaping of Root Canals",
+      "question": "Gates-Glidden drills.",
+      "answer": "Rotary instruments; safe-ended (non-cutting tip); used for coronal flaring and straight-line access. Sizes 1–6 (small to large). Used in handpiece; do not use near apex (risk of strip perforation). Part of step-back or crown-down for flare.",
+      "analogy": "Like a funnel at the top of the canal — they widen the opening so files can go straight down without bending.",
+      "highYield": false,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-057",
+      "topic": "Cleaning & Shaping of Root Canals",
+      "question": "Sodium hypochlorite — concentration.",
+      "answer": "Common concentrations: 0.5%, 1%, 2.5%, 5.25% (household bleach). Higher concentration = better tissue dissolution and antimicrobial effect but more toxicity if extruded. Common use: 2.5–5.25% for irrigation. Lower (0.5–1%) in some protocols for safety. Never force; use side-vented needle, avoid binding.",
+      "analogy": "Stronger bleach cleans faster but is harsher if it leaks — so we balance concentration with safety.",
+      "highYield": true,
+      "yearsAsked": []
+    },
+    {
+      "id": "cons-058",
+      "topic": "Obturation Techniques",
+      "question": "Grossman's sealer requirements.",
+      "answer": "SERB RAD (mnemonic): Seal (apical and lateral); Easy removal (for retreatment); Radiopaque; Biocompatible; fine particle (smooth); Dimensionally stable (no excessive shrinkage); Adhere to canal wall. Plus: not irritant, not support bacterial growth, not stain tooth.",
+      "analogy": "The checklist for a good sealer: seals gaps, shows on X-ray, safe, and can be removed if we need to redo the root canal.",
+      "highYield": true,
+      "yearsAsked": []
+    }
+  ],
+  "mindMaps": [
+    {
+      "id": "cons-mm-001",
+      "title": "GV Black Cavity Preparation Principles",
+      "mermaid": "graph TD\n  A[Cavity Prep] --> B[Outline Form]\n  A --> C[Resistance Form]\n  A --> D[Retention Form]\n  A --> E[Convenience Form]\n  A --> F[Finishing]\n  C --> G[Flat floor, box]\n  D --> H[Undercuts, dovetail]",
+      "relatedQuestionIds": ["cons-001", "cons-011", "cons-022"]
+    },
+    {
+      "id": "cons-mm-002",
+      "title": "Pulpal & Periapical Disease Classification",
+      "mermaid": "graph LR\n  A[Pulp] --> B[Reversible]\n  A --> C[Irreversible]\n  A --> D[Necrosis]\n  D --> E[Periapical]\n  E --> F[Abscess]\n  E --> G[Granuloma]\n  E --> H[Cyst]\n  E --> I[Phoenix]",
+      "relatedQuestionIds": ["cons-002", "cons-015", "cons-054"]
+    },
+    {
+      "id": "cons-mm-003",
+      "title": "Root Canal Cleaning & Shaping",
+      "mermaid": "graph TD\n  A[Cleaning Shaping] --> B[WL Determination]\n  A --> C[Preparation]\n  B --> D[Radiograph]\n  B --> E[Apex locator]\n  C --> F[Step-back]\n  C --> G[Crown-down]\n  A --> H[Irrigation]\n  A --> I[Medicament]",
+      "relatedQuestionIds": ["cons-004", "cons-009", "cons-021", "cons-042", "cons-048"]
+    },
+    {
+      "id": "cons-mm-004",
+      "title": "Obturation Methods",
+      "mermaid": "graph TD\n  A[Obturation] --> B[Lateral Condensation]\n  A --> C[Vertical Condensation]\n  A --> D[Thermoplasticized]\n  A --> E[Sealer]\n  E --> F[ZOE, Resin, MTA]\n  B --> G[Master + Accessory cones]",
+      "relatedQuestionIds": ["cons-006", "cons-017", "cons-029", "cons-044", "cons-058"]
+    },
+    {
+      "id": "cons-mm-005",
+      "title": "Vital Pulp Therapy Options",
+      "mermaid": "graph TD\n  A[Vital Pulp] --> B[Indirect Cap]\n  A --> C[Direct Cap]\n  A --> D[Pulpotomy]\n  A --> E[Pulpectomy]\n  B --> F[No exposure]\n  C --> G[Small exposure]\n  D --> H[Coronal pulp removed]\n  E --> I[Full RCT]",
+      "relatedQuestionIds": ["cons-010", "cons-018", "cons-026", "cons-040", "cons-045"]
+    },
+    {
+      "id": "cons-mm-006",
+      "title": "Restorative Materials Overview",
+      "mermaid": "graph LR\n  A[Restorations] --> B[Amalgam]\n  A --> C[Composite]\n  A --> D[GIC]\n  A --> E[Ceramic]\n  B --> F[High Cu, retention]\n  C --> G[Etch, bond, incremental]\n  D --> H[Fluoride, ART]",
+      "relatedQuestionIds": ["cons-003", "cons-005", "cons-007", "cons-013", "cons-020"]
+    }
+  ],
+  "resources": [
+    {
+      "title": "DCI — BDS curriculum & regulations",
+      "url": "https://dciindia.gov.in/Acts-Rules/",
+      "description": "Official DCI acts and regulations; verify Conservative Dentistry & Endodontics syllabus.",
+      "type": "official"
+    },
+    {
+      "title": "MUHS BDS & MDS syllabus (Cons & Endo)",
+      "url": "https://www.vspmahe.in/dental/dental22/BDS%20&%20MDS%20MUHS%20Syllabus%202.5.3%20point%202.pdf",
+      "description": "Reference syllabus; cross-check with your university for exam scope.",
+      "type": "syllabus"
+    }
+  ]
+}

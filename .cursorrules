@@ -1,0 +1,77 @@
+# BDS Final Year Exam Prep — AP 2026
+
+## Project Context
+This is a study-aid web app for BDS (Bachelor of Dental Surgery) Final Year students appearing for university exams in Andhra Pradesh, India (March–April 2026). The goal is to provide quick-reference Q&A with simple analogies, mermaid mind maps, progress tracking (localStorage then Gmail/Supabase), and an exam countdown/planner. **Extended context**: see `docs/PROJECT-CONTEXT.md`. **Roadmap (stages)**: `docs/ROADMAP.md`. **Google OAuth (Supabase + Vercel)**: `docs/AUTH-GOOGLE-OAUTH.md`.
+
+## Tech Stack
+- **Framework**: Astro 5 with React islands (interactive components)
+- **Styling**: Tailwind CSS
+- **Diagrams**: Mermaid.js rendered client-side
+- **Deployment**: Vercel (static output)
+
+## Architecture
+- `src/lib/subjects.ts` → Single source of truth for subject metadata & exam schedule
+- `src/content/subjects/<slug>.json` → Per-subject content (questions, mind maps). **This is where you write content.**
+- `src/components/` → React islands hydrated via `client:load` or `client:visible`
+- `src/pages/` → Astro pages. `subjects/[slug].astro` is the dynamic subject detail page.
+
+## Content Schema (per-subject JSON)
+Each file in `src/content/subjects/` must follow this structure:
+```json
+{
+  "slug": "subject-slug",
+  "questions": [
+    {
+      "id": "unique-id",
+      "topic": "Topic Name",
+      "question": "Question text",
+      "answer": "Concise, exam-ready answer",
+      "analogy": "Simple real-world analogy to remember this concept",
+      "highYield": true,
+      "yearsAsked": ["2024", "2022"]
+    }
+  ],
+  "mindMaps": [
+    {
+      "id": "unique-id",
+      "title": "Concept Map Title",
+      "mermaid": "graph TD\\n  A[Start] --> B[End]",
+      "relatedQuestionIds": ["question-id"]
+    }
+  ]
+}
+```
+
+## Key Rules
+1. **Analogies**: Every answer should have a simple, relatable analogy (kitchen, sports, daily life). Students in AP relate well to Telugu cultural context — use when natural.
+2. **High Yield**: Mark questions that have been repeated in previous university exams across AP/NTR university/KNRUHS papers.
+3. **Mind Maps**: Use mermaid `graph TD` or `graph LR` for concept hierarchies. Keep nodes short (3–5 words max).
+4. **Answers**: Exam-ready — structured, concise, but complete enough to score. Include classifications, key points, clinical significance.
+5. **Mobile first**: Most students will access on phones. All components must work on 320px+ viewports.
+
+## PDF Sources (in Downloads/BDS/)
+These PDFs contain previous year questions and notes:
+- Prosthodontics.pdf, prostho (1).pdf
+- CONS & ENDO (1).pdf, Conservative Dentistry.pdf
+- OMFS (1).pdf, Oral Surgery.pdf
+- Community Dentistry.pdf
+- Oral Medicine.pdf, OMR (1).pdf
+- Pedodontics.pdf, phd pdf (1).pdf
+- Orthodontics.pdf, ortho(1) (1).pdf
+- Periodontology.pdf, perio (1).pdf, Periodontics.pdf
+
+## Content Generation Workflow
+1. Read all PDFs for a subject
+2. Extract and deduplicate questions
+3. Identify high-yield topics (repeated 2+ times)
+4. Write concise exam-ready answers
+5. Add memorable analogies
+6. Create mermaid mind maps linking related concepts
+7. Output as JSON matching the schema above
+
+## Steelman decisions (applied)
+- **Content loading**: Normalize after import (Array.isArray) so malformed JSON never breaks the UI; show empty state when subject has no questions/mindMaps.
+- **All-exams-done**: When nextSubject is null and completed === total, show a short "All exams done" / congratulations hero instead of blank; same on Planner with a banner.
+- **Answer formatting**: Answers may use **bold**; QAAccordion renders **...** as <strong> for readability (no full markdown).
+- **Accessibility**: Skip link, aria-expanded/aria-controls/aria-label on accordion and filter buttons, diagram role="img" + aria-label, loading state for Mermaid so content is announced.
+- **Planner**: Compute minDaysUpcoming once to avoid Math.min(...[]) when all exams are past.

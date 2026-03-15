@@ -1,0 +1,10 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import AuthCallback from "../../components/AuthCallback";
+---
+
+<BaseLayout title="Signing in...">
+  <section class="app-container py-16 text-center">
+    <AuthCallback client:load />
+  </section>
+</BaseLayout>

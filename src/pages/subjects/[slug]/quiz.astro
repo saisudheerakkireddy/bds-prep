@@ -1,0 +1,58 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import QuizSession from "../../../components/QuizSession";
+import { subjects } from "../../../lib/subjects";
+
+export function getStaticPaths() {
+  return subjects.map((s) => ({
+    params: { slug: s.slug },
+    props: { subject: s },
+  }));
+}
+
+const { subject } = Astro.props;
+
+let questions: Array<{
+  id: string;
+  topic: string;
+  question: string;
+  answer: string;
+  analogy?: string;
+  highYield: boolean;
+}> = [];
+try {
+  const mod = await import(`../../../content/subjects/${subject.slug}.json`);
+  const data = mod.default ?? mod;
+  const raw = Array.isArray(data?.questions) ? data.questions : [];
+  questions = raw.map((q: Record<string, unknown>) => ({
+    id: String(q.id ?? ""),
+    topic: String(q.topic ?? ""),
+    question: String(q.question ?? ""),
+    answer: String(q.answer ?? ""),
+    analogy: q.analogy != null ? String(q.analogy) : undefined,
+    highYield: q.highYield === true || q.highYield === "true",
+  }));
+} catch {
+  questions = [];
+}
+---
+
+<BaseLayout title={`Quiz — ${subject.shortName}`}>
+  <section class="app-container quiz-page">
+    <a href={`/subjects/${subject.slug}`} class="quiz-back" style="color: var(--text-secondary);">
+      ← {subject.shortName}
+    </a>
+    <h1 class="quiz-title" style="color: var(--text-primary);">
+      Quiz: {subject.shortName}
+    </h1>
+    <p class="quiz-subtitle" style="color: var(--text-secondary);">
+      All questions. Use the stepper to jump; mark done as you go.
+    </p>
+    <QuizSession
+      client:load
+      questions={questions}
+      subjectSlug={subject.slug}
+      subjectName={subject.shortName}
+    />
+  </section>
+</BaseLayout>

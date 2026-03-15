@@ -1,0 +1,175 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import QAAccordion from "../../components/QAAccordion";
+import MindMapsAccordion from "../../components/MindMapsAccordion";
+import { subjects, daysUntilExam } from "../../lib/subjects";
+
+export function getStaticPaths() {
+  return subjects.map((s) => ({
+    params: { slug: s.slug },
+    props: { subject: s },
+  }));
+}
+
+const { subject } = Astro.props;
+const days = daysUntilExam(subject.examDate);
+
+interface SubjectResource {
+  title: string;
+  url: string;
+  description?: string;
+  type?: "syllabus" | "textbook" | "guidelines" | "official";
+}
+
+let content = {
+  questions: [] as unknown[],
+  mindMaps: [] as unknown[],
+  resources: [] as SubjectResource[],
+  highYieldIds: [] as string[],
+};
+try {
+  const mod = await import(`../../content/subjects/${subject.slug}.json`);
+  const data = mod.default ?? mod;
+  const rawQuestions = Array.isArray(data?.questions) ? data.questions : [];
+  const questions = rawQuestions.map((q: Record<string, unknown>) => ({
+    ...q,
+    highYield: q.highYield === true || q.highYield === "true",
+  }));
+  const highYieldIds = questions
+    .filter((q: { id?: string; highYield?: boolean }) => q.highYield && q.id)
+    .map((q: { id: string }) => q.id);
+  content = {
+    questions,
+    mindMaps: Array.isArray(data?.mindMaps) ? data.mindMaps : [],
+    resources: Array.isArray(data?.resources)
+      ? (data.resources as SubjectResource[])
+      : [],
+    highYieldIds,
+  };
+} catch {
+  content = { questions: [], mindMaps: [], resources: [], highYieldIds: [] };
+}
+const hasContent =
+  content.questions.length > 0 ||
+  content.mindMaps.length > 0 ||
+  content.resources.length > 0;
+---
+
+<BaseLayout title={subject.shortName}>
+  <section class="app-container page-content py-8 sm:py-12">
+    <a
+      href="/"
+      class="inline-flex items-center gap-1 text-sm mb-6 transition-colors"
+      style="color: var(--text-secondary);"
+    >
+      ← All subjects
+    </a>
+
+    <div
+      class="flex flex-col sm:flex-row sm:items-center gap-4 mb-8 content-card p-6 subject-header-card"
+      style={`border-left: 4px solid var(--subject-${subject.color});`}
+    >
+      <span class="text-4xl">{subject.icon}</span>
+      <div class="flex-1">
+        <h1 class="text-2xl sm:text-3xl font-bold tracking-tight" style="color: var(--text-primary);">
+          {subject.name}
+        </h1>
+        <p class="text-sm mt-1" style="color: var(--text-secondary);">
+          Paper {subject.paperCode} · {subject.examDay},{" "}
+          {new Date(subject.examDate).toLocaleDateString("en-IN", {
+            day: "numeric",
+            month: "long",
+            year: "numeric",
+          })}
+          · 10:00 AM – 1:00 PM
+        </p>
+      </div>
+      {days > 0 && (
+        <div class="shrink-0 text-right">
+          <div
+            class="text-3xl font-bold"
+            style={`color: ${days < 7 ? "var(--accent-premium)" : "var(--accent-1)"};`}
+          >
+            {days}
+          </div>
+          <div class="text-xs" style="color: var(--text-secondary);">days left</div>
+        </div>
+      )}
+    </div>
+
+    {content.questions.length > 0 && (
+      <a
+        href={`/subjects/${subject.slug}/quiz`}
+        class="inline-flex items-center gap-2 px-4 py-3 rounded-xl font-semibold text-sm transition-opacity mb-8"
+        style="background: var(--accent-premium); color: var(--bg-color);"
+      >
+        Start quiz
+      </a>
+    )}
+
+    {!hasContent && (
+      <p class="mb-8 text-sm rounded-lg p-4" style="color: var(--text-secondary); background: var(--glass-bg); border: 1px solid var(--border-color);">
+        Content for this subject is being updated. Check back soon.
+      </p>
+    )}
+
+    {content.mindMaps.length > 0 && (
+      <div class="mb-10">
+        <h2 class="text-lg font-bold mb-4" style="color: var(--text-primary);">🗺️ Mind Maps</h2>
+        <MindMapsAccordion client:load mindMaps={content.mindMaps} />
+      </div>
+    )}
+
+    {content.resources.length > 0 && (
+      <div class="mb-10">
+        <h2 class="text-lg font-bold mb-4" style="color: var(--text-primary);">
+          📚 Official resources & references
+        </h2>
+        <p class="text-sm mb-4" style="color: var(--text-secondary);">
+          Use these to verify facts and deepen understanding. Always cross-check with your university syllabus.
+        </p>
+        <ul class="space-y-3">
+          {content.resources.map((r: SubjectResource) => (
+            <li>
+              {r.url ? (
+                <a
+                  href={r.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="content-card block px-4 py-3 hover:border-[rgba(88,166,255,0.3)] transition-colors"
+                  style="color: var(--text-primary); border-color: var(--border-color);"
+                >
+                  <span class="font-medium">{r.title}</span>
+                  {r.description && (
+                    <p class="text-sm mt-1" style="color: var(--text-secondary);">
+                      {r.description}
+                    </p>
+                  )}
+                </a>
+              ) : (
+                <div
+                  class="content-card block px-4 py-3"
+                  style="color: var(--text-primary); border-color: var(--border-color);"
+                >
+                  <span class="font-medium">{r.title}</span>
+                  {r.description && (
+                    <p class="text-sm mt-1" style="color: var(--text-secondary);">
+                      {r.description}
+                    </p>
+                  )}
+                </div>
+              )}
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+
+    <div>
+      <h2 class="text-lg font-bold mb-4" style="color: var(--text-primary);">
+        📝 Questions & Answers
+      </h2>
+      <QAAccordion client:load questions={content.questions} highYieldIds={content.highYieldIds} subjectSlug={subject.slug} />
+    </div>
+  </section>
+</BaseLayout>

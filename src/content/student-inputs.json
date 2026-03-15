@@ -1,0 +1,22 @@
+{
+  "_schema": "Future student feedback / correction inputs. No UI yet; structure for later use.",
+  "version": "1",
+  "submissions": [],
+  "schema": {
+    "submissions": [
+      {
+        "id": "optional-uuid",
+        "subjectSlug": "e.g. prosthodontics",
+        "questionId": "e.g. prostho-001",
+        "type": "correction | suggestion | new_question | report_error",
+        "studentEmail": "optional; only if we collect",
+        "comment": "Free text from student",
+        "suggestedAnswer": "Optional; for correction type",
+        "status": "pending | reviewed | applied | rejected",
+        "createdAt": "ISO date",
+        "reviewedAt": "ISO date or null",
+        "reviewerNote": "Internal note when status is reviewed/applied/rejected"
+      }
+    ]
+  }
+}
