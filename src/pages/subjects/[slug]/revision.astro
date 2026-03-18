@@ -1,0 +1,201 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { subjects, daysUntilExam } from "../../../lib/subjects";
+
+export function getStaticPaths() {
+  return subjects.map((s) => ({
+    params: { slug: s.slug },
+    props: { subject: s },
+  }));
+}
+
+const { subject } = Astro.props;
+const days = daysUntilExam(subject.examDate);
+
+interface RevisionQuestion {
+  id: string;
+  topic: string;
+  question: string;
+  answer: string;
+  highYield: boolean;
+}
+
+let questions: RevisionQuestion[] = [];
+try {
+  const mod = await import(`../../../content/subjects/${subject.slug}.json`);
+  const data = mod.default ?? mod;
+  questions = Array.isArray(data?.questions) ? data.questions : [];
+} catch {
+  questions = [];
+}
+
+const topicMap = new Map<string, RevisionQuestion[]>();
+for (const q of questions) {
+  const topic = q.topic || "General";
+  if (!topicMap.has(topic)) topicMap.set(topic, []);
+  topicMap.get(topic)!.push(q);
+}
+
+const sortedTopics = [...topicMap.entries()]
+  .sort((a, b) => {
+    const aHY = a[1].filter(q => q.highYield).length;
+    const bHY = b[1].filter(q => q.highYield).length;
+    return bHY - aHY || b[1].length - a[1].length;
+  });
+
+const totalHY = questions.filter(q => q.highYield).length;
+const estMinutes = Math.max(10, Math.round(questions.length * 0.3));
+
+function renderRevisionHtml(answer: string): string {
+  return answer
+    .replace(/\*\*(.*?)\*\*/g, '<strong class="answer-bold">$1</strong>')
+    .replace(/^([A-Z][A-Z\s&\-/]{4,})$/gm, '<h4 class="answer-heading">$1</h4>')
+    .replace(/^(\d{1,2})\)\s*(.+)$/gm, '<div class="answer-numbered"><span class="answer-bullet-marker">●</span><span>$2</span></div>')
+    .replace(/^[>•\-–→]\s*(.+)$/gm, '<div class="answer-bullet"><span class="answer-bullet-marker">▸</span><span>$1</span></div>')
+    .replace(/\n/g, '<br/>');
+}
+---
+
+<BaseLayout title={`${subject.shortName} — Quick Revision`}>
+  <section class="app-container page-content py-8 sm:py-12">
+    <a
+      href={`/subjects/${subject.slug}`}
+      class="inline-flex items-center gap-1 text-sm mb-6 transition-colors"
+      style="color: var(--text-secondary);"
+    >
+      ← Back to {subject.shortName}
+    </a>
+
+    <div
+      class="content-card p-6 mb-8"
+      style={`border-left: 4px solid var(--subject-${subject.color});`}
+    >
+      <div class="flex flex-col sm:flex-row sm:items-center gap-4">
+        <span class="text-4xl">{subject.icon}</span>
+        <div class="flex-1">
+          <h1 class="text-2xl sm:text-3xl font-bold tracking-tight" style="color: var(--text-primary);">
+            Quick Revision — {subject.shortName}
+          </h1>
+          <p class="text-sm mt-1" style="color: var(--text-secondary);">
+            {sortedTopics.length} topics · {questions.length} key points · {totalHY} high-yield ·
+            ~{estMinutes} min read
+          </p>
+        </div>
+        {days > 0 && (
+          <div class="shrink-0 text-right">
+            <div
+              class="text-3xl font-bold"
+              style={`color: ${days < 7 ? "var(--accent-premium)" : "var(--accent-1)"};`}
+            >
+              {days}
+            </div>
+            <div class="text-xs" style="color: var(--text-secondary);">days left</div>
+          </div>
+        )}
+      </div>
+    </div>
+
+    <div class="flex flex-wrap gap-2 mb-8">
+      {sortedTopics.map(([topic, qs]) => {
+        const hyCount = qs.filter(q => q.highYield).length;
+        return (
+          <a
+            href={`#topic-${topic.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}
+            class="px-3 py-1.5 rounded-lg text-xs font-medium transition-colors"
+            style="background: var(--glass-bg); border: 1px solid var(--border-color); color: var(--text-secondary);"
+          >
+            {topic}
+            <span class="ml-1 opacity-60">({qs.length})</span>
+            {hyCount > 0 && <span class="ml-1" style="color: var(--accent-premium);">★{hyCount}</span>}
+          </a>
+        );
+      })}
+    </div>
+
+    <div class="space-y-8 revision-content">
+      {sortedTopics.map(([topic, qs]) => {
+        const topicId = topic.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+        const hyQuestions = qs.filter(q => q.highYield);
+        const regularQuestions = qs.filter(q => !q.highYield);
+
+        return (
+          <div id={`topic-${topicId}`} class="content-card p-5 sm:p-6">
+            <h2 class="text-lg font-bold mb-4 flex items-center gap-2" style="color: var(--text-primary);">
+              <span>{topic}</span>
+              <span class="text-xs font-normal px-2 py-0.5 rounded-full" style="background: var(--glass-bg); color: var(--text-secondary);">
+                {qs.length} points
+              </span>
+              {hyQuestions.length > 0 && (
+                <span class="text-xs font-normal px-2 py-0.5 rounded-full" style="background: rgba(255, 140, 0, 0.15); color: var(--accent-premium);">
+                  ★ {hyQuestions.length} high-yield
+                </span>
+              )}
+            </h2>
+
+            {hyQuestions.length > 0 && (
+              <div class="mb-4 p-4 rounded-xl" style="background: rgba(255, 140, 0, 0.06); border: 1px solid rgba(255, 140, 0, 0.15);">
+                <h3 class="text-sm font-semibold mb-3" style="color: var(--accent-premium);">
+                  ★ Must-Know (High Yield)
+                </h3>
+                <div class="space-y-3">
+                  {hyQuestions.map(q => (
+                    <details class="group">
+                      <summary class="cursor-pointer text-sm font-medium flex items-start gap-2" style="color: var(--text-primary);">
+                        <span class="mt-0.5 text-xs opacity-50">▸</span>
+                        {q.question}
+                      </summary>
+                      <div
+                        class="mt-2 pl-5 text-sm leading-relaxed revision-answer"
+                        style="color: var(--text-secondary);"
+                        set:html={renderRevisionHtml(q.answer)}
+                      />
+                    </details>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {regularQuestions.length > 0 && (
+              <div class="space-y-2">
+                {regularQuestions.slice(0, 10).map(q => (
+                  <details class="group">
+                    <summary class="cursor-pointer text-sm font-medium flex items-start gap-2" style="color: var(--text-primary);">
+                      <span class="mt-0.5 text-xs opacity-50">▸</span>
+                      {q.question}
+                    </summary>
+                    <div
+                      class="mt-2 pl-5 text-sm leading-relaxed revision-answer"
+                      style="color: var(--text-secondary);"
+                      set:html={renderRevisionHtml(q.answer)}
+                    />
+                  </details>
+                ))}
+                {regularQuestions.length > 10 && (
+                  <p class="text-xs pl-5 pt-1" style="color: var(--text-secondary);">
+                    + {regularQuestions.length - 10} more in full Q&A →
+                    <a href={`/subjects/${subject.slug}`} class="underline" style="color: var(--accent-1);">
+                      View all
+                    </a>
+                  </p>
+                )}
+              </div>
+            )}
+          </div>
+        );
+      })}
+    </div>
+
+    <div class="mt-10 text-center">
+      <a
+        href={`/subjects/${subject.slug}/quiz`}
+        class="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-sm transition-opacity"
+        style="background: var(--accent-premium); color: var(--bg-color);"
+      >
+        Start Quiz — Test Yourself
+      </a>
+      <p class="text-xs mt-2" style="color: var(--text-secondary);">
+        {questions.length} questions available
+      </p>
+    </div>
+  </section>
+</BaseLayout>

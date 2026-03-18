@@ -1,0 +1,538 @@
+{
+  "filename": "ORALMEDICINE.pdf",
+  "subject": "oral-medicine",
+  "sha256_prefix": "13b0489f2c756385ea68a91f",
+  "size_mb": 98.1,
+  "extractor": "textract",
+  "quality_grade": "high",
+  "quality_score": 0.552,
+  "stats": {
+    "total_pages": 74,
+    "non_empty_pages": 74,
+    "good_quality_pages": 71,
+    "total_chars": 90343,
+    "avg_chars_per_page": 1220.9,
+    "avg_ocr_confidence": 79.23,
+    "avg_readability": 0.552
+  },
+  "pages": [
+    {
+      "page": 1,
+      "text": "ДМОЛДИЧЕ\n1> APTHOUS STOMATITIS\nSTUDAT\n2> DIFFERENTIAL AIAGNOSIS OF RAS\nамолаита\nисвим\nPS\n3> SALIVARY GLAND DISORDERS - CLASSIFICATION\n10 JAVIO\n4> SIALOLITHIASIS\n38\n5> VIRAL INFECTIONS OF ORAL CAVITY - - CLASSIFICATION\n6> HERPES ZOSTER\nригрлта миг F&\n7> HERPES SIMPLEX\nЯНОИАО JARO 70 гизмарайам .88\n8> ORAL MANIFESTATIONS OF AIDS\n9> PINBORG TUMOR\n10> PLEOMORPHIC ADENOMA\n11> MUCOCELE\n12> MUMPS\n13> RED LESIONS OF ORAL CAVITY - CLASSIFICATION\n14> WHITE LESIONS OF ORAL CAVITY - CLASSIFICATION\n15> ORAL SUBMUCUS FIBROSIS\n16> MANAGEMENT OF OSMF\n17> MONILIASIS\n18> RADIATION MUCOSITIS\n19> LEUKOPLAKIA\n20> VISUAL ANALOG SCALE\n21> LICHEN PLANUS\n22> ERYTHEMA MULTIFORME\n23> VESCICULOBULLOGS LESIONS\n24> PEMPHIGUS\n25> TMJ AISORDERS - - CLASSIFICATION\n26> MYOFACIAL PAIN SYSFUNCTION SYNDROME\n27> OROFACIAL PAIN- CLASSIFICATION\n28> TRIGEMINAL NEURALGIA\n29> MACROGLOSSIA\n30> HAIRY TONGUE\n31> XEROSTOMIA",
+      "ocr_confidence": 80.77,
+      "readability_score": 0.448,
+      "line_count": 40
+    },
+    {
+      "page": 2,
+      "text": "32. SJOGREN'S SYNDROME\nBITITAMOFS ЭНОНТЧА\n33. PAGET'S DISEASE\n2A9 D OL ВОИОЛА ДАЕГИ\n34. PLUMMER VINSON SYNDROME\nВУГТАУКА СГУИР DISCKDEKS\n35. ORAL MANIFESTATIONS OF DIABETES\n36. ORAL CANCER\nYELVAS JATO to JATIV\n37. TNM STAGING\n331938\n38. MANAGEMENT OF ORAL CANCER\nxHMa\n2011 to JAMO\nHOMDT\nАМОЙНТА\n117000DM\naTMoM\nXTIVAO JAMO 10 TM\nYTIVAD 1420 10 аиогана\nатгояатт enoumava 1A20\n7M80 10\nатальциом\nИОГГАКТАЯ\nHIME ФОДАЙА IADBIV\nЗИМАН ИННЫА\nAMOREDM AM THE (11\nамогал\nараштмая\nGMF\nумоядиха laye MINI JAIDATOYM\nUINE,\nAID АЛОПИ LIT\nАТЗВОДРОЯФАМ\nтраиот YRINH\nлімотас LIX",
+      "ocr_confidence": 47.4,
+      "readability_score": 0.379,
+      "line_count": 36
+    },
+    {
+      "page": 3,
+      "text": "APTHOUS SMC STOMATITIS\nIt is a common disease characterised by development of or painful, recurrant,\nsolitary or multiple ulcerations of the oral mucasa where the ulcers heal\nspontaneously and there are no signs of any other disease.\nETIOLOGY\nIt has been considered as an idiopathic disease and is associated with\nmany predispasing factors\nRecurrent Apthous Uicers\nEtiology / Predispasing factors\nImmunological\nMicrobial\nStress\nAnemia\nAbnormalities\nL-formof\nAllergic\nTcell mediated\nα-hemolytic\nbinding of IgG &\nstreptococci,\nAsthma,\nIgM, mucasal\nStreptococcus\nhealing defect\nsanguis\nHay fever\nFood and\ndrug allergy\nGenetic\nSystemic\nEndocrine\nPredisposition\nFactors\nDisturbance\nvitamin B12\nPregnancy\nFolic acid &\nMenstruation\nirok deficiency\n& Menopause",
+      "ocr_confidence": 94.95,
+      "readability_score": 0.528,
+      "line_count": 40
+    },
+    {
+      "page": 4,
+      "text": "CLASSIFICATION\nACCORDING TO MORPHOLOGY\n1> Minor Apthae - also called as canker sores in which the ulcers are\noval shaped, less than 1 cm in diameter, and heal\nwithout scar\n2> Major Apthae - also called as Sutton's disease or Periadenitis\nmucasa necrotica recurrens and the ulcers are\noval shaped, more than 1 cm in diameter and heal\nwith scarring\n3> Herpetiform ulcers - Recurrant crops of dozens of small ulcers which\nare less than 0.5 cm are seen throughout oral mucasa\nACCORDING TO SEVERITY\n1> Simple Apthasis - Recurrent attacks of any marphology with\ndistinct ulcer-free periods\n2> Complex Apthasis - Almost constant presence of 3 or more than 3\noral ulcers\nCLINICAL FEATURES\nIt usually occurs in 2nd and 3rd decades of Life.\nFemale predilection\nIt occurs most commonly in nonkeratinised mucasa such as buccal\nand Labial mucasa tongue, soft palate, gingiva\nProdromal symptoms - prodromal burning itching for 24-48 hours,\nbefore the ulcer appears.\nThe lesion is typically very painful, so it commonly interferes with\neating for several days\nIt begins as a single or multiple superficial erasions covered by gray\nmembrane.\nIt is surrounded by localised areas of erythema and develops within\nhours.\nMultiple lesions are present but the number and size varies.\nThe ulcers generally persist for 7-14 days, may recur after 1-4\nmonths with no evidence of scarring.",
+      "ocr_confidence": 97.64,
+      "readability_score": 0.555,
+      "line_count": 32
+    },
+    {
+      "page": 5,
+      "text": "MANAGEMENT\nA> TOPICAL MANAGEMENT\nTopical carticasteroid - 1% triamcinolone acetonide 3-4 times daily.\nOther topical steroids are betamethasone syrup\nand 0.01 % dexamethasone elixir.\nTopical Anaesthetics - 2% viscous lidocaine, benzocaine and benzydamine\nhydrochlaride may reduce pain.\nSucralfate - Topical application 4 times/day has shown soothing\neffect on ulcer as it sticks to the mucus membrane.\nTetracycline mouthwash - 250 mg/30 ml used 4 times daily\nIntralesional injection of sTeroid - Triamcinolone acten acetonide\nBeclomethasone dipropionate spray\nB> SYSTEMIC MANAGEMENT\nPrednisolone tablet 20-30 mg/day Neways Fool\nBetamethasone 2-3 mg/day for 4-8 days Tosiv\nSystemic therapy for 15 days followed by intralesional injection\nevery 2 weeks for 2 months reduce the recurrence\nLong term steroid therapy should be avoided\nstid\n<01\nTHAT\n<tt\nC> SURGICAL MANAGEMENT\nLASER Surgery - Lasers or chemical cauterisation provide fairly\nLaraarbal rapid pain relief but requires frequent visits.\nToiSo, - it is not very feasible far recurrent apthous.\nLocal cauterisation -H2O2 0.5% solution, 1-2% soin of AgNO3\nbrant of brand\nlossed\nqil\nsull\novipuñg atatag\nsuprot\nJCD Jarrib Harviz jo arateurls NO & Noisal\nhave Nation 02/07/2021 STiNa\nstates slusow\nublaiup abissov alout watone\nud prints cald\nHaws\nwaiterate\nstrent of rist xd sent jo reashir of\ntransing suco\nDoe is pripa Loworhout\navaila froming N° ultaings",
+      "ocr_confidence": 65.26,
+      "readability_score": 0.454,
+      "line_count": 44
+    },
+    {
+      "page": 6,
+      "text": "DIFFERENTIAL DIAGNOSIS OF RAS\n1> Recurrent Herpes simplex infection [TABLE 1]\n2> Bednar's apthae - They are not apthae as such but traumatic lesions\non the palatal mucasa of a newborn which develop\nthrough careless wiping of the oral cavity.\n3> Cyclic Neutropenia - Appearance with marked period of 3 weeks of\ncompromised general condition, blood picture\nand granulocyte count should be taken into\nconsideration\n4> Lupus erythematasus - white component is present'\n5> Erasive Lichen planus - whitish changes in barder lesion\n6> Primary syphilitic lesion - painless, indurated edema, and painless\nswollen lymph nodes\n7> Herpangina - affects children in Late summer and early winter and\nlocalised on soft palate\n8> Hand foot and mouth disease - vesciculoulcerative lesions occur\nsimultaneously in the oral cavity and on hands & feet\n9> Stomatitis medicamentosa - allergic reaction associated with systemic\ndrug intake\n10> Bite wound after LA [TABLE\n2\n]\n11> Squamous cell carcinoma [TABLE 3]\nTABLE 1\nRecurrent\nRecurrent Intraoral\nApthous Ulcer\nHerpes infection\nLocated mainly on freely movable\ncommonly on buccal mucasa\nmucasa Like Lip, buccal mucasa,\ntightly bound to periasteum, hard\ntongue\npalate, gingiva\nInitial lesion is an erythematous\nclusters of small discrete gray or\nmacule which undergoes\nwhite vescicles with red erythe-\ncentral blanching followed by\nmatous halo, vescicle quickly\nnecrosis and ulceration\nruptures farming small punctual\n-te ulcer of 1mm arless in diameter\nProdromal symptoms absent\nProdromal symptoms are present\nespecially in primary herpetic lesions",
+      "ocr_confidence": 96.26,
+      "readability_score": 0.579,
+      "line_count": 46
+    },
+    {
+      "page": 7,
+      "text": "ИОГТАЗ TABLE 2 CHAND YSIAVIJAA\nRecurrent\nBite wound after\nApthous ulcer\nLocal Anesthesia\nRoundish oval form\nIrregular jagged margins\nErythematous halo\nInflammatory erl erythema\nis ill-defined\nPainful\nModerately painful\nRecurring appearance at\nLesion occurs only once\nN\ndifferent Location\nКЯОТАММАЛИЕ\nLoseTV\nTABLE 3\nInvestand\nApthous Ulcer [Major]\nSquamous cell Carcinoma\nAt any age\nPredominantly in older age group\nAcute onset\nSlow development\nPainful at onset which decrease\nLittle or no pain\ngradually\nautiilaM satidoia ---\nInflamed margins or edges\nIndurated edges raitisatum\nVIH\nPainful, swollen Lymph nodes\nPainless involvement of lymph\nmay be present\nnodes\nатаю\nG\nBase is not fixed\nBase structures of ulcer fixed to underlying\nIMS <0\nФИЛДЕ\nvioloic\nаяомит\nMP иза <t\nat\nWinbow\nТИЛИЭШАМ if\navailable\nblowsbA",
+      "ocr_confidence": 70.7,
+      "readability_score": 0.525,
+      "line_count": 51
+    },
+    {
+      "page": 8,
+      "text": "SALIVARY GLAND DISORDERS - CLASSIFICATION\nthrough\nA> DEVELOPMENTAL\nlosal\nrealis\n- Atresia (abnormal narrowing)\n- Aplasia (failure of an organ to develop normally) Love\n- Aberrancy\naloi\n- Hyperplasia\n- Congenital fistula\nlinging pisloxaboM\nbrysidi\nB> ENLARGEMENT OF THE GLAND\nto\n1> INFLAMMATORY\nwithool\n-Viral\n- Bacterial, fungal\n&\nLIGAT\n- allergic\n- obstructive\n[stopaMi\n- Sarcoidasis\n2> NON-INFLAMMATORY\n>po the IN\n- Autoimmune disarders [ Sjogren's syndrome and\n19250 stuar\n- Alchoholic cirrhasis afitil\nMikulicz's disease ]\n- Diabetes Mellitus\n- Nutritional deficiency HI\nasight 300 suigram\n- HIV associated\nto esalvior\nsabar Nqwul willows, lupriot\nc> CYSTS\nad your\n- Extravasation cyst to send\nbexiq Ten i 9208\n- Retention cyst services\n- Ranula\nD> NECROTISING SIALOMETAPLASIA\nE> SALIVARY GLAND DYSFUNCTION\n- Xerastomia\n- Sialorrhea\nF> TUMORS\n1> BENIGN\n- Pleomorphic Adenoma\n- Warthin's tumar\n2> MALIGNANT\n- Mucoepidermoid carcinoma\n- Adenoid Cystic Carcinoma",
+      "ocr_confidence": 71.18,
+      "readability_score": 0.38,
+      "line_count": 54
+    },
+    {
+      "page": 9,
+      "text": "SIALOLITHIASIS\nJESTID\nto\nSialolithiasis is the formation of sialolith [salivary calculi] in the salivary\nduct or gland resulting in the mechanical obstruction of the salivary flow.\nRISK FACTORS\nDehydration - increases the viscasity and concentration of saliva\nReduced food intake / fasting / anarexia\nsull\n- decreases the demand for saliva, can bring about stasis of saliva\nCertain drugs which Lower the production of saliva\n- antihistamines, antihypertensives, diuretics ,antidepressants\nLack of saliva in certain conditions such as\n- Sjogrens Syndrome, Xerastomia, tobacco smoking, hypercalcemia\nTYPES\nA> Ductal Sialolithiasis\nB> Glandular Sialolithiasis\nPREVALENCE\nSubmandibular ducts or glands - 80-94%\nParoted 5-18%\nSublingual n2%\nThe most common site is submandibular gland and Wharton's duct,\nbecause its secretion is more alkaline, thicker, and the duct has a\ntortuous course & smaller orifice\nIt usually occurs in 3rd-5th decades, with slight male predominance\nSimultaneous siablithiasis in more than 1 salivary gland is rare\nBilateral occurance of the same gland is also rare\nHowever, multiple sialoliths in the same gland or duct is common\nCLINICAL FEATURES\nMost common salivary gland disease in adults and the 2nd most common\nsalivary gland disease in children [ after mumps]\nIt is the major cause of unilateral, diffuse parotid or submandibular\ngland swelling\nInsome cases, the swelling is diffuse and resembles cellulitis.\nSecondary infection often supervenes with fever.\noccissociation\nIN\nwith",
+      "ocr_confidence": 87.09,
+      "readability_score": 0.508,
+      "line_count": 38
+    },
+    {
+      "page": 10,
+      "text": "Patients complain of pain and swelling during and after eating the\nfood when saliva production is at its peak. There is gradual\nreduction of pain & swelling, which occurs at the resting period.\nIt recurs again repeatedly, when flow is stimulated.\nTenderness, trismus, decrease or absence of salivary flow, or\npurulent discharge at the orifice of the duct may be present\nOccasisionally, the sialolith presents no remarkable symptoms\nINVESTIGATIONS\nRadiograph\nSialography\nXeraradiography\nUltrasonography\nMANAGEMENT\nThe treatment depends on the number, size and Location of sialolith.\nIf the sialolith is small and single, conservative management with\nlocal heat, massage and sialogoques is attempted\nIn case of infection, initially antibiotics and anti-inflammatory kitaral\nmedication and enhanced use of sialogogues, salivary gland massage\nand hyperhydration hoping for sportaneous passage is given\nTechniques for removal of sialolith are -\nA> Manual manipulation with the help of Lacrimal probes or dilators\n[called as milking the gland ] - for sialoliths less than 2 cm, which\nare Located peripherally near the ductal opening\nB> Larger sialoliths in the anterior part are surgically removed,\nby sialolithectomy, through a ductotomy, performed intraarally,\nunder LA. Posterior stones are removed under GA.\nc> Ductal Cannulation\nbeels\nD> Multiple stones or stones in the gland very posterior brolp stones,\nfailed transoral route, require the removal of the gland.\n)\nExtraoral approach- GA.\nbring\nE> Newer con-surgical approach\n- Lithotripsy [ to fragment the salivary stones ]\nIt is of 2 types - intracarpareal\n- extracarpareal",
+      "ocr_confidence": 87.15,
+      "readability_score": 0.542,
+      "line_count": 37
+    },
+    {
+      "page": 11,
+      "text": "VIRAL INFECTIONS OF ORAL CAVITY\nINTERNATIONAL COMMITTEE ON NOMENCLATURE OF VIRUSES\nA> RNA VIRUSES walton hiro timpring\nJoan loxeah to\n1> Orthomyxovirus - Influenza\nrabisions with\n2> Paramyxovirus - Measles\nswar\n4d bilqque of to\n- Mumps\n3> Rhabdovirus\n- Rabies\nVI will list Haemarrhagical fever\n4> Arenavirus\n- Lymphatic Chariomeningitis drib tisch\n- Lassa fever\nOH FASOTE\n5> Calicivirus\n6> Coronavirus - Upper respiratory infections\n7> Bunyavirus transpolivab\n8> Picarnavirus - Poliomyelitis to\n- common cold\nF-V Foot and mouth disease\n9> Reovirus so priscup has\n10> Togavirus\nJASTING\nB> DNA VIRUSES\nstil Mubo Ni 100M\n1> Herpes virus to Ni seb NovaNHA\nAlics bico salaw 1/29/7/\nas Herpes simplex 1 - Gingivastomatitis\nsitt prote (HHV 1) CO asin Keratoconjunctivitis Initial\n&SVICON do\nb> Herpes simplex 2 - Genital Lesions\n(HHV 2) Luging SON will\nbabano will List sill to\nc> Varicella zaster - Chickenpox\n(HHV 3) all - Herpes zaster (Shingles)\nA\nd> Cytomegalovirus - Infectious mononucleasis\npridds\ne> Epstein-Barr virus - Infectious mononucleasis SISTLA\nAND\nwala\nLLONE Burkitts Lymphoma\n- Oral Hairy Leukoplakia\nsill\nto\nall\nff\n2> Pox virus - Small Pox\n- Molluscum contagiosum\n3> Parvovirus\n4> Iridovirus",
+      "ocr_confidence": 68.53,
+      "readability_score": 0.52,
+      "line_count": 54
+    },
+    {
+      "page": 12,
+      "text": "HERPES ZOSTER\nHerpes zaster is an acute infectious viral disease of an extremely\npainful and incapacitating nature, characterised by inflammation\nof dorsal root ganglion or extramedullary cranial nerve ganglia,\nassociated with vescicular eruptions of skin and mucus membrane\nof the area supplied by affected sensary nerve.\ndepriving\nof ratural\nIt is also called as SHINGLES or ZONA\nstrength\nThe word zaster comes from the Latin for belt, as the lesion occurs in\nbelt- Like distribution\nETIOPATHOGENESIS\ncausative agent' - varicella zaster virus\nTriggering factors are - trauma, development of malignancy,\nTumor involvement of dorsal root ganglia, local X-ray radiation\nor immunosuppressive therapy\nHerpes zaster is caused by reactivation of Latent V-Z virus,\nwhich had been acquired during a previous attack of chickenpox\n<01\nCLINICAL FEATURES\nMost common in adult Life\nАИД (a\nAlthough rare, it does occur in children under 15 years of age\nAffects males and females with equal frequency\nInitial symptoms are fever, malaise, pain and tenderness along the\ncourse of involved sensory nerves, usually unilaterally.\nIn a few days the patient has a Linear papular or vescicular eruption\nof the skin or mucasa supplied by the affected nerves.\nA zone of erythema surrounds the vescicle, giving a dew drop on\na rose petal\" appearance.\nAfter the rupture of vescicles, healing commences by scabbing,\nalthough secondary infection may intervene and slow the process\nconsiderably.\nHutchinson sign - It is cutaneous zaster infection of the side of the\nnase.",
+      "ocr_confidence": 92.69,
+      "readability_score": 0.501,
+      "line_count": 36
+    },
+    {
+      "page": 13,
+      "text": "ORAL MANIFESTATIONS\nHerpes zaster may involve the face by the infection of trigeminal nerve.\nThis usually consists of unilateral involvement of skin areas supplied by\neither opthalmic, maxillary or mandibular nerves\nLesions of oral mucasa are extremely painful and may be found on the\npalate, buccal mucasa, tongue, uvula, pharynx.\nAfter several days of symptoms, intact vescicles appear which soon rupture\nto leave areas of erasion of 1-5 mm with exforiation of teeth\nTrigeminal herpes zaster occuring during tooth formation causes\npulpal necrasis and internal root resorption, exfoliation of teeth.\nSo, in the case of herpes zaster, several non-vital teeth can be seen.\nDIAGNOSIS\nOral lesions can be easily identified by identifying characteristic\nmultinucleated giant cells & intranuclear inclusions [BIOPSY]\nHowever this does not differentiate between herpes zaster & herpes\nsimplex.\nThis can only be done by fluorescent antibody staining Technique\nor serological diagnosis.\nphod\nTREATMENT\nAntiviral drugs (1st Line therapy) Losso\nout\nof\n- should be initiated within 72 hours for maximum effectiveness\n- They block viral replication & accelerate healing in the acute\nphase of illness.\n- A delay in administration may result in neuronal destruction\nleading to neuropathic pain syndrome associated with past-\nout\nherpetic neuralgia. torourt\nAcyclovir 800mg 5times/day\nFamciclovir 250 mg TDS\nCOMPLICATIONS\nPast herpetic Neuralgia\n8NO\nRamsay Hunt Syndrome\nOsteonecrasis of jawbones",
+      "ocr_confidence": 87.5,
+      "readability_score": 0.65,
+      "line_count": 37
+    },
+    {
+      "page": 14,
+      "text": "HERPES SIMPLEX\nHerpes simplex virus infections are common vescicular and ulcerative\nlesions of mucasa and skin.\nMost common intraoral herpetic lesions occur due to HSV-1 while HSV-2\nprimarily affects the genitals.\nHerpetic to infections of oral cavity are of 2 types\nA> Primary Herpetic Gingivastomatitis\nB> Recurrent Herpetic Stomatitis /Herpes Labialis\nHERPES LABIALIS\nRecurrent Herpetic stomatitis is usually seen in adult patients and\nmanifests itself clinically as an attenuated form of primary disease.\nPREDISPOSING FACTORS\nPredisposing factors for reactivation include fever, upper respiratory\ntract infection, Trauma and immunasuppression, fatigue, menstruation\nand pregnancy, allergy or gastrointestinal disturbances.\nPATHOGENESIS\nSecondary herpes is the result of reactivation of Patent virus.\nThe viruses, once introduced in the body, appear to reside dormantly\nwithin the regional ganglia, and when reactivation is Triggered, spread\nalong the nerves to the sites on oral thucasa and skin where they\ndestroy the epithelial cells and induce a typical nflammatory response.\nCLINICAL FEATURES\nThe lesions are frequently preceded by a burning artingling sensation\nand vescicles develop subsequently.\nRecurrent intraoral herpetic Lesions almost invariably develop on the\noral mucosa that is tightly bound to periasteum such as palatal mucasa\nand attached gingiva, especially in immuno-competent hast\nIn case of immunocompromised hast, the ulcers may OCCLIR bothat\nTightly bound and mobile mucasa\nRecurrent Herpes Labialis - most Lesions appear on vermillion of Lip\nand surrounding skin, they are gray or white vescicles which rupture\nquickly leaving small red ulcerations, sometimes with slight erythe-\nmatous halo on covered by brownish crust on Lips.\nSize ranges from 1-3 mm to 1-2 cT, rarely can be Large enough\nto cause dissigurement.",
+      "ocr_confidence": 95.91,
+      "readability_score": 0.602,
+      "line_count": 35
+    },
+    {
+      "page": 15,
+      "text": "DIFFERENTIAL DIAGNOSIS\nHand, foot and mouth disease\nHerpangina\nRecurrent Apthous ulcer\nHerpes zaster\nErythema multiforme\nAllergic Stomatitis\nDIAGNOSIS\nPast history of recurrent herpes Labialis. and a positive history of clase\ncontact with a patient with primary or recurrent herpes is helpful in\nmaking diagnasis\nImmanoflurescent staining of smears\nImmunoperoxide technique\nSerological tests such as complement fixation, RIA & ELISA\nMANAGEMENT\n5% acyclovir, 3% perciclovir and 10% docasanol are applied 4-6times\nper day at the first prodrome. This will reduce the severity of lesion\nRecurrent Herpetic Labialis can be suppressed by reducing trigger\nfactor such as by applying sunscreen at least 1/2 hour before sun\nexposure.\nSystematically acyclovir (400mg BD for 4 months) and valacyclovir\n(500 mg- 1g OD for 4 -months) as preventive therapy has shown to\nincrease the time interval between 2 recurrent episodes.\nbiarraNcil\nGood oral hygiene. Proper hydration and electrolyte balance.",
+      "ocr_confidence": 94.05,
+      "readability_score": 0.505,
+      "line_count": 25
+    },
+    {
+      "page": 16,
+      "text": "ORAL MANIFESTATIONS OF AIDS агеоирлю\nEUROPEAN COMMISSION CLEARHOUSE CLASSIFICATION\nburd\nGroup1 - Lesions strongly associated with HIV infection transary\na> Candidiasis - Erythematous\nsestrog\n- Pseudomembranous\naverapition\nb) Hairy Leukoplakia\nc> Kapasi Sarcoma\nd> Non Hodgekin Lymphoma\ne> Periodontal disease - Linear gingival erythema\nwrotain\ntent\n- Necrotising Ulcerative Gingivitis\nalvas\n- Necrotising Ulcerative Periodontitis\nto priviots\nGroup 2- Lesions less commonly associated with HIV infection\na> Bacterial infections - Mycobacterium Tuberculosis\nb) Melanotic hyperpigmentation\nc> Necrotising Ulcerative Stomatitis\nbro sivators &\nGroup 3 - Lesions seen in HIV infection\nSNI\nto\njob\na> Bacterial Infections 11 Actinomycasis aitspest because\n100 E.coli priplago gd rotiof\n- Cat-scratch disease\nexbosines\nhave T1 Klebsiellapneumoniae 1/2\nb> Drug reactions AT - ulcerative A CIO pl )wood)\nTransan thema multiforme all\n- Lichenoid reaction\n- toxic epidermolysis\nc> Epitheloid angiomatasis\nd> Fungal infections other than candidiasis\n- cryptococcus neoformans\n- Histoplasmacapsulatum\n- Aspergillous flavus\ne> Neurological disturbances - Facial Palsy\n- Trigeminal Neuralgia\nR> Recurrent Apthous Stomatitis",
+      "ocr_confidence": 69.72,
+      "readability_score": 0.475,
+      "line_count": 44
+    },
+    {
+      "page": 17,
+      "text": "1> Candidiasis - It is the most common oral manifestation of HIV.\nALL the three types i.e pseudomembranous erythematous, and hyperplastic\nforms are seen.\nErythematous form is seen when CD 4+ count drops below 400/mm3 and\npseudomembranous develop when CD 4+ count drop below 200/mm3.\n2> Oral Hairy Leukoplakia - Presence of soft painless plaque on the\nlateral barder of tongue with carreigated surface Caused by EB virus.\n3> Kapasi's Sarcoma - It is a multifocal neoplasm of vascular endothelial\norigin. Most common tumor associated with AIDS.\nHuman Herpes Virus type 8 is involved in the pathogenesis of Kapasis\nsarcoma.\ncommonly affected sites are the palate, gingiva and Tongue\n4> Non-Hodgekins Lymphoma - It is the second most common cancer\nassociated with AIDS.\nThe lesion Tends to present as a Large, painful, ulcerated mass on the\npalate or gingival tissues.\nlareNgired\n100M\n5> Linear Gingival Erythema - It is a non-plaque induced gingivitis\nexhibiting a distinct erythematous band of marginal gingiva with\neither diffused or punctuated erythema of the attached gingiva.\n6> Necrotising Ulcerative Gingivitis F NUG involves ulceration and\nnecrasis of one or more interdental papilla and is Limited to the marginal\ngingiva\n7> Necrotising Ulcerative Periodontitis - NUP extends beyond the papilla\nand marginal gingiva causing Loss of periodontal attachment,\nexposing the bone.",
+      "ocr_confidence": 89.8,
+      "readability_score": 0.68,
+      "line_count": 27
+    },
+    {
+      "page": 18,
+      "text": "VIA\nPINDBORG TUMOR\nCalcifying epithelial odontogenic tumor is a locally invasive epithelial\nodontogenic neoplasm, characterised by presence of amyloid Like\nmaterial that may become calcified.\nFirst described by Dr. Pindbarg, hence also called as Pindbarg's Tumor\nPATHOGENESIS\nAccording to Pindborg - the epithelial cells are derived from reduced\nenamel epithelium\nThe peripheral location strongly suggests that the tumour arises from\ncell rests of dental lamina or from the basal cells of the oral epithelium\njo\ninsurporting\nCLINICAL FEATURES\nkivo ovigrip\nMean age of occurance - 40 years\nNo sex predilection\nIntraasseus tumors affect the mandible more often than the maxilla\nwith a ratio 2:1 sprot so SWIT\nPeripheral lesions usually occur in the anterior gingiva\nMost patients are asymptomatic\n<a\nPainless mass, slow growth\nAssociated with an impacted/unerupted tooth\npritidinxs\nNasal congestion, epistaxis headache\nSigns - cartical expansion occurs. Palpation will show hard tumor\nwith a & well-defined or diffuse barder. It is locally invasive with\na high recurrence rate\ncovipiring\nRADIOGRAPHIC FEATURES\n<F\nIn some cases, the lesion appears either as a diffuse Loviaran or well-circum based\nscribed unilocular radiolucent area\nsurod\nprisoqes\nIn some cases, there is combined pattern of radiolucency and\nradio opacity with many small, irregular bony Trabeculae\ntraversing the radiolucent area in many directions, producing\na multilocular or honeycomb appearance\nScattered fleeks of calcification throughout the radiolucency\nproduces driven snow appearance.",
+      "ocr_confidence": 81.18,
+      "readability_score": 0.631,
+      "line_count": 42
+    },
+    {
+      "page": 19,
+      "text": "AIAGNOSIS\nАМОИЗКА ON\nclinical diagnosis - not specific Usa\nradiological diagnosis - typical driven snow appearance\nburoly\nbroth bildowa\nLab. diagnosis - Biopsy shows calcification in the form of Liesegang rings.\ngd all\nDIFFERENTIAL DIAGNOSIS\nwill too\ncentral odontogenic fibroma to\nCalcifying epithelial odontogenic cyst\nAdenomatoid odontogenic tumor\nHigs breath of pribrassA\nTREATMENT alsin 3d rof Laitratog and\nSmall, intrabony lesions with well-defined barders canbe treated\nwith enucleation or curettage followed by judicious removal of\nthin Layer of bone adjacent to the tumar\nRecurrent or persistant 2/11 tumors to would require segmental resections\nsebooab\nwith\nsuch as hemimandibulectomy or hemimaxillectomy.\nshimp\n&",
+      "ocr_confidence": 63.77,
+      "readability_score": 0.581,
+      "line_count": 24
+    },
+    {
+      "page": 20,
+      "text": "PLEOMORPHIC ADENOMA\nатеоиюлі\nAlso called as Benign mixed tumors, they are the most common salivary\ngland tumors, which predominantly affect the superficial lobe of the\nparotid gland.\nstrarpoth\nThe term was suggested by Willis characterising the unusual histologi-\ncal pattern of the lesion I pleomarphic or mixed appearance]\nIt is also called as iceberg tumor, endothelioma.\nTapo bailowings priviolala\nPATHOGENESIS\nairepatrabo biotawanshA\nAccording to Dardick, a neoplastically altered epithelial cell with\nthe potential for multidirectional differentiation might be histo-\ngenetically responsible for pleomarphic adenoma Havie\nwainthut\npd\nbeaution\nNiks\nCLINICAL FEATURES\nall\nof\nbrangho\nto\nrevel\nMost common in 4th-6th decades of Life\nFemale predilection\nillusoe bluow bratsing seo\nso\nMast common site - parotid glands\nOccurance in sublingual glands is rare.\n8% of pleomorphic adenomas involve minor salivary glands.\nAmong them palate is the most common site (60-65%)\nThe tumor in major salivary glands is slow growing, painless,\nand does not show fixation to deeper tissues or overlying skin\nThough pain is not a common symptom, Local discomfort is\nalways present'\nIn intraaral accessary glands, the tumor is 1-2 cm in diameter\nSince this tumor causes the patient difficulties in mastication,\ntalking and breathing, it is detected and treated earlier than\nTumor of major glands\nRecurrent lesions occur as multiple nodules and are less mobile\nthan original tumor.\nDeep Lobe tumors may not show grass swelling on the outer\naspect, but as they grow, they pass through the stylomandibular\ntunnel of Patey and push the pharyngeal wall, tonsil and soft\npalate. Thus, these tumors are also called Dumb bell\ntumors",
+      "ocr_confidence": 75.16,
+      "readability_score": 0.577,
+      "line_count": 48
+    },
+    {
+      "page": 21,
+      "text": "DIAGNOSIS\nE\n140000\nFNAC - To confirm diagnosis and rule out malignancy\nCT scan - done when the tumor is arising from the deep lobe.\n- It helps to define the extraglandular spread and extent\nof parapharyngeal disease\nFNAC of lymph nodes which are palpable in neck in case of malignancy\nof parotid gland\n<8\nX ray of bones (mandible and mastoid process) to see for bony resorption\nMRI is a better investigation but expensive\nSlow growing parotid tumors should not be subjected to biopsy for 2\nreasons - injury to facial nerve\n- seeding trub of tumar cells in the subcutaneous plane\nTREATMENT\nConservative Superficial Parolidectomy PATTION ud\n3d\nyour\noverant\nwill\n- It is the standerd treatment for benign pleomarphic adenoma.\naffr\n- It means removal of the entire Lobe containing the tumor which\nis superficial to facial nerve. Facial nerve should always be\npreserved\nwill\n- Enucleation should never be done as it causes recurrence\nCOMPLICATIONS\nAfter a few years, pleomarphic adenoma shows features of transform-\nation into malignancy [carcinoma expleomorphic adenoma]\nIt should be suspected when\nstarts growing rapidly\ninfiltration occurs\n- facial nerve paralysis\n- gets fixed to massetar muscle\ntravels\n- red, dilated veins over the surface assigning",
+      "ocr_confidence": 76.72,
+      "readability_score": 0.539,
+      "line_count": 38
+    },
+    {
+      "page": 22,
+      "text": "MUCOCELE\nагвоираю\nMucocele is the term used for swelling due to accumulation of saliva,\nas a result of obstruction or trauma to the salivary gland ducts.\nIt is not a true cyst as it Lacks an epithelial lining\nIf\nThere are 2 types of mucoceles\nA> Extravasation type\nB> Retention type\nThese 2 types differi in the pathogenesis. The extravasation type is the\ncommon one.\nPATHOGENESIS\nA> EXTRAVASATION TYPE\nof\nIt is caused by trauma leading to Laceration of the duct, commonly of\nthe minar salivary glands, resulting in extravasation of mucin into\nconnective tissue.\nThe trauma may be caused by biting of the Lip, cheek, pinching of\nthe Lip by extraction forceps.\nsult\nThe mucin, which extravasates into connective tissue, leads to infla-\nmmotion, drawing the neutrophils and macrophages to the site,\nwhich in turn result in the formation of granulation tissue,\nwhich actually forms the wall of these extravasation cysts.\nB> RETENTION TYPE\nThis occurs due to obstruction of the salivary duct, commonly because\nof a sialolith or may be due to periductal scar, or impinging tumar,\nresulting in the accumulation of the saliva in the duct.\n11.\nThis leads to dilatation of the duct resulting in a cyst Like lesion.\nThese cysts may show the presence of ductal epithelium histologically.\nCLINICAL FEATURES\nsisylarog stow\nMucoceles occur as painless swellings, which may be recurrent.\nThe common sites of occurance are\nA> Extravasation Type - Lower Lip and tongue\nB> Retention type - palate, cheek, floor of mouth & maxillary\nsinus\nA well -demarcated lesion of upper lip could be a salivary\ngland neoplasm than a mucocele.",
+      "ocr_confidence": 89.61,
+      "readability_score": 0.629,
+      "line_count": 40
+    },
+    {
+      "page": 23,
+      "text": "The extravasation type occurs in the 2nd decade and also in children\nThe retention type occurs in middle aged persons. allos\nBased on the Location clinically there are 2 types of mucoceles ai\nall prillows laratalid to\na> Superficial\nbitariof\nb> Deep type\nHore showly provilos woult ravio\nThe superficial mucocele resembles a vescicle or bulla.\nSince they are placed superficially, the bluish Translucency YOUR is seen.\nThey are fluctuant. Usually, these cysts' are 4 - 1cm in size.\nproted Nouler ЛИЯ go\nThe wall is very thin and they rupture easily. ovilos\nNi\nbrain\nhis\nThe deep mucoceles are covered by normal appearing mucasa, thus\nthey are different from the superficial ones in color.\nThey are firm, well circumscribed Lesions and are present for a\nlonger period. telgarb protonique Apriated SONO\nstates ES form ail baired raitoduci sult. satiwof\nTREATMENT\nweaterique aNd in pritesitque strola\nMucoceles are treated by surgical excision It is commonto to see lood\nrecurrence after excision. It canbe minimised if the associated\nsalivary gland are also removed. vawsboo\nAntibiotic & analgesic prophylaxis\nsatudul to \"lattige",
+      "ocr_confidence": 69.1,
+      "readability_score": 0.562,
+      "line_count": 28
+    },
+    {
+      "page": 24,
+      "text": "MUMPS\nIt is also called as epidemic parotitis.\nMumps is an acute contagious viral infection characterised by\nunilateral or bilateral swelling of salivary glands usually the\nparotid.\nOther than salivary glands, it may also involve nerve, meninges,\npancreas, gonads.\nETIOLOGY\nIt is caused by RNA virus which belongs to family paramyxoviridae\nand is found in saliva and urine\nIt spreads by droplet infection or direct contact\nPATHOGENESIS\nOnce transmitted through respiratory droplet saliva, urine or\nfomites, the incubation period is usually 2-3 weeks.\nIt starts replicating in the respiratory epithelium and spreads to\nLocal Lymph nodes, and subsequently develops viraemia\nThe affected area shows perivascular and interstitial mononuclear\ncell infiltrates with oedema\nNecrasis of acinar and epithelial duct cells is seen in salivary glands\nand in the germinal epithelium of seminiferous tubules.\nCLINICAL FEATURES\nPredominant in childhood, more common in boys , age group 5-15 yrs\nThe disease is preceded by the onset of headache, chills, moderate\nfever, vomitting and pain below the ear [ prodromal symptoms]\nIt is followed by firm, rubbery swelling of salivary glands, which\nelevates the ear lasting for 1 week\nSalivary gland involvement produces pain upon mastication\nPain and Tenderness may be severe during the rapid phase of\nparotid enlargement, the swelling reaches its maximum in about\n3 days, tremains at its peak for 2-3 days and then subsides\ngradually.\nMost cases are unrecognised because of the absence of parotid swelling\nThe submandibular gland may also be involved separately or\nin conjunction with the parotid gland.",
+      "ocr_confidence": 97.43,
+      "readability_score": 0.565,
+      "line_count": 34
+    },
+    {
+      "page": 25,
+      "text": "DIAGNOSIS\n03X\nVirus can be isolated from throat swabs 2 days before or 7 days after\nthe onset of parotitis, and from CSF.\nIt can be also be confirmed by\n-RT-PCR\nvitalgatus!\n- complement fixation\nwas\nand worldness\n- haemagglutination inhibition\n- ELISA\nTREATMENT\nTreatment is entirely symptomatic\nIsolation of patient\n[axsol]\naisirosi\nstitionsts sitsdnik\nillowold sincell\nAnalgesics to relieve pain\nPrednisolone in case of complications\nPrevention is by vaccination (MMR vaccine)\nSealing\nBed rest - to minimise chances of architis\nSN\nInaigal\nPatient should avoid sour foods and drinks to decrease salivary gland\ndiscomfort.\nNO\nseq\nCOMPLICATIONS\nOrchitis\nPancreatitis\nLot\nMeningoencephalitis",
+      "ocr_confidence": 66.27,
+      "readability_score": 0.586,
+      "line_count": 35
+    },
+    {
+      "page": 26,
+      "text": "Red Lesion of Oral Mucasa\nbicolg\nrestlys\nInflammatory\nCongenital\nVascular\nDermatological\nOther\nPremalignant\ncondition\nhereditary\ndisease & blood\nSystemic\nand malignant\ndevelopmental conditions\nDisorders\nDiseases\nlesions\nPemphigus\nErythema\nHemangioma\nPurpura\nmultiforme\nUremic Stomatitis\nAtrophic\nMedian Rhomboid\nPolycythemia\nSterens-Johnson\nDiabetic stomatitis\nleukoplakia\nGlassitis\nAgranulocytasis\nsyndrome\nScurvy\nErythroplakia\nMelkersson-\nPolyarteritis\nLichen planus\nPernicious anemia\nSquamous cell\nRasenthal Syndrome\nnodasa\ncarcinoma\nLichenoid\nUlcerative Stomatitis\nGeographic\nLeukemia\nreaction\nCarcinoma in situ\ntongue\nCrohn's disease\nANDRO\nRED LESIONS OF ORAL CAVITY\nKapasis sarcoma\nof\nborra\nInflammation associated\nInfection\nblove\nAllergic/ Immunological\nwith traumatic injury\novailer\nBacterial - Scarlet fever tonsillitis\nof\n17\nPyogenic granuloma\nColosked\nMechanical - cheek biting ill fitting denture\nGingivastomatitis\nje\nGiant cell epulis\nChemical - aspirin, formocresol\nFungal - Atrophic candidiasis\nDesquamative gingivitis\nThermal - hot food, hot instruments\nangular cheilitis\nRadiation - mucasitis, cheilitis\nViral - Koplics spots of measles, herpes simplex\nMAIV\nherpes zaster",
+      "ocr_confidence": 86.18,
+      "readability_score": 0.581,
+      "line_count": 80
+    },
+    {
+      "page": 27,
+      "text": "WHITE LESIONS OF ORAL CAVITY\nBlog WILL write waiti do M haripsh\nWHITE LESIONS OF ORAL CAVITY biro glives Ld out /0\nin loil their belaise do\nwhat олины! all to get because\nVariation in Structure and Appearance of Normal Mucasa\n- Leukoedema\nof piliderd\n- Fordyce granules 0004 IM80 amot\n- Linea Alba\nWhite lesions with definite precancerous potential\n1 - Leukoplakia UIC HANDWOO TraM\n- Erythroplakia Trap jroibil\n- Lichen Planus\n- Lichenoid reaction\n- Oral Submucus Fibrasis\n3.70TOAT 11001 <A\n- Lupus erythematosus\nExam Edgin algria priorans svisas\nevibiosaco\nWhite lesions without Precancerous potential\nniegarg are Traumatic keratasis\n- Focal epithelial hyperplasia asinbarg\n1 Psariasis\nto sviassox3\n- Geographic tongue\nWhite spongenerus J1 9311009.9\nsuit\n- Stomatitis Nicotina\n- Hairy Leukoplakia\nBROTONT\nDIMITED\n(8\nNonkeratotic white lesions -\n- White hairy tongue it well -\n- Desquamative gingivitis\n--\n- ANUG\n- Koplic's spots of measles\n- candidiasis\n- Median Rhomboid glassitis",
+      "ocr_confidence": 65.88,
+      "readability_score": 0.506,
+      "line_count": 41
+    },
+    {
+      "page": 28,
+      "text": "ORAL SUBMUCUS FIBROSIS\nOSMF is defined as an insidious chronic disease affecting any part\nof the oral cavity and sometimes the pharynx.\nIt is always associated with juxta-epithelial inflammatory reaction\nfollowed by fibroelastic changes of the Lamina propria with epithe-\nLial atrophy leading to stiffness of oral mucasa and causing trismus\nand inability to speak.\nThe term OSMF was coined by Dr. Jashi in 1953.\nEPIDEMIOLOGY\nMost common precancerous lesion of Southeast Asian countries &\nparticularly Indian subcontinent.\nETIOLOGY\nA> LOCAL FACTORS\nExcessive areca nut chewing [single most important factor]\n- Because it contains chemicals such as arecoline, arecaidine\nwhich stimulates the fibroblast cells of Lamina propria &\nproduce excessive amount of collagen.\nExcessive consumption of red chillies\n- Because it contains capsaicin that produces hypersensivity\nreactions in the oral mucasa\nB> SYSTEMIC FACTORS\nprint\n- Nutritional Deficiency\n- Genetic Predisposition\nvoical\nSING\n- Autoimmunity\nCLINICAL FEATURES\nAge - 20-40 years\nFemale predilection\nSite - Fibrotic changes are frequently seen in buccal mucasa,\nretromolar area, uvula, soft palate, tongue, Lips etc.\nA> EARLY OSMF\nBurning sensation in the mouth while consuming spicy foods\nAppearance of vescicles specially over the palate\nExcessive salivation or decreased salivation",
+      "ocr_confidence": 89.3,
+      "readability_score": 0.643,
+      "line_count": 36
+    },
+    {
+      "page": 29,
+      "text": "Defective gustatory sensation\nFarmation of petechial spots\nB> ADVANCED OSMF\nAs the disease progresses, the oral mucasa becomes blanched and\nslightly opaque and white fibrous bands appear\nThe density of fibrous deposit varies from a slightly whitish area\non the soft palate, causing no symptoms, to a dense fibrasis, causing\nfixation or shartening or deviation of the uvula and soft palate\nGradual stiffening of oral mucasa with Loss of tissue resiliency,\nfibrasis of pterygomandibular region often leads to trismus\nImpairment CNI of tongue movement with atrophy of tongue papilla\nWhen the fibrasis involves the nasopharynx, the patient may\nexperience referred pain to the ear.\nIn extreme cases, uvula gives hockey-stick or bud like appearance.\nSTAGING OF OSMF IT\nA> BASED ON CLINICAL burgary FINDINGS\nStage I [ Stomatitis and vesciculations] - oral mucasa shows erythema\nrollo\nwith presence of vescicles, ulcers birn and petechiae\nStage II [Stage of Fibrasis QUDINS ] - fibrasis in ant healing vescicles and\nulcers, blanching\nStage III [ Stage of sequelae and complications fibrasis with\nadditional presence of Leukoplakia, ery throplakia\nB> FUNCTIONAL STAGING /GRADING\nLaxasum\nM1 - Interincisal mouth opening 1 35 mm\nM2-\n\"\n\"\n\"\n25-35 mm\nM3-\n\"\n\"\n\"\n15-25 mm IM\nto\nM4\n15mm\nreprests usquid NaNa have wirsgo\nall\nja\nqetą lotate\nTwite\nLasto",
+      "ocr_confidence": 78.18,
+      "readability_score": 0.523,
+      "line_count": 45
+    },
+    {
+      "page": 30,
+      "text": "MANAGEMENT OF OSMF\nA> RESTRICTION OF HABIT / BEHAVIORAL THERAPY\nB> SUPPORTIVE THERAPY\n- vitamin rich diet with iron preparation\n- iodine B-complex preparation [injection ranodine IM]\nc> MEDICINAL THERAPY\n1> STEROIDS\nLocal - Hydrocartisone injection along with procaine hydrochloride\ninjection locally in the area of fibrasis.\nInjections are given fortnightly.\nSystemic - A therapy with hydrocartisone tablet 25 mg, in doses of\n100 mg /day is useful in relieving burning sensation\nTriamcinolone or 90mg Dexamethasone can be given\n2> PLACENTAL EXTRACTS\nPlacentrax is an essential biogenic stimulator\nIt accelerates cellular metabolism, stimulates regenerative process,\nproduces significant enhancement of wound healing\n<A\n3> HYALURONIDASE\n[suoital\nIt breaks down hyaluronic acid and prevents collagen formation\nbiro\nThus it improves the health of mucus membrane, burning sensation\n4> LYCOPENE\nAntioxidant, Tab 2000 ug for 3 months\n5> GAMMA INTERFERON\nIntralesional injection of r-interferon improves mouth opening\nand reduces mucasal burning\nPentoxifylline - 400 mg 3timely daily\nD> SURGICAL METHODS\nIt is the method of choice when there is marked limitation in mouth\nopening and when biopsy reveals neoplastic changes.\nThe various methods are\n- Implantation of fresh human placenta subcutaneously\n- Nasolabial flap\n- Bilateral palatal flap\n- Oral stent",
+      "ocr_confidence": 90.73,
+      "readability_score": 0.549,
+      "line_count": 37
+    },
+    {
+      "page": 31,
+      "text": "E> LASER\nUnder GA, a CO2 laser is used to incise the buccal mucasa and vaparise\nthe sub-mucasal connective tissue to the level of buccinator muscle.\nHemastasis is provided by laced surface itself and the mouth opening\nincreases simultaneously.\nF> ORAL PHYSIOTHERAPY\nAdvised in early and moderately advanced cases.\nybňam\nActs by putting pressure on fibrous bands\nG> CRYOSURGERY\nIt is the method of Local destruction of tissue by freezing it in-situ\nOpen Liquid sprays are better suited for mucasal lesion that are\nbren\nextensive and superficial & do not involve the basement membrane\nSCIA still yoursis\nH> AIATHERMY\nA.liv\nAdvised in early and moderately advanced cases ingralar?\nIt acts by physiosibrinolysis of bands\nwithing\nberietriem ulcood biro zavlov beasil adulvi oah\npristance\nLIARO\nLooco\nJe 1000\nSurrelay&\nsissibilies\nprovided burilered\nwhitever\nwheat\nambrica\nsurport\nsitita/wal3\nmoternalt,\nstatugirA\nOurgui\nhindinals\nNothaM",
+      "ocr_confidence": 49.27,
+      "readability_score": 0.574,
+      "line_count": 38
+    },
+    {
+      "page": 32,
+      "text": "MONILIASIS\nAny infection caused by any species of the fungus Candida\nThe most common invasive fungal infections in immunocompromised\npatients.\nIt is also called as moniliasis.\nETIOLOGY\nIt is mainly caused by Candida albicans but other species such as\nC.tropicalis, C. krusei may also be involved\nPRESISPOSING FACTORS\nAcute and chronic diseases Like tuberculosis, diabetes mellities\nand my anemia\nMyxoedema, hypoparathyroidism and Addison's disease\nImmunodeficiency Like AIDS\n<n\nNutritional deficiency like Fe, vit. A and vit. B6 deficiency\nProlonged haspitalisation for chronic illness and debilitating 11.\ndiseases\nRadiation therapy\nUse of i.v Tubes, catheters, heart valves and poorly maintained\ndentures, heavy smoking\nCLASSIFICATION\nORAL CANDIDIASIS\nPrimary Oral Candidiasis\nSecondary Oral Candidiasis\nOral manifestations of\nSystemic mucocutaneous\ncandidiasis\nAcute Form\nChronic Form\nCandida\nKeratinised Primary\nAssociated lesions\nLesion superinfected\nHyperplastic\nwith candida\nPseudomembraw\n-nous\nPlaque-Like\nDenture\nErythematous\nStomatitis\nLeukoplakia\nNodular\nAngular\nLichen planus\nErythematous\nChelitis\nLupus\nPseudomembra\nMedian Rhomboid\nerythematasus\n-nous\nGlassitis",
+      "ocr_confidence": 92.35,
+      "readability_score": 0.605,
+      "line_count": 53
+    },
+    {
+      "page": 33,
+      "text": "CLINICAL FEATURES\n1> PSEUDOMEMBRANOUS\nIt is also known as oral thrush and is one of the most common forms of\ncandidiasis\nIt mainly occurs in chronically ill patients and in patients receiving\nsystemic carticasteroid therapy\nOral lesions are soft, white slightly elevated plaques most frequently\noccuring on buccal mucosa and tongue.\nThe white plaque can usually be wiped away with a gauze leaving\neither a relatively normal appearing mucasa or an erythematous\narea.\n2> ERYTHEMATOUS\nflaking lips\nAlso known as antibiotic sore mouth, it includes central papillary\natrophy of tongue and cheilocandidiasis.\nThe lesions appear red or erythematous and redness is due to increased\nvascularity.\nIt is the only variety of oral candidiasis, which is consistently painful.\nErythematous appearance is due to Loss of filiform papillae\n3> CHRONIC HYPERPLASTIC\nAlso called as candidal leukoplakia\nThe oral lesions consist of firm, white, persistant plaques usually\non the Lips tongue, cheeks and appear similar to leukoplakia\nIt is established that CHC is a cause of Leukoplakia and thus it has\na premalignant potential.\nTREATMENT\nTreatment\nSystemic Treatment\nTopical Treatment\nRemoval of Causes\nItraconazole\nIdoquinol\nFluconazole\nMycastatin cream\nKetoconazole\nAmphotericin B\nNystatin\nClotrimazole\n1% Gentian violet",
+      "ocr_confidence": 94.37,
+      "readability_score": 0.636,
+      "line_count": 39
+    },
+    {
+      "page": 34,
+      "text": "RADIATION MUCOSITIS\nIt is the inflammation of oral mucasal membrane following radiothera-\nIt develops towards the end of 1st week of therapy and occurs if radiation -py.\ngiven in excess of 3500-4000 rads.\nMucasitis occurs when the rate of epithelial growth and repair are\naffected by radiation, resulting in epithelial thinning erasion and\nulceration\nCLINICAL FEATURES\nMast commonly found in children and elderly adults with male\npredilection\nRadiation has more marked effect on rapidly proliferating epithelium\nand, therefore, mucositis involves the nonkeratinised mucasa first\nRedness of oral mucasa followed by pseudomembrane formation with\nlarge area of oral mucasa covered with grayish-white slough alternating\nwith areas of more severe ulceration\nThe first sign of mucasitis may be whitish appearance of the mucasa\ndue to hyperkeratinisation and intraepithelial edema or a red appearan-\nce due to hyperemia\nMANAGEMENT\n1> Mouth Rinse - A soothing mouth rinse such as an antihistaminic\nwith kaopectate will offer pain relief\n2> Good Oral Hygiene - Once radiation therapy is initiated all foci\nof infection from oral cavity should be removed\n3> Betamethasone Mouth wash -\n4> Other Therapy - Other therapy like topical allopurinol, antimicro-\nbial lozenges, benzydamine, capsaicin have been tried but with\nLimited success.\nbrierpant",
+      "ocr_confidence": 93.68,
+      "readability_score": 0.518,
+      "line_count": 28
+    },
+    {
+      "page": 35,
+      "text": "LEUKOPLAKIA\nатадизронтат\nOral Leukoplakia has been defined as a predominantly white lesion of\nthe aralcavity that can not be characterised as any other definable lesion,\nand which is not associated with any other physical archemical causative\nagent except the use of tobacco.\nLoro\nCLASSIFICATION\nLeukoplakia Бари\nInhibiros\nHomogenous\nNonhomogenous\nbehibings columbols\nFlat\nCarrugated\nPursice like\nWrinkled\nJADING\nto shooob OPA\nNodular/Speckled Verrucous Ulcerated Erythroleukoplakia\naloNT productional of OV Nailudi Isis 192\nETIOLOGY\nblessa NI titled sibut JG\nbro Etiology of Leukoplakia & 09/02/20 leawn The\nbelongo add each aupiral\nLocal Factors\nsiterraty Systemic Factors Idiopathic\nhabrasse 4 rina blint Leukoplakia\nwas Notog builoral Now, from your Noisal side\nTobacco 5 NOT291 Syphilis Vitamin samply 5 at ji NONE\nAlchohol\nendore\nChronic 04 danit 30 Virus deficiency 1101391 art to all\nNO\nirritation ₫ soint Harmones will Apurose Jrave\nCandidiasis\nConditions causing\nElectromagnetic JCO soul\nthrown xerastomia onli Jo\nreaction and\nNutritional\nto\ngalvanism\nsurraly NaNeil\nWIVIN agrogs\nprioH",
+      "ocr_confidence": 63.9,
+      "readability_score": 0.568,
+      "line_count": 46
+    },
+    {
+      "page": 36,
+      "text": "Pathogenesis of\ncandidal leukoplakia\nsvile\nTobaccosmoking\nDenture wearing /\nocclusal friction\nImmune defect\nOral Keratasis\n15\ncandidal infection\nHomogenous candidal\nLeukoplakia\nNodular candidal\nLeukoplakia\nCLINICAL FEATURES\nAge - mostly 4th-5th decades of Life\nrarely, the lesion occurs below 30 years of age\nSex - gender distribution varies from strong male predominance\nin India to 1:1 in western world\nSite - most commonly affected is buccal mucasa and surrounding\nareas. Tongue, lips, gingiva, palate are also affected\nIn most of the cases, leukoplakia is asymptomatic, however, in some\ncases [non homogenous type] mild pain is recorded.\nSize of the lesion may vary from small, well localised patch few\nmm in diameter to a diffuse large lesion, covering a wide mucasal\nsurface.\nThe surface of the Lesion may be smooth or finely wringled or\neven rough on palpation & the lesion can not be removed on\nscrapping\nLeukoplakia of the floor of the mouth has an ebbing-tide pattern\nof appearance.\nDIFFERENTIAL DIAGNOSIS\nbirth\nLichen planus\nWhite sponge nevus\nPsariasis\nHairy Leukoplakia",
+      "ocr_confidence": 90.37,
+      "readability_score": 0.605,
+      "line_count": 37
+    },
+    {
+      "page": 37,
+      "text": "MANAGEMENT\nIADEIV\nManagement Discl of Leukoplakia\nHabit counselling to Treatment of of Lesion\n1200m\nall\nwill\nall\natoribni\nof\nall\nNon-speckled\nSpeckled\nof\ndoes\nof\nof\nApply antifungal Like mycastatin\nin to\nor candid 4-5 Times daily\nSmall lesion Large lesion\n(1-10mm) antil an (>10 mm) (>10 mm)\nplinos review Half SAV will\nExcision biopsy di Incisional biopsy\nLesions shrink in size\nOtherwise at to\nTHE\nKeep under control\nBiopsy required\n01\nS\n0\nAdissoq\nNo atypia almotimality\nSevere dysplasia\n0\nat\n0t-P\nConservative\nSurgical treatment\nTreatment\nwith LASER, radiation\ntherapy SMIT\nsuccusses prestant on\nsvissecure posted Noithlass ulgirt perv will\nboTain read doil ring to Instructions\nall DOVO sin assigs of ibwet DYSTEM\nInitial to abuti spow all to",
+      "ocr_confidence": 65.69,
+      "readability_score": 0.602,
+      "line_count": 48
+    },
+    {
+      "page": 38,
+      "text": "VISUAL ANALOG SCALE\nТИ.\nIt is a measurement instrument that tries to measure a characte-\n- ristic or attitude that is believed to range across a continuum\nfrom none to an extreme amount of pain.\nMETHOD\nAsk the patient to indicate on the Line where the pain is in relation\nto the 2 extremes.\nAsk the patient to mark on the Line the point that he feels his\nperception of his current state.\nThe VAS scare is determined by measuring in mm from the Left\nhand end of the Line to the point that the patient marks.\nWhen the VAS is properly explained to subjects, they can easily\nunderstand its use and successfully use it to indicate his level\nof pain response to hypersensitive stimuli.\nTHE SCALE\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\nI\nI\nNo pain\nMild\nModerate\nSevere\nVery\nworst pain\n0\n5-6\nsevere\n1-2\n3-4\npassible\n7-8\n9-10\nADVANTAGES\ntransfort\nTime saving\nNo additional training required\nReproducible, thus a very high carelation between successive\nmeasurements of pain severity has been noted\nAISADVANTAGES\nPatient tends to spread his responses over the entire scale,\nregardless of the magnitude of actual sensation",
+      "ocr_confidence": 92.37,
+      "readability_score": 0.461,
+      "line_count": 52
+    },
+    {
+      "page": 39,
+      "text": "LICHEN PLANUS\nOral Lichen planus is a chronic mucocutaneous disarder of stratified\nsquamous epithelium, of uncertain etiology that affects the oral mucles\nmembranes, skin, nails and scalp\n<=\nFirst described by Wilson in 1869\nLichen means \"Tree mass\" and planus means \"flat Coropylog\nwairat\nETIOPATHOGENESIS\nto\nand all nocillod\nAutoimmune reaction in the body\nгазниам JARO\nsile The CD 8+ T cells recognise an antigen associated\nwith MHC class I on keratinocytes\nPrior all\nAfter antigen recognition and activation,\nwit\nCD 8+ Tcells trigger keratinocyte apoptasis\nLiquifaction degeneration of the basal keratinocytes\nprimord\nof skin and mucus membrane\nmaisal\nvalid\nThinning of mucasa with burning sensation\nINDINITO\nAdditional stress causes activation of adresial\nmedulla with release of adrenaline & naradrenaline\nImmunosuppresive action of these harmones cause\nfurther aggravation of the disease\n1000\n71\n1.1\nCLINICAL FEATURES\n11/1/2021\nIntered\nsisteretA\nAge- predominantly occurs in 2000 childhood adults older than 40 years\nsurvely\n7.1 stotting\nFemale preditection\nglood\n7.1 airital\nSites <a> Cutaneous Lesions + scalp, nails, genitalia, flexar, flood\nwost surface, of wrist & forearms, inner aspects of thighs &III\nknees\n<b> Oral Lesions - buccal mucasa (80%) tongue\nThe skin lesions apper appear as small, angular, flat topped\npapules.\nThe papules may be discrete or gradually coalesce into a Larger\nplaque.",
+      "ocr_confidence": 66.41,
+      "readability_score": 0.538,
+      "line_count": 51
+    },
+    {
+      "page": 40,
+      "text": "The surface of papules is covered by characteristic grayish white\nLines called as Wickhams striae\nThe characteristic 6 Ps of Lichen planus are\na> pruritus\nd> papules\nb> purple\ne> plaque\nc> polygonal\nf> planar\nKoebner Phenomenon - Development of LP lesions in a linear\npattern along the scratch marks or line of trauma\nORAL MANIFESTATIONS\nThe classic forms exhibit numerous interlacing white keratotic lines\nwhich often produce a typical Lace like or reticular pattern.\nA tiny white elevated dot like structure is present at the point of\nintersection of the white Lines called as Wickhams striae\nGenerally asymptomatic although few Lesions can cause pain and\nburning sensation while taking hot and spicy foods.\nIn some cases, patients with Licher planus may simultaneously\nhave other mucasal Lesions Like OSMF, Leukoplakia\nCLINICAL VARIATIONS\nClinical Variations\nLaroitibbA\nVariations in\nVariations\nVariation\nSpecial\nMarphology\nin Shape\nby site\nVariant\nHypertrophic LP\nLinear LP\nOral\nDrug induced\nAtrophic LP\nAnnular LP\nGenital\nLichenoid reaction\nFollicular LP\nGuttate LP\nNails\nLichen planus\nActinic LP\nScalp\npemphigoides\nBullious LP Palms Lichen planus Lupus\nUlcerative LP\nerythematorus overlap\nsurgrot\n(xos)\n<d>\nselvage",
+      "ocr_confidence": 90.25,
+      "readability_score": 0.549,
+      "line_count": 53
+    },
+    {
+      "page": 41,
+      "text": "DIAGNOSIS\nClinical Diagnasis - presence of Wickham striae and Koebner phenomenon\nLab diagnasis - there is hyperarthokeratasis hyperparakeratasis\nAND\nBiopsy also shows civette bodies in spinous and basal cell\nLayers and Lamina propria.\nSaw tooth appearance of rete pegs is seen\n339YT\nStirt avtoviri\nDIFFERENTIAL DIAGNOSIS\nLeukoplakia\ncandidiasis\nPemphigus si airod att\nLupus erythematasus of to эднах not aub\nWhite sponge nevus seatany\nMANAGEMENT F +8 ID pluican fer ori\nthe at pribal to úsoljogo of worlt\nRemoval of cause him -duse\nSteroids will NT spealquires\ncombination of preduisolone and levamisole caHiM\n&pu ud programet is осођом\nTopical application of antifunual agent\nJACINED\nManagement of planus\noHHop lichen hiro ulbrauper! 120 N398\nstop da to \"Lo will\nRemoval of cause\natoM\ndivols\nSteroids traf stevent seo satis MONTANOO IxaM\nsxiolum\nbig\nCombination of prednisolone and levamisole i 19340\nTopical application of antifungal agent ScariM\nVitamin A (retinoid) analog averllow seojans où\nCyclasporine a\nSurgical therapy\nгиопатазниам IATO\nPsychotherapy\nstolog\nDavsone therapy bavlown is qut\naloid\nPUVA therapy Angied (Pseraten vtight,\n1907 bico aupiril\npelbique\nwhats.\navoisal\nlaws\nof 81101391 UV aqyî we'll ware\nwriteaf JD havequabies",
+      "ocr_confidence": 53.17,
+      "readability_score": 0.517,
+      "line_count": 50
+    },
+    {
+      "page": 42,
+      "text": "ERYTHEMA MULTIFORME\n10019\nLoserits\nErythema multifarme is an acute, self-limiting, and inflammatory\nhypersensitivity reaction affecting skin and mucus membrane that\nUse\ncauses a variety of skin lesions, hence the name multiforme.\nTYPES\na> Erythema multiforme minor - involve only 1 site\nb> Erythema multiforme major - atleast 2 mucasal sites are involved\nETIOPATHOGENESIS\nThe basic cause is unknown, although a hypersensivity reaction is\npresent due to a range of exogenous factors\nExogenous factors trigger immunologically -related reaction which\nresults in appearance of mainly CD8t T lymphocytes and macrophages\nThere is apoptasis of keratinocytes leading to cell necrasis and thus,\nsub- and intraepithelial vesiculation or deposition of immune\ncomplexes in the superficial microvasculature of skin & mucus\nmembrane\nMinor form is usually triggered by HSV\nMajar form is often triggered by drugs\ntropo\nlosigot\nCLINICAL FEATURES\nSeen most frequently seen in children and young adults and is\nrare after the age of 50 years.\nMale predominance\nto\nMost common sites are hands, feet, extensor surface of elbow, knees\nOnset is acute with generalised symptoms such as fever and malaise\nMinor erythema multiforme is usually a self limiting disease & in\nmajor erythema multiforme, bed rest and hospital mana\nmanagement is recommended\nORAL MANIFESTATIONS\nLip is prominently involved followed by buccal mucasa, palate,\ntongue and face.\nOral lesions start as bullae and break rapidly into ulcers\nvarying from apthous type lesions to multiple superficial\nwidespread ulcers in major form",
+      "ocr_confidence": 86.2,
+      "readability_score": 0.572,
+      "line_count": 39
+    },
+    {
+      "page": 43,
+      "text": "Mild discomfort to severe pain, patient can't eat or swallow and blood\ntinged saliva drools.\nThe lesions are larger, irregular, deeper and often bleed very freely.\nIn full blown cases, Lips are extensively involved and large partions of\noral mucasa are denuded of epithelium\nDIFFERENTIAL DIAGNOSIS\nPemphigus vulgaris\nErasive lichen planus\nHerpetic gingivostomatitis\nSystemic Lupus erythematasus\nMANAGEMENT\nSupportive care, electrolytes, a Liquid diet, and nutritional support\nshould be started as early as possible\nIf drug is the causative factor, discontinue the drug up\nIf patient is dehydrated due to pain, then IV rehydration should be\ncarried out\nTopical anaesthetic agents (lidocaine gel) antiseptic mouthwashes with\nhydrogen peroxide or chlorhexidine & topical carticasteroids to reduce\ndiscomfort.\nFar minor EM, 20-40mg/day prednisolone is administered for 4-6\ndays and then taper the dose. Major EM usually requires 40-80\nmg/day with gradual tapering over 2-3 weeks",
+      "ocr_confidence": 94.32,
+      "readability_score": 0.54,
+      "line_count": 22
+    },
+    {
+      "page": 44,
+      "text": "VESICULOBULLOUS LESIONS\nVesciculobullous Lesions\nHereditary\nViral infections\nMucocutaneous\nMiscellaneous\ndiseases\nEpidermolysis\nbullasa\nPemphigus vulgaris\nFamilial benign\nPemphigus vegetans\nchronic pemphigus\nBenign mucus\nDyskeratasis\nmembrane pemphigoid\ncongenità\nBullous pemphigoid\nAcrodermatitis\nLichen Planus\nenteropathica\nPrimary herpetic\nOral Submucus Fibrasis\ngingivostomatitis\nSecondary herpetic\nErythema multiforme\ngingivastomatitis\nHyperacidity or gastritis\nVaricella (chickenpox)\nConstipation and\nShingles (herpes zaster)\nMalabsorption syndrome\nMeasles\nImpetigo two\nAIDS\nrot\nHand foot & mouth disease\nhrs\nprought ollies yob\\ BUY",
+      "ocr_confidence": 89.12,
+      "readability_score": 0.552,
+      "line_count": 39
+    },
+    {
+      "page": 45,
+      "text": "PEMPHIGUS\nIMITIS\nPemphigus is a group of autoimmune vesciculobullous lesions of skin\nand mucus membranes, characterised by appearance of vescicles or\nbulla, small or Large fluid-filled blisters that develop in cycles.\nThe term pemphigus is derived from Greek word \"pemphix\", meaning\nbubble or blister. and\nsurprot to saspens\nTYPES\nPemphigus vulgaris bealf\nPemphigus vegetans\nPemphigus foliaceus\nDrug induced peruphigus\nPemphigus erythematasus al\ns\nPEMPHIGUS VULGARIS\nbaburob\npurivos!\nETIOLOGY\nMost cases of pemphigus are idiopathic but are triggerred by\na> Drugs - captopril phenobarbitone\nseo\nb> Radiation surgery statin so 11/01/19 to repal\nc> Autoimmune diseases - Rheumatoid arthritis,\nMyasthenia gravis\nd> Diet, particularly garlic\ne> Emotional stress\nf> viruses - HHV 8\nsribuits\nPATHOGENESIS\nBarie\nEpithelial cells, the keratinocytes are anchored to one another and to\nthe underlying connective Tissue by a number of adhesive mechanisms.\nDesmasomes form the predominant component of intraepithelial cell\nadhesion.\nТИЯМПОЛИАМ\nDesmogleins forming the desmasomal component are of different types\nASG-1, ASG2 and DSG3. wid Lotton will\nod\nbluoNs\nAutoantibodies form against desmogleins 1 and3.\nsuit\nEpithelial cell separation due to Lack of cell adhesion.\nprim\nIntraepithelial bulla formation.",
+      "ocr_confidence": 72.09,
+      "readability_score": 0.568,
+      "line_count": 45
+    },
+    {
+      "page": 46,
+      "text": "CLINICAL FEATURES\nUsually oral lesions appear before the skin lesions and may be\nmore persistant than skin lesions.\nMean age - 40-60 years\nAffects both men & women\nIntraoral lesions are mainly seen in buccal mucasa, palate,\nventral surface of tongue, and lips.\n8397F\nPV usually presents as % who thin walled, flacid vescicles or bullae,\nvarying in diameter from few mm to cms, that arise on normal\nmucosa and then rupture to Leave an area of erasion and ulceration\nLesions bleed easily and are tender on palpation. The pain may be\nso severe that the patient is unable to eat.\nThin layer of epithelium peels away in an irregular pattern\nleaving denuded base\nYDO\nThe disease shows positive Nikolsky's sign but it is not specific for\nPV. During active stage of the lesion, when Lateral pressure is applied\non the blister or perilesional skin, It results in removal of upper\nLayer of epidermis known as Nikolsky's sign.\nSB\n<0\nINVESTIGATIONS wyorg\nBiopsy\nCompressed air Test\nImmunoflorescence studies\n- Direct immunoflorescence\n- Indirect immunoflarescence\nOF\nELISA\nImmunoprecipitation and immunoelectron microscopy\nMANAGEMENT\nThe initial aim of the treatment is to induce disease remission.\nThis should be followed by a period of maintenance treatment,\nusing the minimum drug doses required for disease control\nin order To minimise their side effects.",
+      "ocr_confidence": 86.13,
+      "readability_score": 0.606,
+      "line_count": 36
+    },
+    {
+      "page": 47,
+      "text": "a> Topical Therapy - Pts. with mild mucasal Lesions can be managed\nby topical therapy alone.\nSoft diets and soft toothbrushes help minimise Local trauma\nTopical analgesics or anaesthetics eg - benzydamine hydrochlaride\noral rinse are useful.\nAntiseptic mouthwashes, such as chlorhexidine gluconate 0.2%\nb> Topical Steroids - Mouth rinse of betamethasone sodium phasphate\n0.5 mg tablet in 10 ml water tds\nTriamcinolone acetonide 0.1% in adhesive paste.\nTopical CS therapy may help reduce the requirement of systemic agents\nc> Systemic CS - Best therapy for management of PV\nOn average; cessation of blistering takes 2-3 weeks and full healing\ntakes 6-8 weeks\nPatients are treated with initial prednisolone 40-60mg/day and in\nIf no response within 5-7 days, dase should be increased in also 50-100%\nsevere cases 60-100 mg/day\ntricle\nincrements\nsub\nd> Pulsed IV CS - it is considered when doses above 100mg/day is\nrequired.\nmethylprednisolone IV\nIntermittent administration of\n250-1000 mg methylprednisola-dne\non 1 to 5 consecutive days is given.\nOVIGONA\nare GMT\npogni gring logg above\nslybras at\nswift evalial\nÚxcloxO\nTrep\nwaitesalsib no\nvobrosia ailadotaM\nabrown\ntransful of\nwith\nto\n020\nTerm.\nto\nSN",
+      "ocr_confidence": 64.59,
+      "readability_score": 0.512,
+      "line_count": 42
+    },
+    {
+      "page": 48,
+      "text": "TMJ DISORDERS\n1:00\nDevelopmental\nMetabolic Disarders\nNeuropathic\nInternal Derangement\nInflammatory\nand\nMP\nAgenesis of\nGout\nCharcont Joint\nDisk displacement\nthe condyle\nChondrocalcinasis\nRitter's sympathetic\nDisk fracture\n15510118 COM DC\nHy poplasia of\nOxalasis\ndystrophy\nthe condyle\nAmyloidasis\nHyperplasia of\n000\nWilson's disease\nNeoplasm\nNon infective\nInfective\nbioble\nNO\nthe condyle\n520\nNon-articular\nExastasis of\nbies\nArthritis\nto\nthe joint\n&\nStill's disease\nTraumatic\nMalignant\nPyogenic infection\nBenign\nMING INITIO\nspeak\nCOI\nAnkylasing\nfrom Staphylococci\nMyasitis\nspondylasis\nSyphillis\nTrauma to disc\nMyositis\n18.\nOsteoma\nOsteosarcoma\nSynovitis\nTMJ DISORDERS - CLASSIFICATION\nTuberculasis\nassisicans\nTrauma to developing condyle\nChondroma\nChondrasorcoma\nSystemic\nor growth center\nOsteochondroma\nSynovial sarcoma\nlupus\nActinomycasis\nMPDS\nTrauma to ligament\nPsoriasis\n5010\nSynovioma\nDN\nVI bashill <b\nCOVE\nerythematasus 8-8 sport\nCP\nTrauma to muscle\nOsteomyelitis\nSubluxation or dislocation\nTEACHT\nOF\nor dislocation within displacement\nApril\nTo\na) 10/1007\nForeign body the joint space\nAnkylasis",
+      "ocr_confidence": 76.82,
+      "readability_score": 0.605,
+      "line_count": 92
+    },
+    {
+      "page": 49,
+      "text": "MPDS\nINSTITUS\nMyofacial Pain Dysfunction Syndrome is a pain disarder, in which\nunilateral pain is referred from the trigger points in myofacial\nstructures, to the muscles of the head and neck. Pain is constant,\ndull in nature, in contrast to the sudden, sharp, shooting inter-\nmittant pain of neuralgias of wib ring vents\nor stoik are d NOS Fud nate of boxilesal INIOT\nETIOLOGY\nletigion\nTooth Muscle Theary - occlusal interference larroo cause unin an altered Traital\nproprioceptive feedback leading to incoordination talat & spasm DO of\nmuscles of mastication know privide to that\nfrowthing Insiani role librent will to\nPrasthetic problems - faulty prasthesis, over clasure bilateral\nLass of molar Teeth, increased vertical dimensions\nMalocclusion - by $ Parafunctional habits, anxiety\nPsychophysiologic theory- - the masticatory muscle 2/2urM spasm is\nresponsible for the signs and symptoms of MPDS.\nSteep angulation of articular eminence\nbruros within\nDran VONT and Jo militinal\nPATHOGENESIS\noi haspaibate on\nGMT J10 on\nEtiological factors cause micro/macro trauma\nto musculaskeletalsystem Leading to muscle pain\nТИЗМАРАИАМ\nHypertonicity of muscle\nВИОГТАЛКЕМ <A\nsuinaVico surbar at АСТАВИ\nMuscle Fatigue\nubwalf\\ $20.80 dat. -\nglvb 32101 gros-ot Novixarit\njust 0 WHI DAT 0031 abruM\nAccumulation of metabolic byproducts terd\nfloward\neg. Lactic acid VI leads goot to Lower pain threshold\nand\nLower pain threshold stimulates the chemical eqabilitivA\nand mechanical mediators\nТИ ОТ TEDIAT <d\nillies Farmation of Trigger Zone balasal 81 bring reppiet's\nReferred pain",
+      "ocr_confidence": 67.84,
+      "readability_score": 0.566,
+      "line_count": 44
+    },
+    {
+      "page": 50,
+      "text": "CLINICAL FEATURES\n209M\nItis seenin middle age group with more predilection for women.\nOccurs in episodes of several times a day. Usually, episodes are seen\nduring increased emotional tension, resulting in increased intra-\narticular pressure in the joint.\npaintruscles\nin\nMasticatory pain due to myalgia arthralgia or both.\npaint\nPain's localised to preauricular area but can be radiated To\nУРОДОТА\ntemparal, frontal and occipital region.\nPatient may complaint of tinnitus or otalgia or toothache\nPartial or total hearing loss\npain in ears\nRestriction of opening and protrusion may be accompanied by\ndeflection of the mandibular incisal pathway.\nLASKIN'S DIAGNOSTIC CRITERIA\nFOR MPDS\nUnilateral pain\nMuscle tenderness\nClicking sound\nLimitation of jaw movement\nNo radiographic finding\nNo tenderness on TMJ\nMANAGEMENT\nA> MEDICATIONS\nNSAIDs to reduce inflammation and pain\n- Aspirin 2 tab 0.3-0.6g/4 hourly\n- Piroxicam 10-20 mg / once daily\nMuscle relaxants - Methocarbamol 1500 mg/4 times a day\nfor 2-3 days, 1000 mg I.v / 8 hourly\n- Metaxalone\nAntidepressants Diazepam & Chlordiazepoxide\nB> TRIGGER POINT INJECTIONS\nA trigger point is Located and injected 0.5% bupivacaine with\nepinephrine.",
+      "ocr_confidence": 88.03,
+      "readability_score": 0.534,
+      "line_count": 38
+    },
+    {
+      "page": 51,
+      "text": "c> PHYSIOTHERAPEUTIC MODALITIES Я INI\nIO\n1> Heat application - Ultrasound 18009 laixo foxo\n- Heat lamp\n- Diathermy\n2> Cryotherapy - -ice pack\nlosiTVA\n- vapo-coolant spray not\nsoip work\n- ice massage\n- cold whirlpool animegiM\n3> Massage with counter irritants and vibrators\n4> Electro Galvanic Stimulation marinegiM\n5> Transcutaneous Electronic Nerve Stimulatar\nlongural scairs μa\n6> Active stretch exercises alask ooN\nallig without\nminiol\nto rint\nvisiro\nrights\nyile joruari\nreasib 1011102\nLOCS leemers alboin to Securrity\ntolusO\nbiro\ntomell buto sean. 202\nxavrut alpana\nэмонів brelp wavilo8\nN°\nGMT\nstranglos shilluver\nscabrasio\nstort brin board all to",
+      "ocr_confidence": 48.26,
+      "readability_score": 0.426,
+      "line_count": 34
+    },
+    {
+      "page": 52,
+      "text": "ORO FACIAL PAIN\nOrofacial pain\nTypical\nAtypical\nTypical Facial Pain\nNeuralgias\nNeuralgias\nTrigeminal\nMigraine\nGlassopharyngeal\nSphenopalatine neuralgia\nGeniculate\nMigrainous neuralgia\nSuperior laryngeal\nCiliary Neuralgia\nPast herpetic\nCluster headache\nPain of Extracranial\nPain in Intracronial\norigin\norigin\nDental disease\nTrigeminal neuropathy\nOcular disease\nTumor of middle cranial fassa\nEar, nase and throat disease\nand Gasserian ganglion\nSalivary gland disease\nCerebellopontine angle tumor\nTMJ syndrome\nTrigeminal neuralgia in\nMusculaskeletal disorders\nmultiple sclerosis\nof the head and neck",
+      "ocr_confidence": 94.4,
+      "readability_score": 0.618,
+      "line_count": 34
+    },
+    {
+      "page": 53,
+      "text": "TRIGEMINAL NEURALGIA\nA disorder of the trigeminal nerve that causes episodes of sharp, stabbing\npain in the cheek, Lips, gums or chin on one side of the face.\nPeople with this pain often wince or twitch, which is where trigeminal\nneuralgia gets its French name \" Tic doucloureux\" meaning painful\ntwitch.\nETIOLOGY\nUsually caused by contact between a normal blood vessel and the\ntrigeminal neuralgia nerve at the base of the brain\nLorisiboM\nThis contact puts pressure on the nerve and causes it to multi\nmalfunction\nCan occur as a result of ageing or It can be related to multiple\n<A\nsclerasis or a similar disorder that damages the myelin sheath\nprotecting certain nerves\nLess commonly, IN can be caused by a tumar compressing the nerve\nAnomalies of superior lorging cerebellar artery -mostrecently blamed cause.\nCLINICAL FEATURES st <a\nrefaland\nusually occurs, in middle and old age\nand beiNT <0\nwomen are more frequently affected\npain is a characteristic symptom\nwithogodop\noccurs in bouts or paroxysms sharp or lancinating in character\nradiates to the territory of one or more divisions of TN. agreeb\nratto\n<<\nthe pain is nearly always unilateral, and if bilateral, if is\nsuccessive ts rather than concomintant\nwalfwant\nthe mandibular & maxillary divisions are more commonly involved\nthan the opthatmic\ninsome instances, these 2 divisions may be simultaneously affected\nthe pain may be evoked by a touch, a draft of air any movement of\nthe face as in talking, chewing, yawning\nthe first episodes are usually fairly mild and brief. and it may be few\nminutes or hours before the next attack.\nThe momentary bursts of pain usually begins from the same spot\non the face each time. They are called trigger zones.\nThey are common on the vermillion barder of the Lips, ala of the rase,\nthe cheeks and around the eyes.\nThe patient learns to avoid touching the skin over the trigger zones\nwhich frequently makes him go unwashed for days.",
+      "ocr_confidence": 84.76,
+      "readability_score": 0.547,
+      "line_count": 45
+    },
+    {
+      "page": 54,
+      "text": "DIFFERENTIAL DIAGNOSIS\nMigraine will\nSinusitis to wit\nToothache seo service\nMultiple Sclerosis\ndup niglowing\nTrigominad Past herpetic Neuralgia\nMANAGEMENT\nboald\nbasines\nMedicinal\nwill\nto\nrespirt\nSurgical\nManagement to 8941100 Management\nsixte\nA> First Line Therapy batalaic of NO9 17 toit A> Peripheral Nerve Procedures\nCarbamazepine\nLong acting anaesthetic injection\nOxcarbazepine\nAlchohol injection\nssed\n9VICIN\nud\nB> Second Line Therapy\nPeripheral Neurectomy ailomonA\nwester\nCryotherapy\nLamotrigine\nBaclofen\nB> Ganglionic Procedures 79 ПАЗТИЕ\nc> Third Line Therapy\nspo blo Percutaneous radiofrequency\nbetario rhizotomy area\nGabapentin\nPercutaneous glycerol rhizotomy\nTopiramate prilarioral JCD quaNa Percutaneous balloon compression\nD> Other drugs ИТ to waisivit aran c> Open procedures to weatpocat sull at staibar\nLarestolid # hiro specials febtoon al ving sult\nPhenytoin\nTrat\nMicrovascular decompression\nbe down Clonazepam sear 2000 ANOIRIVI Partial Sensory Rhizotomy\nsilt\nValproic acid\nsinderligo sull smit\nsd LEONT Naisivia & swelt SUNTO& NJ\ndo bransvain furn, jeio to Flored Novot 0 ud below d dog and\nprimotop providers saaf sult\nwat sd gove base faired his Wint follows are saboriqa taking all\ntantto Безм sull eraped saran ro saturint\nJoge SUNDOS, out aniged fillowises wing do stuard SUITE\nLONOS suppbet bellen suce garll surit Nans 2201 without\nssar all to alo and sult to reburned willingy sill NO soce gell\nand braine bico abouts will\nKSNOS aND JT9VC will principal biove at shows) tritoq sill\nspob 191 JAN",
+      "ocr_confidence": 60.14,
+      "readability_score": 0.536,
+      "line_count": 58
+    },
+    {
+      "page": 55,
+      "text": "MACROGLOSSIA\nMacroglassia is a retiv relatively common condition characterised by\nan abnormally large tongue in the oral cavity.\nTYPES\nMacroglassia can be either congenital or acquired [secondary] in\nnature\nRelative Macroglassia - normal sized tongue appears abnormally\nlarge, if it is enclosed in a small oral cavity.\nIt happens mostly in cases of maxillary retrusion or in cases of\nrestricted growth of nasopharynx\nApparant Macroglassia - inthis, tongue appears abnormally large due\nto poor muscular control of the tongue, although there is no real increase\nin tongue size.\nETIOLOGY\nCauses of Macroglassia\nCongenital (BCD LMN H²V)\nAcquired (A³MCE)\nBeckwith Wiedeman Syndrome\nAcromegaly\nCretinism\nDown Syndrome\nAngioedema\nAmyloidasis\nLymphangioma\nMyxedema\nMucopolysaccharidasis\nCarcinoma\nNeurofibromatasis\nEdentulous patients\nHemangioma\nHemihyperplasia\nVascular malfarmation\nCLINICAL FEATURES\nMacroglossia is most prominent in infants but tongue size may remain\nabove normal in childhood and adolescence.\nIt cause displacement of teeth and malocclusion due To continuous pressure\non the Teeth by enlarged tongue.\nDisturbs the process of speech or food intake\nLateral margin of tongue exhibits scalloping or Indentations",
+      "ocr_confidence": 95.13,
+      "readability_score": 0.683,
+      "line_count": 39
+    },
+    {
+      "page": 56,
+      "text": "Blockage of the pharyngeal airway due to macroglossia may result in\na, condition called obstruction sleep apnea which is characterised by\nintermittent cessation of respiration during sleep.\nEdentulous patients with macroglassia often have difficulty in wearing\ndentures.\nPatient may complain of noisy breathing drooling of saliva\nMANAGEMENT\nOrofacial therapy - it uses a palatal device to stimulate muscular\ntone and proper tongue position IL\nSurgical management - partial glassectomy is the Treatment of\nchoice.\nRemoval of the primary cause, wherever necessary at\nOrthodontic treatment - correction of dental arch deformity &\nmalocclusion by arthodontic treatment\nSpeech therapy - correction of defective articulation by speech therapy\nto\n(30MA)\n(vºH ИМ! (158)\nsmarting\ncisabialysis\ngrowM\namount\nreturn\nfrom 96 suprol bid Thiopo of bearning Team il\nbro 00 svode\nat wh bro Just to ib runes il\nrespond yet sttrat will NO\nto sult starks\nto suprot jo unigram larate",
+      "ocr_confidence": 65.14,
+      "readability_score": 0.758,
+      "line_count": 29
+    },
+    {
+      "page": 57,
+      "text": "HAIRY TONGUE AIMST\nIt refers to an overgrowth of the filiform papilla on the darsum of the tongue,\ngiving the tongue a superficial resemblance as that of hairiness.\nIt is also called Lingua villasa, Lingua nigra.\nYOOHOTTH\nETIOLOGY\nFungal and bacterial overgrowth - Candida albicans\nUse of certain drugs - sodium perbarate, sodium peroxide\nRadiation therapy\nPoor oral hygiene\nLow pH of oral secretion\nPatients with intermaxillary fixation\nCLINICAL FEATURES\nMarked accumulation of keratin on the filiform papillae of the dorsal\ntongue.\nThere may be da delayed shedding of the harny Layer of the filiform\npapilla or there may be an increase in the rate of formation of keratin\nThe Lesion mainly involves the middle and pasterior 1/3 of darsum of\ntongue.\nHypertrophy of filifarm papillae\nThe elongated papillae have an appearance of hair.\naivistays\n<<\nThe hyperplastic papillae then become pigmented by the colonisation\nof chromogenic bacteria , which can impart a variety of colours\nranging from green to brown to black to yellow.\nExtreme degree of coating occuring in dehydrated, debilitated and\nterminally ill patients can Lead to a very thick, leathery coating\non the tongue which is called as earthy or encrusted torgue.\nMANAGEMENT\nof\nMaintenance of tongue hygiene\nElimination of the predisposing factors\npeeling of layer upper\nTopical keratolytic application produces desquamation of\nshreat\nhyperkeratotic papillae",
+      "ocr_confidence": 85.81,
+      "readability_score": 0.58,
+      "line_count": 37
+    },
+    {
+      "page": 58,
+      "text": "XEROSTOMIA\nXerastomia is defined as the subjective sensation of oral dryness associated\nwith the reduction are of absence of saliva output.\nETIOLOGY\n1> Radiation Induced - ionizing radiation to head and neck region for\nthe treatment of cancer results in pronounced changes in the salivary\nglands Located within the primary beam.\nThe degree of damage caused by radiotherapy is related to dase-time-\nvolume factor.\nSerous acinar cells are more sensitive to radiation, than the mucus\ncells\nRadiation sensitivity decreases in the following order\nParotid\nSubmandibular\nSublingual\n2> Pharmacologically Induced - The classes of drugs which causes\nxerostomia include anticonvulsants antihistamines, antiemetics,\nantihypertensives.\n3> Local factors - Decreased mastication, smoking, mouth breathing\ncan also Lead to xerastomia\n4> Developmental - developmental abnormalities, tumors, autoimm-\n-une states\n5> Systemic factors - Diabetes mellitus, Sjogren's syndrome, IDA,\npernicious anemia\nCLINICAL FEATURES\nPainful salivary gland enlargement\nEffect on Oral Functions - increased thirst, increased uptake of\nfluid especially while eating difficulty in swallowing, speech, and\neating dry food. There is also burning and tingling sensation in\nthe mouth, frequent oral infections, intolerance to dental\nappliances and abnormal taste in the mouth.\nEffect on Normal functions - hypofunction of other secretary\nglands, blurred vision and ocular dryness, itching and burning\nsensation in the eye. There is also dryness of pharynx and skin\nResidual saliva is form foamy, thick and ropey.",
+      "ocr_confidence": 95.02,
+      "readability_score": 0.547,
+      "line_count": 35
+    },
+    {
+      "page": 59,
+      "text": "Clinical signs - oral mucasa appears thin, pale and dry. Tongue blade\nmay adhere to soft tissues. Tongue may manifest deficiency by atrophy\nof the papilla, inf lammation fissuring cracking and denudation.\nThere is also increased incidence of dental caries.\nPresence of pseudomembranous and hyperplastic candidiasis\nMANAGEMENT\n1> Local stimulation of salivary production\n- chewing of gums, mints and citric acid containing lozenges\n- the disadvantages are - short Lived effects, repeated applications,\nirritation of oral mucasa by citric acid\nTwelber\n2> Systemic stimulation\n- Bromhexine -mucolytic agent capable of inducing thin copires\nbronchial secretion\ndase - adults 8 mg TDS, children 1-5 years 4mg BD\nAnethole trithione - it is a directly acting cholinergic agonist which\nacts by neurastimulation\ndose 1-2 tab (25mg) TDS\n- Pilocarpine - it is a cholinergic parasympathomimetic agent.\ndose - 5mg TDS\nIt produces short duration of increased salivary\nflow, without the side effects\n2x\n3> Symptomatic Treatment\n- Salivary substitute\nit commonly contains carboxymethyl\ncellulose as Lubricants )\n- But their regular use is inconvenient as they are more viscous\nthan saliva and are expensive\nbroof\nto\nthe\n(heriupao)\ncholinergic agonist that mimic\ngribash minetic that by of\nScholine are\naction acety of Choline\nparazympa medications the effects al\nSN\n10",
+      "ocr_confidence": 80.08,
+      "readability_score": 0.594,
+      "line_count": 40
+    },
+    {
+      "page": 60,
+      "text": "SJOGREN'S SYNDROME\nIt is a chronic inflammatory disease that predominantly affects the\nsalivary, lacrimal and other exocrine glands.\nIt was first described by Henrik Sjogren in 1933.\nTYPES\nSjogrens Syndrome\nPrimary Sjogren Syndrome\nSecondary Sjogren Syndrome\nIt is also called as sicca syndrome\nIt consists of dry eyes, dry\nand it consists of dry eyes [xeropthalmia]\nmouth and collagen disarders\nand dry mouth [zerastomia]\nusually rheumatoid arthritis\nor systemic lupus erythemato-\n-sus.\nETIOPATHOGENESIS\nIt is an autoimmune disorder\nPathogenesis of Sjogrens syndrome is believed to be multifactorial\nKnowntshers to The disease process has genetic, environmental\nand harmonal components.\nEnvironmental factors\nisa II\nActivation of glandular cells\nMHC\ncell curpace\nreceptor\nHLA -DR-independent (innate) immune system\nAlteration of glandular vascular endothelium\n(chemokines/reseptars)\nInfiltration of gland by Lymphocytes of\nHLA - dependent (acquired) immune system\nBriy\nActivation of Lymphocytes within the gland leading to\ntwo\ncell destruction, cytokines autoantibodies, metall oproteinases\nwill\nImpaired secretion due to glandular dysfunction\ngrow",
+      "ocr_confidence": 83.89,
+      "readability_score": 0.599,
+      "line_count": 39
+    },
+    {
+      "page": 61,
+      "text": "CLINICAL FEATURES\nMast commonly seen in middle aged adults.\n90% of cases are reported to females\nEyes - the effect on eye is called keratoconjunctivitis sicca The patient\nusually complains of dry eyes or continuous irritation in the eyes.\nSevere Lacrimal gland involvement may lead to carneal ulceration\nas well as conjunctivitis.\nORAL MANIFESTATIONS\nXerostomia is a major complaint in many patients\nMany patients a complain of dry mouth unpleasant taste, difficulty in\neating dry food, sareness or difficulty in controlling dentures.\nUnilateral or bilateral enlargement of parotid\nIn advanced cases, the mucasa is glazed dry and tends to 113/11 form fine\nwrinkles. Sareness or and redness of mucasa is usually the result of\ncandidal infection bro which\nTongue typically develops a characteristic lobulated usually red surface\nwith partial or complete depapillation\nThe regional Lymph nodes may be enlarged and Tender\neqo!\n1A90\nMANAGEMENT\nsensit E bovlown J allixoM\nOcular Lubricant\nAttast bataano go vite eferrs\nOral hygiene maintenance\neaitar your traitog\nSalivary stimulant - Bromhexine, Pilocarpine\nle , Hice batnicassa this sealasyla NJ\nSurgery indicated only Kg when X enlargement 'I is causing discomfo-\n-rt to patient\n9000 to constions has to at\nrelpin\nTH IMJONUAM\nbesularg Edropetro anamman blary iloroges -\nbues, without swed breat biarysthett\nevitable 2 ving\nswad 11- atailgrast; maribod\ninformation\ngiving 01/10/2020 informatily",
+      "ocr_confidence": 69.55,
+      "readability_score": 0.537,
+      "line_count": 39
+    },
+    {
+      "page": 62,
+      "text": "PAGET'S DISEASE\nPagets disease of bone is a condition characterised by abnormal\nresorption and deposition of bone resulting in distartion and\nweakening of affected bones.\nIt is also called as asteitis deformans.\nETIOLOGY\nThe cause of Pagets disease is unknown\nIt may be caused by virus (Paramyxoviridae)\nGenetic predisposition\nOthers - vasculitis, trauma, harmonal imbalance and degenerative\nneurologic disorders\nCLINICAL FEATURES\nAffects men twice as frequently as women\nMainly occurs in the axial skeleton, especially the skull, femur,\nsacrum and pelvis.\nMajor symptoms include skull enlargement, Bone pain, deafness\nSimian appearance, bowing of legs may be present\nmonkey/ape-like\nORAL MANIFESTATIONS\nMaxilla is involved 3 times more frequently than mandible\nMovement & migration of affected teeth occurs. Due to migration,\npatient may notice malocclusion\nIncrease in alveolar width associated with flattenning of palate\nwhen maxilla is involved.\nExtraction sites heal slowly and incidences of osteomyelitis are\nhigher\nMANAGEMENT\nCalcitonin - a parathyroid harmone antagonist produced by\nthe thyroid gland, suppresses bone resarption, and also relieves\npain & decrease serum alkaline\nSodium phasphate retards bone resorption\nBisphasphonates\nMithramycin\nPlicamycin - inhibits asteoclastic activity",
+      "ocr_confidence": 96.97,
+      "readability_score": 0.625,
+      "line_count": 34
+    },
+    {
+      "page": 63,
+      "text": "119;\n,Avd golay\nnocale -KNITE E, upon of TIP\n100pm 6011 pc greanbing pil borrate of preser\nadvations cary 10:19 creditation\nbarrengs.\nprograment of ming 105ps - 919 1110 or\nof getroporron - great still SHIC If\nYNVOEWENJ\n8 AMA\ngroundez IV of mbbor exabjredm\nB. 0720 brossing\nbowfer 2: upo queil Month wing above reprober wear\nINC 17 11/02/2019 % program D are UNIT\n10111 OCCURE\nN eng expository org 0/1617 2020\nquarter\npresence\nJM IV 0726 quil of INDIATE ong property? to\nTociall in booy on AT to Droited\nPOR 116 0,00 / 11:30 any 11:00 I\n11 occurr gare If of to PT 110\nof 11/18 mingrame 100 Joy aparacy\nII !? exquired a Toming 14 429919 as actoy Year\nGLINICYI LEVILOKEE\n31 ! JJ2C 001104 02 -promin- R 1111 willing\nfir 110 Harry\nCOURTY pm of 10mg prosp 111 of 1171 COUNTY\nTHE - will 19 HI 19 through\nVISE 2011 EANI KOTH\nfroms",
+      "ocr_confidence": 32.32,
+      "readability_score": 0.42,
+      "line_count": 31
+    },
+    {
+      "page": 64,
+      "text": "PLUMMER-VINSON SYNDROME\nPlummer vinson syndrome is a disorder marked by anemia\ncaused by iron deficiency and a web-like growth of membranes\nin the throat that makes swallowing difficult.\nIt is also called as Paterson-Brown- Kelly syndrome.\nCLINICAL FEATURES\nIt is exclusively found in middle @ aged women\nlean, slight\nPatient of this syndrome has got characteristic asthenic appearance\nDysphagia -it occurs dueto formation of webs in esophagus\nVermillon barder of Lip are very thin and there is often angular\ncheilitis\nPatient complaints of spasm in throat or food sticking in throat.\nThere is also complaining of sare mouth and inability to retain\ndentures.\npresence\nA smooth, red, occasionally enlarged, and often sore tongue\nwith fissuring occurs.\nThe width of mouth is narrowed & the oral mucosa is pale and\npainful. There is also dry mouth and spoon-ishaped nails.\nKoilonychia is also present\nAtrophic changes in mucasa of mouth, pharynx, upper esophagus\n& rulva.\nMANAGEMENT\nTreatment of iron deficiency - iron supplements\nTreatment of dysphagia and webs - diet modification in mildly\nsymptomatic patients.\nSignificant and Long lasting dysphagia requires esophagal\ndilatation\nWebs can be disrupted by passage of endoscope YAG Laser\ntherapy.\nNeedle-knife electroincision is also a viable alternative.\nThrium garnet",
+      "ocr_confidence": 94.22,
+      "readability_score": 0.625,
+      "line_count": 33
+    },
+    {
+      "page": 65,
+      "text": "ORAL MANIFESTATIONS OF DM\nDiabetes mellitus is a syndrome of impaired x carbohydrate, fat and\nprotein metabolism caused either by Lack of insulin secretion or decreased\nsensitivity of tissues to insulin.\n<a\nThe common characteristic in this condition is elevated blood glucase Level\n[hyperglycemia]\nORAL MANIFESTATIONS\n1> Effect on Periodontium - It will influence the onset and course of\nperiodontal disease . Patient with diabetes are more prone to develop\nperiodontal disease than those with normal glucose metabolism.\nAs such, DM does not cause periodontal disease directly but it alters\nthe response of the periodontal lesion to Local irritants, hastening bone\nLass and retarding pastsurgical healing of the periodontal lesions.\nAlso, the gingival fluid in the diabetes has more glucase Level which\nfavors the growth of microflora\nDiabetes may complicate the pathogenesis of periodontitis by -\n- causing abnormalities in the vasculature of the gingival tissues\n- deregulating the normal production of cytokines and growth\nfactors; decreasing the synthesis and crass-Linking of collagen\n- increasing collagenase levels\n- depressing immune responses\n- change in hast-defense mechanism\n- chemotaxis and phagocytasis are impaired\n- changes in functions of host-defense cells such as PMNL,\nmonocytes and macrophages.\nsevere\n2> Periodontitis - The patient may exhibit a fulminating periodonti-\ntis with periodontal abscess farmation. This will give D rise to\nmobility of teeth. There is severe and rapid alveolar bone resorption\nInsulin-dependent diabetic children tend to have more destruction\naround the first molars and incisors than elsewhere.\n3> Median Rhomboid Glassitis - Diabetes is considered To be a factor\nfor median rhomboid glassitis. There is also impairment of blood\nsupply to darsum of tongue due To arteriosclerotic changes in\nthe blood vessels supplying the area.",
+      "ocr_confidence": 93.23,
+      "readability_score": 0.641,
+      "line_count": 36
+    },
+    {
+      "page": 66,
+      "text": "4> Oral Candidiasis - It in occurs due to multiplication of\nCandida albicans due to impaired glucase Level & immune\nmechanism\nFound\n5> Localised Osteitis - Dry socket develops in diabetes hence,\nJavol\nthey show delayed healing & impaired immunological balance\n6> Burning mouth\n7> Trigeminal nerve involvement\n1A20\n8> Xerastomia & increased caries activity\n<t\n9> Diabetic sialadenitis - in diabetic patient, there is also diffuse\nnontender bilateral enlargement of parotid gland\nLONDON start\ntitud ultrarib aboût Tax web MCI Asus n/a\naNd provided Lasal at unital Intraboir 9 344 10 and\nIntraboireq will pritass probrator biro soal\nstable Isval and without bull leviping bill asit\nto Majary ant rovo}\nyri bluesy all atasidants estadcia\nall la and in priseres\nbirb LONDON out -\nregistrar go priblem wass't is aNd prelsow 396 erataj\nperformed 1\nInsurance\nIsan\n17 2000 bree -\nTrant to\nbren\nlidishes HANT Insited sull <<\nof stavip swards this ST\nwaitgraman and releavle bignes bren jo\nsuccess aven of bust Narchlate ailadaib trahnique riturd\nstart section chico soll\nreating £ did of ii itissali) biodwraNT veoibaM\nboald to asio 1 will streeting biodiviate Noibain cay\nun such To www.ab of flaqui\nstrlf artifique Narian boold all",
+      "ocr_confidence": 47.5,
+      "readability_score": 0.495,
+      "line_count": 39
+    },
+    {
+      "page": 67,
+      "text": "ORAL CANCER\nINTRODUCTION\nNeoplasm is an abnarmal mass of tissue, growth of which exceeds and is\nuncoardinated with that of normal tissues and persists in the same\nexcessive manner after cessation of the stimuli that evoked the change.\nThere are mainly 2 types of neoplasm - benign and malignant\n16F\ncancer is the term used for malignant tumors It is derived from\nThe term is the Latin for crab because cancer adheres to any part Like\ncrab\nCLASSIFICATION OF ORAL CANCER\n1. EPETHELIAL\n6. LYMPHOID TISSUE\nSquamous cell carcinoma\nHodgekin's Lymphoma\nMetastatic carcinoma\nNon hodgekins Lymphoma\nBasal cell carcinoma\nBurkitts Lymphoma\nTransitional cell carcinoma\nPrimary reticular cell\nVerrucous carcinoma\nsarcoma\nMalignant Melanoma\n7. CARTILAGE\nSpindle cell carcinoma\nChondrasarcoma\n2. FIBROUS CONNECTIVE TISSUE\n8. MUSCLE\nFibrasarcoma\nLeiomyasarcoma\nMalignant fibrous histiocytima\nRhabdomyasarcoma\n20\nMalignant granular cell\n3. ADIPOSE TISSUE\nMyoblastoma\nLiposarcoma\n9. NEURAL TISSUE\nA\nNeurasarcoma\n4. BONE\nOsteasarcoma\nNeurofibrasorcoma\nNeuroblastoma\nOsteochondrasorcoma\nGanglioneuroma\nEwings sarcoma\nat\n10. MYELOMA\n5. VASCULAR\nMultiple myeloma\nAngiosarcoma\nPlasmacytoma\nHemangioendothelioma\n11. TUMORS OF SALIVARY GLAND\nMucoepidermoid carcinoma\nAdexoid cystic carcinoma",
+      "ocr_confidence": 88.9,
+      "readability_score": 0.605,
+      "line_count": 58
+    },
+    {
+      "page": 68,
+      "text": "RISK FACTORS FOR ORAL CANCER\n1> TOBACCO USE - Tobacco use is the major etiological factor for the\ndevelopment of oral cancer.\nThe effect of tobacco use heavy alchohol consumption and poor diet\ncan probably explain 90% of cases of oral cancer.\nTobacco is used in 2 major farms\n- smokeless tobacco\n- smoking\nTobacco contains potent carcinogens Like nitrosamine, polycylic\nhydrocarbons, polonium etc\n10\nTobacco smoke contains CO, which is an important factor in the\ndevelopment of oral cancer\n2> ALCHOHOL - ALL forms of alchohol including hard Liquor, wine and\nbeer have been implicated in the etiology of oral cancer.\nIt acts by bits dehydrating effect on mucasa which increases the mucosal\npermeability.\n3> FAMILIAL AND GENETIC PREAISPOSITION - Though it is considered\nas a risk factor, there is Little evidence supporting it.\n4> ACTINIC RADIATION - It is a minor etiologic factor in case of lip\ncancer\n5> ORODENTAL FACTORS It is more prevalant in patients with\npoor oral hygiene faulty restorations, sharp Teeth, ill-fitting\ndentures and those with syphilitic glassitis\n6> VIT. A DEFICIENCY - Vit. A deficiency can produce excessive\nkeratinisation of skin & HUCUS membrane and, thus may\npredispase to carcinoma\n7> IMMUNITY - The increasing incidence of oral cancers is clearly\nage related, due to decreasing immune response with age.\nIt may occur in immunocompromised patients following\norgan & bone marrow transplantation.\n8> SYPHILIS - Oral malignancy is commonly found in Tertiary\nstage of syphilis.\n9> to IONISING RADIATION - Carcinoma of buccal mucosa may\noccur as a complication of long term radiotherapy.",
+      "ocr_confidence": 93.32,
+      "readability_score": 0.544,
+      "line_count": 35
+    },
+    {
+      "page": 69,
+      "text": "10> TRAUMA - Trauma in combination with other factors TOOD like миг chronic\ncheck biting, denture use and irregularteeth may promote transforma-\n-tion of epithelial cells.\n11> VIRUS - Viruses such 0 as herpes simplex OF type 1, human papilloma\nvirus can be associated with oral cancer.\nof\nApril 10 redunning at respect IL заbон 501 shurt\nallios about\nseville at to besiefs to instruction brothib JRO Name M\nubed all to etroy\nпишлатат\nbossasse od raisal weamine?\nst\nwaired worring je corrabiro on\nof\nartis in\n112\nwas> Maint Jo said\nH\nNOR> twd JHOS< Nouse!\nto\nNOT < Notar!\nof\nTreasiho sahowri ROUND\nAT\nair ared losition Aprosent sabowi weise! ANT\nproflixant, auguét je calours aistraction quab\nsant Je visits sea suris\nwtolg biograft saops waterition rebours roisal BFF\nprotry bitores 19405119 bro seed Huds seo\nвирата И\nbasisess ad two sabar April 24\nabout akpiry) loraiger on on\nAS N138 world 8491 И.Т investatis algris X of sisatrolaM 14\nJard 1108< И. alpris 0 at lise ProBM ASH\nИл elgittent in ash\nwhat sea 113 sisterM gift\n⑉ d MANS success The nuci usotrotaM En",
+      "ocr_confidence": 46.1,
+      "readability_score": 0.523,
+      "line_count": 38
+    },
+    {
+      "page": 70,
+      "text": "TNM STAGING OF ORAL CANCER\nAMUATE\nStanderd system for staging most cancer\nAmerican Joint Committee on cancer developed it and\nmaintains and updates it.\n(I)\nT stands for tumor. It refers to size and extent of primary\ntumor.\nN stands for Lymph nodes. It refers to number of lymph\nnodes with cancer.\nM stands for distant metastasis, or spread of cancer to other\nparts of the body.\nT STAGING\nTx\nPrimary Lesion can't be assessed\nTo\nNo evidence of primary lesion\nSis\nCarcinoma in situ\nT1\nSize of Lesion < 2 CM\nT2\nLesion > 2cm but <4cm\nT3\nLesion > 4cm\nT4\nTumor invades adjacent structures\nT4A - Lesion invades through cartical bone, into\ndeep/extrensic muscles of tongue, maxillary\nsinus or skin of face\nT4B - Lesion invades masticatory space, pterygoid plates\nor skull base and excases internal carotid artery\nN STAGING\nNx Lymph rodes can't be assessed\nNo\nNo regional Lymph node metastasis\nN1 Metastasis to a single ipsilateral LN less than 3 cm in\nN2A Metastasis to a single ipsilateral LN > 3cm but diameter < 6cm\nN2B Metastasis in multiple ipsilateral LN < 6cm\nN2C Metastasis in bilateralar contralateral nodes, < 6cm\nN3 Metastasis in a LN more than 6 cm",
+      "ocr_confidence": 91.29,
+      "readability_score": 0.481,
+      "line_count": 41
+    },
+    {
+      "page": 71,
+      "text": "M STAGING\nMx Distant metastasis can not be assessed load of two\nMo No distant metastasis\n1100\nyou\n$\nM1 Distant metastasis present\nDrovide\nCLINICAL STAGES\nwerbssarq Los qu's pink 758\nStage 0 TisNoMo Heopb any Blue ON\nStage 11 T1 No Mo of your to brave gramme\nStage 2\nT2 No Mo\ncoal oct Aod\nStage 3\nT3 No Mo\nwith if LONDON NO de AP Improval\nJlica T1 N1 Mo que link to ups NJ\nT2 N1 Mo\n100°F in\nT3 N1 Mo\narait that DUE\nStage 4\nT4 No,1 MO\nAPPROVAL Hoop\nany T. N2,3 Mo to J and\nany T, any N My avear VP vitaillo?\nsupported\nprilived\nw\nLINER\naty\nultyak\nwood\n/ uloiked\ntrank wethluaw\n181 wribal\nfaitilize the\nyour X LOT perque\nsucced\nX spalle alto\n02 writedly\nyour\nfor 02 klows\nspotto sopew\n(VoM as N watbab\navrai was\ninde Do\nHurne results reseprents\nbartoqueri & samed and of eferiab main\nsitisoma\nsecure Total to",
+      "ocr_confidence": 47.39,
+      "readability_score": 0.48,
+      "line_count": 53
+    },
+    {
+      "page": 72,
+      "text": "MANAGEMENT\nфигата 1.2\nOral cancer is treated by surgery radiotherapy & chemotherapy,\nor by combination of above.\nOM\n1> RADIOTHERAPY\nAdvantages.\nадрата\navoiding surgical procedure\nno casmetic and functional defect\n0\nsgate\nmanagement of early metastasis to cervical Lymph nodes\nDisadvantages.\nомойет\negate\npast irradiation asteoradionecrasis\nharmful effects on normal tissues and salivary glands\nin case of failure/recurrance. retreatment with radiation\nis not very successful.\net\nIN\nIndications.\n1.071\n,T\nagote\nEarly well vascularised lesions\nElective irradiation of cervical Lymph nodes\nPalliative radiotherapy for a large lesion fixo\nproviding in\nRadiotherapy Techniques\nUSA sts.\nExternal Beam\nBrachytherapy\nRadioactive\nRadiation or teletherapy\nIsotopes\nmould treatment\nsuperficial X-ray\northovoltage X-ray\ninterstitial therapy\niodine 131\ncobalt 60 unit\nintracavitary therapy\nphasphorus 32\nyttrium go\nmegavoltage\nelectrons (4-20 Mev)\ncomplications.\nastesradionecrasis\n- changes in the jawbone after irradiation result\nfrom damage to the bones & impaired vascularity.\nradiation mucasitis\n- inflammation of oral mucus membrane following\nradiotherapy",
+      "ocr_confidence": 78.79,
+      "readability_score": 0.512,
+      "line_count": 55
+    },
+    {
+      "page": 73,
+      "text": "2>- SURGERY\nThe surgical t/t of oral cancer as a primary modality is ablative\n(excisional) in nature.\nIt has 2 phases - the resection of tumor and reconstruction of the\ndefect\nconservation of lower border of mandible should be attempted,\nwhenever feasible.\ndifferent types of surgeries may be performed such as\nen bloc resection, radial neck dissection and commando opera\n-tion\n3> CHEMOTHERAPY\n4>\nNEWER APPROACHES\na> Photodynamic Therapy -it involves selective uptake & retention\nof preadministered photosensitizer in a tumor. It is followed\nby irradiation with LASER of specific wavelength.\nIt leads to necrosis of tumor due to formation of singlet oxygen\nb> Intralesional chemotherapy - in this, drug is injected directly\ninthe tumor\nc> Intra-arterial chemotherapy - drug is injected into articries\nsupplying the tumor\nd> Intensity Modulated Radiation therapy - it delivers specified\ndasages of radiation therapy directly to cancer cells. This will\nspare the surrounding healthy tissue and also contributes to\nreduced xerastomia & reduced myopathy.\ne> gene Therapy - it involves introduction of functional genetic\nmaterial into target cells to replace defective gene.",
+      "ocr_confidence": 94.6,
+      "readability_score": 0.517,
+      "line_count": 27
+    },
+    {
+      "page": 74,
+      "text": "Drug name\nIndication\nDasages\n1> Busalfan Busulfan\ndrug of choice for\n2-6mg/day orally\nchronic myeloid Leukemia\n2> Chlorambucil\nd.o.c far chronic\n4-10 mg/daily for\nlymphatic Leukemia\n3-6 weeks then 2mg\ndaily for maintenance\n3> Mephalan\neffective against'\n10 mg / daily for 7 days\nmultiple myeloma\n2-4 mg/daily for\nmaintenance orally\n4> Decarbazine\nmalignant melanomal\n3.5 mg / kg / daily IV\nfor 10 days, repeat\nafter 4 weeks\n5> Mercaptopurine\nchildhood acute Leuke\n-mia\n2.5mg/kg/day\n&\nchoriocarcinoma\n6> Methotrexate\nacute Leukemia\n2.5-15 mg/day\nNonhodgekins Lympho\n&\n-ma\nbreast cancer\n7> 5-Fluarouracil\nBreast & GIT cancer\n1g orally on alternate\nHodgekins lymphoma\ndays for 6 days,\nfollowed by 1g weekly",
+      "ocr_confidence": 93.49,
+      "readability_score": 0.392,
+      "line_count": 43
+    }
+  ]
+}

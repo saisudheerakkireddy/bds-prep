@@ -1,0 +1,226 @@
+{
+  "kb_id": "bds-16th-handwritten-v1",
+  "generated_at": "2026-03-16T17:39:06.393353+00:00",
+  "source_folder": "bds-prep/docs/BDS_handwritten_notes_16th",
+  "objective": "Centralized, subject-wise ingestion index for handwritten BDS notes with explicit exam-vs-notes segregation.",
+  "segregation_policy": {
+    "doc_type_buckets": [
+      "notes",
+      "exams"
+    ],
+    "exam_signals": [
+      "exam",
+      "question paper",
+      "qp",
+      "university paper",
+      "model paper",
+      "mcq paper"
+    ],
+    "note_signals": [
+      "notes",
+      "brief notes",
+      "vol",
+      "subject keyword"
+    ],
+    "current_result": "No explicit exam papers detected by filename/content sample; all classified docs currently in notes bucket."
+  },
+  "subjects": {
+    "Orthodontics and Dentofacial Orthopedics": {
+      "notes": [
+        {
+          "filename": "Book 4 Aug 2024.pdf",
+          "relative_path": "bds-prep/docs/BDS_handwritten_notes_16th/Book 4 Aug 2024.pdf",
+          "size_mb": 15.03,
+          "confidence": 0.63,
+          "classification_reason": "OCR sample includes cephalogram terminology; filename is generic.",
+          "ingestion_status": "indexed"
+        },
+        {
+          "filename": "Orthodontics notes.pdf",
+          "relative_path": "bds-prep/docs/BDS_handwritten_notes_16th/Orthodontics notes.pdf",
+          "size_mb": 155.72,
+          "confidence": 0.99,
+          "classification_reason": "Direct subject keyword in filename.",
+          "ingestion_status": "indexed"
+        }
+      ],
+      "exams": []
+    },
+    "Oral Medicine and Radiology": {
+      "notes": [
+        {
+          "filename": "oral medicine notes.pdf",
+          "relative_path": "bds-prep/docs/BDS_handwritten_notes_16th/oral medicine notes.pdf",
+          "size_mb": 86.65,
+          "confidence": 0.98,
+          "classification_reason": "Direct subject keyword in filename.",
+          "ingestion_status": "indexed"
+        },
+        {
+          "filename": "ORALMEDICINE.pdf",
+          "relative_path": "bds-prep/docs/BDS_handwritten_notes_16th/ORALMEDICINE.pdf",
+          "size_mb": 98.1,
+          "confidence": 0.98,
+          "classification_reason": "Direct subject keyword in filename.",
+          "ingestion_status": "indexed"
+        }
+      ],
+      "exams": []
+    },
+    "Public Health Dentistry": {
+      "notes": [
+        {
+          "filename": "PHD notes (1).pdf",
+          "relative_path": "bds-prep/docs/BDS_handwritten_notes_16th/PHD notes (1).pdf",
+          "size_mb": 119.4,
+          "confidence": 0.96,
+          "classification_reason": "PHD likely Public Health Dentistry; paired with PH volumes.",
+          "ingestion_status": "indexed"
+        },
+        {
+          "filename": "PUBLIC HEALTH VOL 1_watermark (1).pdf",
+          "relative_path": "bds-prep/docs/BDS_handwritten_notes_16th/PUBLIC HEALTH VOL 1_watermark (1).pdf",
+          "size_mb": 57.44,
+          "confidence": 0.99,
+          "classification_reason": "Direct public health keyword in filename.",
+          "ingestion_status": "indexed"
+        },
+        {
+          "filename": "PUBLIC HEALTH VOL 2-1_watermark.pdf",
+          "relative_path": "bds-prep/docs/BDS_handwritten_notes_16th/PUBLIC HEALTH VOL 2-1_watermark.pdf",
+          "size_mb": 93.31,
+          "confidence": 0.99,
+          "classification_reason": "Direct public health keyword in filename.",
+          "ingestion_status": "indexed"
+        }
+      ],
+      "exams": []
+    },
+    "Pedodontics and Preventive Dentistry": {
+      "notes": [
+        {
+          "filename": "pedo.pdf",
+          "relative_path": "bds-prep/docs/BDS_handwritten_notes_16th/pedo.pdf",
+          "size_mb": 60.6,
+          "confidence": 0.95,
+          "classification_reason": "Abbreviation strongly maps to pedodontics.",
+          "ingestion_status": "indexed"
+        },
+        {
+          "filename": "Pedodontics IV BDS brief notes .pdf",
+          "relative_path": "bds-prep/docs/BDS_handwritten_notes_16th/Pedodontics IV BDS brief notes .pdf",
+          "size_mb": 17.69,
+          "confidence": 1.0,
+          "classification_reason": "Explicit subject and notes marker in filename and content.",
+          "ingestion_status": "indexed"
+        }
+      ],
+      "exams": []
+    },
+    "Periodontics": {
+      "notes": [
+        {
+          "filename": "Periodontics notes .pdf",
+          "relative_path": "bds-prep/docs/BDS_handwritten_notes_16th/Periodontics notes .pdf",
+          "size_mb": 131.58,
+          "confidence": 0.99,
+          "classification_reason": "Direct subject keyword in filename.",
+          "ingestion_status": "indexed"
+        }
+      ],
+      "exams": []
+    },
+    "Prosthodontics": {
+      "notes": [
+        {
+          "filename": "Prostho.pdf",
+          "relative_path": "bds-prep/docs/BDS_handwritten_notes_16th/Prostho.pdf",
+          "size_mb": 105.64,
+          "confidence": 0.95,
+          "classification_reason": "Common abbreviation Prostho -> Prosthodontics.",
+          "ingestion_status": "indexed"
+        }
+      ],
+      "exams": []
+    },
+    "Conservative Dentistry and Endodontics": {
+      "notes": [
+        {
+          "filename": "cons and endo.pdf",
+          "relative_path": "bds-prep/docs/BDS_handwritten_notes_16th/cons and endo.pdf",
+          "size_mb": 116.34,
+          "confidence": 0.94,
+          "classification_reason": "Subject abbreviations in filename.",
+          "ingestion_status": "indexed"
+        }
+      ],
+      "exams": []
+    },
+    "Oral and Maxillofacial Surgery": {
+      "notes": [
+        {
+          "filename": "oral surgery (1).pdf",
+          "relative_path": "bds-prep/docs/BDS_handwritten_notes_16th/oral surgery (1).pdf",
+          "size_mb": 159.21,
+          "confidence": 0.98,
+          "classification_reason": "Direct subject keyword in filename.",
+          "ingestion_status": "indexed"
+        },
+        {
+          "filename": "os notes.pdf",
+          "relative_path": "bds-prep/docs/BDS_handwritten_notes_16th/os notes.pdf",
+          "size_mb": 161.83,
+          "confidence": 0.92,
+          "classification_reason": "OS contextually maps to oral surgery.",
+          "ingestion_status": "indexed"
+        }
+      ],
+      "exams": []
+    }
+  },
+  "unclassified_documents": [
+    {
+      "filename": "Adobe Scan 21 May 2024.pdf",
+      "relative_path": "bds-prep/docs/BDS_handwritten_notes_16th/Adobe Scan 21 May 2024.pdf",
+      "size_mb": 188.65,
+      "confidence": 0.35,
+      "classification_reason": "Filename is generic and OCR extraction was low-signal.",
+      "recommended_action": "Manual first-page review, then subject assignment."
+    }
+  ],
+  "steelman_critique_and_mitigations": [
+    {
+      "criticism": "Filename-only classification can mislabel multi-subject scans.",
+      "impact": "Subject contamination in retrieval and weak downstream summarization.",
+      "mitigation_implemented": "Confidence scoring and unclassified bucket added; low-confidence docs are blocked from auto-subject promotion.",
+      "status": "implemented"
+    },
+    {
+      "criticism": "Treating every PDF as notes risks losing exam-oriented retrieval.",
+      "impact": "Question-bank generation quality may degrade.",
+      "mitigation_implemented": "Dedicated exams bucket retained in schema even when empty, and exam-signal rules codified for future ingestion.",
+      "status": "implemented"
+    },
+    {
+      "criticism": "Large scanned PDFs with weak OCR reduce model context quality.",
+      "impact": "Hallucination risk and missed key topics.",
+      "mitigation_implemented": "Ingestion status tracked per document and next-pass queue added for manual/OCR enrichment before deep summarization.",
+      "status": "implemented"
+    }
+  ],
+  "subject_processing_queue": [
+    "Pedodontics and Preventive Dentistry",
+    "Oral Medicine and Radiology",
+    "Oral and Maxillofacial Surgery",
+    "Public Health Dentistry",
+    "Orthodontics and Dentofacial Orthopedics",
+    "Periodontics",
+    "Prosthodontics",
+    "Conservative Dentistry and Endodontics"
+  ],
+  "next_actions": [
+    "Resolve unclassified documents via manual spot-check and add finalized subject mapping.",
+    "For each subject, extract high-yield topic index and viva/long-answer prompts.",
+    "Generate exam-focused question map only after exam documents are detected or tagged."
+  ]
+}

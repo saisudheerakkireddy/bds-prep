@@ -4,3 +4,11 @@ dist/
 .vercel/
 .env
 .DS_Store
+
+# Large PDF/binary files (1.6 GB+)
+docs/BDS_handwritten_notes_16th/*.pdf
+*.pdf
+
+# Python
+__pycache__/
+.venv/

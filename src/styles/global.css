@@ -603,24 +603,40 @@
   50% { box-shadow: var(--shadow-card-rest), var(--glow-urgency-pulse); }
 }
 
-/* Mermaid diagrams: scale to full width so they are readable on desktop and all viewports */
+/* Mermaid diagrams: scrollable with readable nodes */
 .mermaid-diagram-wrapper {
   overflow-x: auto;
-  overflow-y: hidden;
+  overflow-y: auto;
   -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(88, 166, 255, 0.3) transparent;
+  max-height: 75vh;
+}
+.mermaid-diagram-wrapper::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+.mermaid-diagram-wrapper::-webkit-scrollbar-thumb {
+  background: rgba(88, 166, 255, 0.3);
+  border-radius: 3px;
+}
+.mermaid-diagram-wrapper::-webkit-scrollbar-track {
+  background: transparent;
 }
 .mermaid-diagram-svg {
-  width: 100%;
-  min-width: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: inline-block;
 }
 .mermaid-diagram-svg svg {
-  width: 100% !important;
-  height: auto !important;
-  max-width: 100%;
   display: block;
+  height: auto !important;
+}
+.mermaid-diagram-svg .node rect,
+.mermaid-diagram-svg .node polygon {
+  rx: 6;
+  ry: 6;
+}
+.mermaid-diagram-svg .edgePath .path {
+  stroke-width: 1.5px;
 }
 
 /* Page content (subject pages, etc.) */
@@ -1209,5 +1225,133 @@ button, .content-card button, [role="button"] {
     border-radius: 20px;
     font-size: 0.75rem;
     font-weight: 600;
+  }
+}
+
+/* ========================================
+   ANSWER TYPOGRAPHY SYSTEM
+   Structured rendering for OCR'd content
+   ======================================== */
+
+.answer-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.answer-heading {
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-1);
+  margin-top: 0.75rem;
+  margin-bottom: 0.15rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid rgba(88, 166, 255, 0.15);
+}
+
+.answer-body > .answer-heading:first-child {
+  margin-top: 0;
+}
+
+.answer-subheading {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-top: 0.5rem;
+  margin-bottom: 0.1rem;
+}
+
+.answer-paragraph {
+  font-size: 0.85rem;
+  line-height: 1.7;
+  color: var(--answer-text, var(--text-secondary));
+  margin: 0;
+}
+
+.answer-bold {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.answer-numbered {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  padding: 0.3rem 0 0.3rem 0.75rem;
+  font-size: 0.85rem;
+  line-height: 1.65;
+  color: var(--answer-text, var(--text-secondary));
+  border-left: 2px solid rgba(88, 166, 255, 0.12);
+}
+
+.answer-numbered-sub {
+  padding-left: 2rem;
+  border-left-color: rgba(88, 166, 255, 0.06);
+}
+
+.answer-bullet {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  padding: 0.2rem 0 0.2rem 0.75rem;
+  font-size: 0.85rem;
+  line-height: 1.65;
+  color: var(--answer-text, var(--text-secondary));
+}
+
+.answer-bullet-marker {
+  flex-shrink: 0;
+  font-size: 0.55rem;
+  margin-top: 0.45rem;
+  color: var(--accent-1);
+  opacity: 0.6;
+}
+
+.answer-numbered-sub .answer-bullet-marker {
+  color: var(--text-secondary);
+  opacity: 0.4;
+}
+
+.answer-clinical-pearl {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  margin: 0.25rem 0;
+  font-size: 0.85rem;
+  line-height: 1.65;
+  color: var(--text-primary);
+  font-weight: 500;
+  background: rgba(255, 140, 0, 0.06);
+  border: 1px solid rgba(255, 140, 0, 0.12);
+  border-radius: 0.5rem;
+}
+
+.answer-pearl-icon {
+  flex-shrink: 0;
+  font-size: 0.75rem;
+  margin-top: 0.15rem;
+}
+
+/* High-yield answer enhanced visibility */
+.content-card.open .answer-body .answer-clinical-pearl {
+  background: rgba(255, 140, 0, 0.1);
+  border-color: rgba(255, 140, 0, 0.2);
+}
+
+/* Print-friendly styles for revision page */
+@media print {
+  .answer-heading {
+    color: #000;
+    border-bottom-color: #ccc;
+  }
+  .answer-numbered {
+    border-left-color: #ccc;
+  }
+  .answer-clinical-pearl {
+    background: #fff9e6;
+    border-color: #e6d280;
   }
 }

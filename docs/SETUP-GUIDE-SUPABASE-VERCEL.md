@@ -249,6 +249,7 @@ Each question must have:
 | No sign-in button | Env vars set in Vercel? Redeployed after adding them? |
 | "Redirect URI mismatch" | Supabase callback URL added in Google redirect URIs? Site URL and Redirect URLs correct in Supabase? |
 | "Invalid redirect URL" | Supabase URL Configuration has your Vercel URL with `/**`? |
+| **AuthPKCECodeVerifierMissingError** | Fixed: App uses **implicit flow** (not PKCE) so tokens arrive in URL hash—no code verifier storage needed. Redeploy. |
 | Progress not syncing | `user_progress` migration run in Supabase? RLS policies active? |
 | Local dev auth fails | Site URL in Supabase set to `http://localhost:4321` for testing, or add `http://localhost:4321/**` to Redirect URLs |
 

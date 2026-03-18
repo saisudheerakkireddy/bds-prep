@@ -1,0 +1,139 @@
+{
+  "filename": "Book 4 Aug 2024.pdf",
+  "subject": "orthodontics",
+  "sha256_prefix": "03d658992584f0e2a9b8562c",
+  "size_mb": 15.03,
+  "extractor": "textract",
+  "quality_grade": "medium",
+  "quality_score": 0.48,
+  "stats": {
+    "total_pages": 17,
+    "non_empty_pages": 17,
+    "good_quality_pages": 14,
+    "total_chars": 14099,
+    "avg_chars_per_page": 829.4,
+    "avg_ocr_confidence": 89.65,
+    "avg_readability": 0.48
+  },
+  "pages": [
+    {
+      "page": 1,
+      "text": "DEFINITION\nCephalometrics is defined as the analysis and interpretation of standerdised\nradiographs of facial boxes using standerdised skull radiograph to access\nfacial, dental and skeletal relationships as well as airway analysis.\nTYPES OF CEPHALOGRAM\nA> Lateral cephalogram\n- provides a Pateral view of skull\n- X-ray beam perpendicular to patients sagiltal plane\nB> Frontal Cephalogram\n- Anteropasteriar view of skull\n- X-ray beam perpendicular to patients caronal plane\nUSES OF CEPHALOGRAM\nIn orthodontic diagnosis and treatment planning\n- Assessment of harizontal /vertical skeletal relationship\nincisor position/inclination, soft tissue profile\nЙОДАИ\n<1\n- Orthognathic surgery\nHelps in classification of skeletal and dental abnormalities\nгаяо\nHelps in predicting growth related changes and changes associated\nwith surgical treatment.\nHelps in evaluation of treatment results\nFilm\n5 feel\nor\ndigital\nsensor\nMid sagittal\nplane\nCEPHALOSTAT",
+      "ocr_confidence": 89.95,
+      "readability_score": 0.579,
+      "line_count": 31
+    },
+    {
+      "page": 2,
+      "text": "CEPHALOMETRIC LANDMARKS\nIt is of 2 types\nA> Anatomic Landmarks.\n- These landmarks represent actual anatomic structures of skull\nB> Derived Landmarks\n- These are the landmarks that have been obtained secondarily\nfrom anatomic structures in a cephalogram. GEBHATO 70 The\nIdeal Requirements of Cephalometric Landmarks\nIt should be easily seen in a radiograph\nIt should be uniform in outline and should be\nreproducible\nThe landmarks should permit valid quantitative\nmeasurements of lines & angles projected from them\nМАЯЮОЛАНЯЗ) 70 JEEFS\nThe important landmarks are\n1> NASION - The most anterior point midway between the frontal\nand nasal bones on the fronto-nasal suture.\n2> ORBITALE - The lowest point on the inferior bony margin of arbit\n3> PORION - The highest bony point on the upper margin of external\nacoustic meatis.\n4> SELLA - The point representing the midpoint of the pituitary\nfassa or sella tursica\n5> POINT A - It is the deepest point in the midline between anterior\nnasal spine and alveolar crest between 2 central incisors.\nIt is also called as subspinale.\n6> POINT B- It is the deepest point in the midline between the\nalveolar crest of mandible and the mental. process.\nIt is also called supramentale.\n7> BASION - It is the median point of the anterior margin of foramen\nmagnum.\nTATEOUAH930\n8> BOLTON POINT - The highest point at the past condylar notchof\nthe occipital bone",
+      "ocr_confidence": 91.9,
+      "readability_score": 0.567,
+      "line_count": 33
+    },
+    {
+      "page": 3,
+      "text": "g> ANTERIOR NASAL SPINE - It is the anterior tip of the sharp bony\nprocess of the maxilla in the midline of the lower margin\nof anterior nasal spine.\n10> GONION - It is a constructed point at the junction of ramal plane\nand the mandibular plane.\n11> POGONION - It is the most anterior point' of the bony chin in the\nmedian plane\n12> MENTON - It is the most inferior midline point on the mandibular\nsymphysis.\n13> GNATHION - It is the most antero inferior point on the symphysis\nof the chin. It is drawn by intersecting a Line drawn perpendicul-\n-ar to the line connecting menton and pogonion.\n14> ARTICULARE - It is a point at the junction of the posterior barder\nof ramus and the inferior border of the basilar part of the\noccipital bone.\n15> CONDYLION - The most superior point on the head of condyle.\n16> PROSTHION - The lowest most anteriors Dointy on that alveolar bone\nin the midline, between the upper central incisors.\nIt is also called supradentale.\n17> INFRADENTALE - The highest and most anterior point ЗИА on the\nalveolar process, in the median plane between the mandibular\ncentral incisors.\n18> KEY RIDGE - The lower most point on the contour of the anterior\nwall of infratemporal fossa.\n19> POSTERIOR NASAL SPINE - The intersection of a continuation of\nthe anterior wall of the pterygopalatine fassa and the floor of\nthe nase.\n20> PTM POINT - It is the intersection of the inferior barder of faramen\nrotundum with the pasterior wall of Terygo-maxillary fissure.\n21> GLABELLA - It is the most prominent point of the farhead in the\nmid-sagittal plane.\n22> CHELION - It is the Lateral terminus of the oral slit on the outer\ncorner of mouth.",
+      "ocr_confidence": 94.69,
+      "readability_score": 0.637,
+      "line_count": 33
+    },
+    {
+      "page": 4,
+      "text": "23> SUBNASALE - The point where the lowest barder of the nase meets\nthe outer contour of the upper lip.\nS\nP\nN\nBO\nPTM\nAR\nPNS\nO\nANS\nBa\nA\nGO\nB\nPOG\nGN\nMe\nLATERAL CEPHALOMETRIC LANDMARKS\nLINES & PLANES IN CEPHALOMETRICS\nHORIZONTAL PLANES\nA> SN PLANE - Between centre of sella tursica and the anterior\npoint of the fronto-nasal suture.\nB> FRANKFORT HORIZONTAL PLANE - 1 Lowest point of arbit (orbitale,\nand porion\nc> OCCLUSAL PLANE - Plane bisecting the pasterior occlusion of the\npermanent molars and premolars.\nD> PALATAL PLANE - Anterior nasal spine to Pasterior nasal spine\nof palatine bone\nE> MANDIBULAR PLANE - Several mandibular planes\ni> Tangent to Lower barder of mandible (Tweed)\nii> A line connecting gonion to grathion (Steiner)\niii> A line connecting gonion and menton (Downs)\nF> BASION-NASION PLANE - Line connecting basion and nasion.\nIt represents cranial base.",
+      "ocr_confidence": 93.9,
+      "readability_score": 0.527,
+      "line_count": 35
+    },
+    {
+      "page": 5,
+      "text": "VERTICAL PLANE\nA> A - POG LINE - Point A on maxilla to pogonion on mandible.\nB> FACIAL PLANE - Nasion to pogonion\nc> FACIAL AXIS - Ptm point to gnathion\nBN\nwith\nSN\n4\nFH\nS\n0\nPP\nAB\nUNION\nANS\nsvilip\nperits.\nFacial\nTA\nMP\nangle\nof\nDisor\nprinto]\n2Ni]\nX\nDNC\nGO\nresult\n0\nPoq\nCard\nMe\n8\n1001\nH.\nDOWNS ANALYSIS (SHORT NOTE)\nFirst published by Downs in 1948\nMost frequently used cephalometric analysis\nAccording to Downs,\n\"Balance of face is determined by position of mandible\"\nDowns analysis consists of 10 parameters of which 5 are skeletal\nand 5 are dental.\nSKELETAL PARAMETERS\nA> FACIAL ANGLE - Inferior angle formed by intersection of nasion-\npogonion ud plane and ЦАИА F.H. plane.\n108\nAverage. value 87.8° [range ensola 82°-95°",
+      "ocr_confidence": 73.17,
+      "readability_score": 0.436,
+      "line_count": 48
+    },
+    {
+      "page": 6,
+      "text": "Significance - indication of antero-pasteriar positioning of\nmandible in relation to upper face.\n- increased in skeletal class III with prominent chin\n- decreased in skeletal class II\nB> ANGLE OF CONVEXITY - This is formed by intersection of a line\nfrom nasion to point A and a line from point A to pogonion\nAverage value 0° [ Range -8.5°-10°]\nSignificance - It reveals the convexity or concavity of skeletal profile\n- - pasitive angle suggests a prominent maxillary\ndental base in relation to mandible.\n- negative angle is indicative of prognothic profile\nc> A-B PLANE ANGLE - It is formed between a line connecting\npoint A and point B and a line joining nasion to\npogonion.\nMean value is - 4.6° [range -9-0°]\nSignificance - indicative of maxillo mandibular relationship\nin relation to facial plane.\n- negative since point B is positioned beyond A.\nem positive in class III malocclusion or class I\nmalocclusion with mandible prominence.\nN\nAB Plane\nA\nangle\nB\nPOG\nD> MANDIBULAR PLANE ANGLE - Farmed by intersection of mandibu-\nlar plane with F-H plane\nAverage value 21.9° [range 17°-28°]\nSignificance - An increased mandibular plane angle suggests\nSL\nvertical grower with hyperdivergent facial\npattern.",
+      "ocr_confidence": 93.22,
+      "readability_score": 0.513,
+      "line_count": 33
+    },
+    {
+      "page": 7,
+      "text": "DOWNS ANALYSIS - SIMPLIFIED\nDIAGRAMS\nA> SKELETAL PARAMETERS\n1> FACIAL ANGLE\nN\nFacial angle\nP\n= angle b/w Frankfurt Harizontal\n0\nplane & nasion-pogonion plane\n= avg. value 87.8°\n1\n= range 82°-95°\nPOG\n2> ANGLE OF CONVEXITY\nN\nAngle of convexity\n= angle b/w Line joining Nasion\nto point A and line joining\nA\npoint A to Pogonion\n= avg.value 0°\nPOG\n= range -8.5°- - 10°\n3> AB PLANE ANGLE\nN\nAB Plane angle\n= angle b/w line joining point\nA and point B and nasion-\nA\npogonion plane\nB\nPOG",
+      "ocr_confidence": 96.16,
+      "readability_score": 0.34,
+      "line_count": 33
+    },
+    {
+      "page": 8,
+      "text": "E> Y-AXIS This angle is farmed by intersection of sella-griathion line\nwith F-H/plane.\nAverage value 59° [range 53°-66°]\nSignificance - Indicates growth pattern of an individual\n- increased in class II facial pattern - vertical growth\npattern of mandible\n— decreased in class III facial patterns - harizontal\ngrowth of pattern of mandible.\nS\nN\nFH\nMandibular\nplane angle\nYaxis\nPOG\nM\nGN\nDENTAL PARAMETERS\nA> CANT OF OCCLUSAL PLANE - Angle farmed between occlusal plane\nand FH plane.\nAverage value 9.3° [range is 1.5°14°]\nSignificance - gives a measure of slope of occlusal plane relative\nto FH plane.\nB> INTER -INCISAL ANGLE - Angle farmed between long axis of upper &\nlower incisors.\nAverage value 135.4° [range 130°-150.5°.]\nSignificance - angle is decreased in class I bimaxillary protrusion\nc> INCISOR OCCLUSAL PLANE ANGLE - This is the inside inferior\nangle formed by intersection between long axis of Lower\ncentral incisor and the occlusal plane.\nIt is read as plus or minus deviation from right angle.\nAverage value 14.5° [range 3.5-20°]\nSignificance - An increase in suggests increased lower incisor\nproclination.",
+      "ocr_confidence": 94.73,
+      "readability_score": 0.503,
+      "line_count": 34
+    },
+    {
+      "page": 9,
+      "text": "D> INCISOR MANDIBULAR PLANE ANGLE - It is formed by intersection\nof long axis of lower incisor & mandibular plane.\nAverage value is 1.4° [range a -8.5°-7°]\nSignificance - increase in this angle suggests lower incisor proclination\nE> UPPER INCISOR TO A- POG LINE - This is a Linear measurement\nbetween the incisal edge of the maxillary central incisor\n& the line joining point A to pogonion.\nAverage value 2.7 mm [range - 1-5 mm]\nSignificance — The measurement is more in patients presenting\nwith upper Incisor incisor proctination",
+      "ocr_confidence": 92.6,
+      "readability_score": 0.471,
+      "line_count": 10
+    },
+    {
+      "page": 10,
+      "text": "B>. DENTAL PARAMETERS\n1> CANT OF OCCLUSAL EMARGAIO PLANE - агехлаиа язизта\nP\n0\n0\nFrankfurt Harizontal Plane\nOcclusal Plane\n2> INTER INCISAL ANGLE\n3> INCISOR OCCLUSAL PLANE\nANGLE\nocchesal\nplane\nA\n4> INCISOR MANDIBULAR\n5> UPPER INCISOR TO A-POG LINE\nPLANE ANGLE\nM\nlinear dist.\nb/w incisal\nmandibular\nedge of maxi-\nplane\nC.I and\nA-Pog\nA-Pog\nline\nLine",
+      "ocr_confidence": 91.01,
+      "readability_score": 0.432,
+      "line_count": 27
+    },
+    {
+      "page": 11,
+      "text": "STEINER ANALYSIS\nSKELETAL ANALYSIS\nA> S.N.A ANGLE - It is the angle farmed by intersection of S.N plane and\na line joining nasion to point A.\nAverage value 82°\nSignificance - it indicates relative antero-pasterior pasitioning of\nmaxilla in relation to cranial base.\n- A larger than normal value indicates maxilla is\nprognothic [class II]\n- smaller value indicates retrognathic maxilla [class\nB> S.N.B ANGLE - It is the angle between S.N plane and a line joining\nnasion to point B.\nAverage value 80°\nSignificance - it indicates antero-pasterior pasitioning of mandible in\nrelation to cranial base.\nSTEINER 1930 ANALYSIS\n- Increase in angle indicates prognathic mandible\n[class III]\n- Less than normal angle suggests retrusive mandible\n[classII]\nc> A.N.B ANGLE - The angle is farmed by intersection of lines joining\nnasion to point A and nasion to point B.\nAverage value 2°\nSignificance - It denotes the relative position of maxilla & mandible\nto each other.\n- Increase in value indicates class III relationship &\ndecrease suggests class II relationship.\nD> MANDIBULAR PLANE ANALYSIS - It is the angle formed between\nSN plane and mandibular planne.\nAverage value 32°.\nSignificance - It indicates about the growth pattern of individual.\n- A lower angle is indicative of harizontal growing\nface and a vertical angle indicates a vertically\ngrowing individual.",
+      "ocr_confidence": 94.16,
+      "readability_score": 0.454,
+      "line_count": 34
+    },
+    {
+      "page": 12,
+      "text": "STEINER ANALYSIS - DIAGRAMS\nЗИАН\nWE\nA> SKELETAL ANALYSIS\n1> SNA ANGLE\nexcol9 was about\nS\nN\n.\nto wbst\nA\n0120\nSMIKE\nИЗИЛ\n2> SNB ANGLE\nS\nN\nB\n3> ANB ANGLE\nN\nA\nB",
+      "ocr_confidence": 73.2,
+      "readability_score": 0.286,
+      "line_count": 22
+    },
+    {
+      "page": 13,
+      "text": "E> OCCLUSAL PLANE ANGLE - It is farmed between occlusal plane\nand SN plane.\nMean value 14.5°\nSignificance- - It indicates the relation of occlusal plane to the\ncranium and face.\n- It also indicates growth pattern of an individual.",
+      "ocr_confidence": 96.22,
+      "readability_score": 0.453,
+      "line_count": 6
+    },
+    {
+      "page": 14,
+      "text": "4> MANDIBULAR PLANE ANGLE\nS\nN\nGO\nGn\nMandibular Plane\n5> OCCLUSAL PLANE ANGLE\nS\nN\nW\nOcclusal plane",
+      "ocr_confidence": 95.17,
+      "readability_score": 0.396,
+      "line_count": 11
+    },
+    {
+      "page": 15,
+      "text": "DENTAL ANALYSIS\nA> UPPER INCISOR TO N-A ANGLE - It is the angle formed by the\nintersection of long axis of upper central incisors and the line\njoining nasion to point A.\nNormal angle 22°\nSignificance - this angle indicates the relative inclination of upper\nincisors.\n- an increased angle is seen in pts. who have proclined\nupper incisors as in class II division I malocchusion\nB> LOWER INCISOR TO N-B ANGLE - It is formed between N-B plane\nand the long axis of Lower incisor.\nMean value 25°\nSignificance - It indicates the inclination of lower central incisor.\n- An increased value indicates proclination of Lower incisors\n& a Lowered value indicates upright/retroclined lower\nincisors.\nc> UPPER INCISOR TO N-A LINEAR — It is a linear measurement\nbetween labial surface of upper central incisor & the line\njoining nasion to point A.\nNormal value 4 mm\nSignificance - It helps in determining upper incisor position\n- It increases in cases with proclined upper incisors.\nD> LOWER INCISOR TO N-B LINEAR - It is the distance between Labial\nsurface of lower central incisor and the Line joining nasion\nto point B.\nNormal value 4 mm.\nSignificance - It helps in determining lower incisor inclination.\n— Increase in value indicates proclined Lower incisors",
+      "ocr_confidence": 95.89,
+      "readability_score": 0.481,
+      "line_count": 28
+    },
+    {
+      "page": 16,
+      "text": "SWEED\nALYSIS\nTWEED ANALYSIS\nJAZIAR99A STIW\nThe tweed analysis makes use of 3 planes that form a diagnostic triangle.\nThe planes used are - a> Frankfort Harizontal plane\nb> Mandibular plane\nsupers priggobervo c> Long axis of Lower incisor townlow\nThe angles farmed by these 3 planes are -\n181\na> Frankfort Mandibular Plane Angle\nIt\n- It is the angle formed by the intersection of the Frankfort Harizontal\nplane with the mandibular plane. The mean value is 25°\narea\nb> Incisor Mandibular Plane Angle bND OA Nescated scroolsib will\n- It is the angle formed by the intersection of the long axis of lower\nto\nincisor with the mandibular plane. is od twing relow to 9809 NI\n- It indicates the inclination of the lowerincisor. The mean value is 90°.\nc> Frankfort Mandibular Incisal Angle Versbrat Intrlate NI\n— It is the angle formed by the intersection of the long axis of the lower\nincisor with the F-H plane. The mean value is 65°.\nFMA\nFMIA\nIMPA",
+      "ocr_confidence": 82.78,
+      "readability_score": 0.515,
+      "line_count": 26
+    },
+    {
+      "page": 17,
+      "text": "WITS APPRAISAL\nWits appraisal is a measure C/C of the extent to which the maxilla and the\nmandible are related to each other in the antero-posterior or sagittal\nA plane. functional occlusal plane is drawn through the overlapping cusps of\n1st premolars and first molars. Rd 32/pm 20.1\nPerpendiculars are drawn to the occlusal plane from points A and B.\nThe points of contact of these perpendiculars on the occlusal plane\nare termed AO and BO evoly surala\nThe distance between AO and BO gives the antero pasterior relation\nbetween 2 jaws. It to all Hd bowers 2Nt &j FT\nIn case of males point BO is ahead of AO by 1mm, while in case of\nfemales AO and BO coincide. will NaiTaviloNi 2N1 H\nIn skeletal class II tendency BO is usually behind AO while in\n<0\nskeletal class III pattern BO is located ahead of AOBNS\n\"ad\nis\nONT\nH\noNt\nBO.\nAO",
+      "ocr_confidence": 75.31,
+      "readability_score": 0.566,
+      "line_count": 22
+    }
+  ]
+}

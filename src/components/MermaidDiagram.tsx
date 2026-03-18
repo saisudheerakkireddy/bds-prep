@@ -26,15 +26,23 @@ export default function MermaidDiagram({ chart, title, showTitle = true }: Merma
           theme: "dark",
           fontFamily: "Outfit, sans-serif",
           themeVariables: {
-            fontSize: "18px",
+            fontSize: "14px",
             fontFamily: "Outfit, sans-serif",
+            primaryColor: "#1e3a5f",
+            primaryTextColor: "#e6edf3",
+            primaryBorderColor: "#58a6ff",
+            lineColor: "#58a6ff",
+            secondaryColor: "#0d1f3c",
+            tertiaryColor: "#162d50",
+            nodeTextColor: "#e6edf3",
           },
           flowchart: {
             curve: "basis",
-            padding: 20,
-            useMaxWidth: true,
-            nodeSpacing: 50,
-            rankSpacing: 50,
+            padding: 16,
+            useMaxWidth: false,
+            nodeSpacing: 30,
+            rankSpacing: 40,
+            htmlLabels: true,
           },
         });
         const id = `mermaid-${Math.random().toString(36).slice(2, 9)}`;
@@ -87,13 +95,18 @@ export default function MermaidDiagram({ chart, title, showTitle = true }: Merma
       )}
       <div
         ref={containerRef}
-        className="mermaid-diagram-wrapper p-4 min-h-[120px] flex items-center justify-center w-full"
+        className="mermaid-diagram-wrapper p-4 min-h-[160px]"
         aria-hidden={loading ? undefined : "true"}
       >
         {loading ? (
-          <p className="text-sm" style={{ color: "var(--text-secondary)" }}>Loading diagram…</p>
+          <div className="flex items-center justify-center min-h-[120px]">
+            <p className="text-sm" style={{ color: "var(--text-secondary)" }}>Loading diagram…</p>
+          </div>
         ) : (
-          <div className="mermaid-diagram-svg" dangerouslySetInnerHTML={{ __html: svg }} />
+          <div
+            className="mermaid-diagram-svg"
+            dangerouslySetInnerHTML={{ __html: svg }}
+          />
         )}
       </div>
     </div>

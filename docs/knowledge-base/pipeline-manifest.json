@@ -1,0 +1,554 @@
+{
+  "manifest_id": "bds-pipeline-v2",
+  "generated_at": "2026-03-17T20:54:54.498941+00:00",
+  "pipeline_overview": {
+    "description": "End-to-end data pipeline: Student handwritten PDFs → Text extraction → Q&A parsing → Flashcards + Revision + Exam bank",
+    "stages": [
+      {
+        "stage": 1,
+        "name": "PDF Ingestion",
+        "script": "scripts/pdf-extract.py",
+        "status": "operational"
+      },
+      {
+        "stage": 2,
+        "name": "KB Construction",
+        "script": "scripts/build-subject-kb.py",
+        "status": "operational"
+      },
+      {
+        "stage": 3,
+        "name": "Pipeline Manifest",
+        "script": "scripts/build-pipeline-manifest.py",
+        "status": "operational"
+      },
+      {
+        "stage": 4,
+        "name": "App Content Ingestion",
+        "script": "scripts/ingest-subject.cjs",
+        "status": "operational"
+      }
+    ],
+    "input": "docs/BDS_handwritten_notes_16th/*.pdf + 50_questions_eachsub/*.json",
+    "output": "docs/knowledge-base/subjects/*.json → src/content/subjects/*.json → Astro app"
+  },
+  "aggregate_stats": {
+    "total_pdf_sources": 14,
+    "extractable_pdfs": 14,
+    "image_only_pdfs": 0,
+    "total_subjects": 8,
+    "subjects_with_data": 8,
+    "total_questions": 5901,
+    "total_flashcards": 6191,
+    "total_exam_entries": 9815
+  },
+  "subjects": [
+    {
+      "slug": "conservative-dentistry",
+      "kb_version": "2.0",
+      "sources": [
+        "curated:endo.json",
+        "pdf-extracted:cons-and-endo.json"
+      ],
+      "pdf_sources": [
+        "cons and endo.pdf"
+      ],
+      "total_questions": 611,
+      "high_yield_questions": 19,
+      "total_flashcards": 638,
+      "total_exam_entries": 955,
+      "topics_count": 552,
+      "exam_breakdown": {
+        "long_essay": 49,
+        "short_answer": 295,
+        "viva": 611
+      },
+      "quality": {
+        "curated_qa_available": true,
+        "pdf_text_extractable": true,
+        "pdf_scans_pending_ocr": [
+          "cons and endo.pdf"
+        ],
+        "dedup_applied": true,
+        "concept_hash_algorithm": "md5-12char-normalized"
+      },
+      "data_richness": "rich"
+    },
+    {
+      "slug": "oral-medicine",
+      "kb_version": "2.0",
+      "sources": [
+        "pdf-extracted:oralmedicine.json",
+        "pdf-extracted:oral-medicine-notes.json"
+      ],
+      "pdf_sources": [
+        "oral medicine notes.pdf",
+        "ORALMEDICINE.pdf"
+      ],
+      "total_questions": 891,
+      "high_yield_questions": 40,
+      "total_flashcards": 891,
+      "total_exam_entries": 1321,
+      "topics_count": 757,
+      "exam_breakdown": {
+        "long_essay": 52,
+        "short_answer": 378,
+        "viva": 891
+      },
+      "quality": {
+        "curated_qa_available": false,
+        "pdf_text_extractable": true,
+        "pdf_scans_pending_ocr": [
+          "oral medicine notes.pdf",
+          "ORALMEDICINE.pdf"
+        ],
+        "dedup_applied": true,
+        "concept_hash_algorithm": "md5-12char-normalized"
+      },
+      "data_richness": "rich"
+    },
+    {
+      "slug": "oral-surgery",
+      "kb_version": "2.0",
+      "sources": [
+        "curated:omfs.json",
+        "pdf-extracted:oral-surgery-1.json",
+        "pdf-extracted:os-notes.json"
+      ],
+      "pdf_sources": [
+        "oral surgery (1).pdf",
+        "os notes.pdf"
+      ],
+      "total_questions": 1247,
+      "high_yield_questions": 85,
+      "total_flashcards": 1377,
+      "total_exam_entries": 2018,
+      "topics_count": 1031,
+      "exam_breakdown": {
+        "long_essay": 153,
+        "short_answer": 618,
+        "viva": 1247
+      },
+      "quality": {
+        "curated_qa_available": true,
+        "pdf_text_extractable": true,
+        "pdf_scans_pending_ocr": [
+          "oral surgery (1).pdf",
+          "os notes.pdf"
+        ],
+        "dedup_applied": true,
+        "concept_hash_algorithm": "md5-12char-normalized"
+      },
+      "data_richness": "rich"
+    },
+    {
+      "slug": "orthodontics",
+      "kb_version": "2.0",
+      "sources": [
+        "pdf-extracted:orthodontics-notes.json",
+        "pdf-extracted:book-4-aug-2024.json"
+      ],
+      "pdf_sources": [
+        "Orthodontics notes.pdf",
+        "Book 4 Aug 2024.pdf"
+      ],
+      "total_questions": 802,
+      "high_yield_questions": 40,
+      "total_flashcards": 802,
+      "total_exam_entries": 1347,
+      "topics_count": 708,
+      "exam_breakdown": {
+        "long_essay": 101,
+        "short_answer": 444,
+        "viva": 802
+      },
+      "quality": {
+        "curated_qa_available": false,
+        "pdf_text_extractable": true,
+        "pdf_scans_pending_ocr": [
+          "Orthodontics notes.pdf",
+          "Book 4 Aug 2024.pdf"
+        ],
+        "dedup_applied": true,
+        "concept_hash_algorithm": "md5-12char-normalized"
+      },
+      "data_richness": "rich"
+    },
+    {
+      "slug": "pedodontics",
+      "kb_version": "2.0",
+      "sources": [
+        "pdf-extracted:pedodontics-iv-bds-brief-notes.json",
+        "pdf-extracted:pedo.json"
+      ],
+      "pdf_sources": [
+        "Pedodontics IV BDS brief notes .pdf",
+        "pedo.pdf"
+      ],
+      "total_questions": 470,
+      "high_yield_questions": 34,
+      "total_flashcards": 470,
+      "total_exam_entries": 825,
+      "topics_count": 286,
+      "exam_breakdown": {
+        "long_essay": 73,
+        "short_answer": 282,
+        "viva": 470
+      },
+      "quality": {
+        "curated_qa_available": false,
+        "pdf_text_extractable": true,
+        "pdf_scans_pending_ocr": [
+          "Pedodontics IV BDS brief notes .pdf"
+        ],
+        "dedup_applied": true,
+        "concept_hash_algorithm": "md5-12char-normalized"
+      },
+      "data_richness": "rich"
+    },
+    {
+      "slug": "periodontics",
+      "kb_version": "2.0",
+      "sources": [
+        "pdf-extracted:periodontics-notes.json"
+      ],
+      "pdf_sources": [
+        "Periodontics notes .pdf"
+      ],
+      "total_questions": 528,
+      "high_yield_questions": 26,
+      "total_flashcards": 528,
+      "total_exam_entries": 924,
+      "topics_count": 472,
+      "exam_breakdown": {
+        "long_essay": 76,
+        "short_answer": 320,
+        "viva": 528
+      },
+      "quality": {
+        "curated_qa_available": false,
+        "pdf_text_extractable": true,
+        "pdf_scans_pending_ocr": [
+          "Periodontics notes .pdf"
+        ],
+        "dedup_applied": true,
+        "concept_hash_algorithm": "md5-12char-normalized"
+      },
+      "data_richness": "rich"
+    },
+    {
+      "slug": "prosthodontics",
+      "kb_version": "2.0",
+      "sources": [
+        "curated:prostho.json",
+        "pdf-extracted:prostho.json"
+      ],
+      "pdf_sources": [
+        "Prostho.pdf"
+      ],
+      "total_questions": 625,
+      "high_yield_questions": 59,
+      "total_flashcards": 758,
+      "total_exam_entries": 1120,
+      "topics_count": 537,
+      "exam_breakdown": {
+        "long_essay": 136,
+        "short_answer": 359,
+        "viva": 625
+      },
+      "quality": {
+        "curated_qa_available": true,
+        "pdf_text_extractable": true,
+        "pdf_scans_pending_ocr": [
+          "Prostho.pdf"
+        ],
+        "dedup_applied": true,
+        "concept_hash_algorithm": "md5-12char-normalized"
+      },
+      "data_richness": "rich"
+    },
+    {
+      "slug": "public-health-dentistry",
+      "kb_version": "2.0",
+      "sources": [
+        "pdf-extracted:phd-notes-1.json",
+        "pdf-extracted:public-health-vol-1-watermark-1.json",
+        "pdf-extracted:public-health-vol-2-1-watermark.json"
+      ],
+      "pdf_sources": [
+        "PHD notes (1).pdf",
+        "PUBLIC HEALTH VOL 1_watermark (1).pdf",
+        "PUBLIC HEALTH VOL 2-1_watermark.pdf"
+      ],
+      "total_questions": 727,
+      "high_yield_questions": 24,
+      "total_flashcards": 727,
+      "total_exam_entries": 1305,
+      "topics_count": 660,
+      "exam_breakdown": {
+        "long_essay": 113,
+        "short_answer": 465,
+        "viva": 727
+      },
+      "quality": {
+        "curated_qa_available": false,
+        "pdf_text_extractable": true,
+        "pdf_scans_pending_ocr": [
+          "PHD notes (1).pdf",
+          "PUBLIC HEALTH VOL 1_watermark (1).pdf",
+          "PUBLIC HEALTH VOL 2-1_watermark.pdf"
+        ],
+        "dedup_applied": true,
+        "concept_hash_algorithm": "md5-12char-normalized"
+      },
+      "data_richness": "rich"
+    }
+  ],
+  "pdf_extraction_quality": [
+    {
+      "filename": "Prostho.pdf",
+      "subject": "prosthodontics",
+      "quality_grade": "high",
+      "quality_score": 0.587,
+      "total_chars": 272674,
+      "avg_ocr_confidence": 89.88,
+      "avg_readability": 0.587,
+      "total_pages": 203,
+      "good_quality_pages": 202,
+      "error": null
+    },
+    {
+      "filename": "Adobe Scan 21 May 2024.pdf",
+      "subject": "unclassified",
+      "quality_grade": "high",
+      "quality_score": 0.572,
+      "total_chars": 108189,
+      "avg_ocr_confidence": 92.69,
+      "avg_readability": 0.572,
+      "total_pages": 87,
+      "good_quality_pages": 85,
+      "error": null
+    },
+    {
+      "filename": "oral surgery (1).pdf",
+      "subject": "oral-surgery",
+      "quality_grade": "high",
+      "quality_score": 0.572,
+      "total_chars": 158623,
+      "avg_ocr_confidence": 80.99,
+      "avg_readability": 0.572,
+      "total_pages": 112,
+      "good_quality_pages": 112,
+      "error": null
+    },
+    {
+      "filename": "Orthodontics notes.pdf",
+      "subject": "orthodontics",
+      "quality_grade": "high",
+      "quality_score": 0.566,
+      "total_chars": 358064,
+      "avg_ocr_confidence": 87.43,
+      "avg_readability": 0.566,
+      "total_pages": 266,
+      "good_quality_pages": 263,
+      "error": null
+    },
+    {
+      "filename": "Periodontics notes .pdf",
+      "subject": "periodontics",
+      "quality_grade": "high",
+      "quality_score": 0.56,
+      "total_chars": 261079,
+      "avg_ocr_confidence": 89.07,
+      "avg_readability": 0.56,
+      "total_pages": 205,
+      "good_quality_pages": 203,
+      "error": null
+    },
+    {
+      "filename": "ORALMEDICINE.pdf",
+      "subject": "oral-medicine",
+      "quality_grade": "high",
+      "quality_score": 0.552,
+      "total_chars": 90343,
+      "avg_ocr_confidence": 79.23,
+      "avg_readability": 0.552,
+      "total_pages": 74,
+      "good_quality_pages": 71,
+      "error": null
+    },
+    {
+      "filename": "PUBLIC HEALTH VOL 2-1_watermark.pdf",
+      "subject": "public-health-dentistry",
+      "quality_grade": "high",
+      "quality_score": 0.538,
+      "total_chars": 60633,
+      "avg_ocr_confidence": 92.77,
+      "avg_readability": 0.538,
+      "total_pages": 65,
+      "good_quality_pages": 64,
+      "error": null
+    },
+    {
+      "filename": "pedo.pdf",
+      "subject": "pedodontics",
+      "quality_grade": "high",
+      "quality_score": 0.531,
+      "total_chars": 124631,
+      "avg_ocr_confidence": 89.02,
+      "avg_readability": 0.531,
+      "total_pages": 125,
+      "good_quality_pages": 123,
+      "error": null
+    },
+    {
+      "filename": "PHD notes (1).pdf",
+      "subject": "public-health-dentistry",
+      "quality_grade": "high",
+      "quality_score": 0.525,
+      "total_chars": 281775,
+      "avg_ocr_confidence": 89.47,
+      "avg_readability": 0.525,
+      "total_pages": 185,
+      "good_quality_pages": 183,
+      "error": null
+    },
+    {
+      "filename": "oral medicine notes.pdf",
+      "subject": "oral-medicine",
+      "quality_grade": "high",
+      "quality_score": 0.523,
+      "total_chars": 218354,
+      "avg_ocr_confidence": 87.9,
+      "avg_readability": 0.523,
+      "total_pages": 165,
+      "good_quality_pages": 159,
+      "error": null
+    },
+    {
+      "filename": "os notes.pdf",
+      "subject": "oral-surgery",
+      "quality_grade": "high",
+      "quality_score": 0.52,
+      "total_chars": 291531,
+      "avg_ocr_confidence": 83.48,
+      "avg_readability": 0.52,
+      "total_pages": 302,
+      "good_quality_pages": 293,
+      "error": null
+    },
+    {
+      "filename": "cons and endo.pdf",
+      "subject": "conservative-dentistry",
+      "quality_grade": "high",
+      "quality_score": 0.519,
+      "total_chars": 219311,
+      "avg_ocr_confidence": 82.1,
+      "avg_readability": 0.519,
+      "total_pages": 207,
+      "good_quality_pages": 201,
+      "error": null
+    },
+    {
+      "filename": "PUBLIC HEALTH VOL 1_watermark (1).pdf",
+      "subject": "public-health-dentistry",
+      "quality_grade": "high",
+      "quality_score": 0.508,
+      "total_chars": 51123,
+      "avg_ocr_confidence": 94.15,
+      "avg_readability": 0.508,
+      "total_pages": 52,
+      "good_quality_pages": 52,
+      "error": null
+    },
+    {
+      "filename": "Book 4 Aug 2024.pdf",
+      "subject": "orthodontics",
+      "quality_grade": "medium",
+      "quality_score": 0.48,
+      "total_chars": 14099,
+      "avg_ocr_confidence": 89.65,
+      "avg_readability": 0.48,
+      "total_pages": 17,
+      "good_quality_pages": 14,
+      "error": null
+    }
+  ],
+  "steelman_critique": [
+    {
+      "id": "SC-001",
+      "criticism": "13 of 15 PDFs are scanned images with zero extractable text. The pipeline silently skips them, losing ~80% of the handwritten knowledge.",
+      "severity": "critical",
+      "impact": "5 subjects (Orthodontics, Public Health, Periodontics, Oral Medicine, and partially Pedodontics/Oral Surgery) have zero or minimal pipeline output despite having large source PDFs.",
+      "mitigation": "Pipeline correctly classifies these as 'image-only' and tracks them. When cloud OCR (Google Vision, AWS Textract) is integrated, re-running pdf-extract.py will automatically flow new text through the full pipeline.",
+      "status": "tracked",
+      "next_action": "Add optional --ocr flag to pdf-extract.py that uses tesseract or cloud OCR for image-only PDFs."
+    },
+    {
+      "id": "SC-002",
+      "criticism": "Flashcard 'back' content is truncated at 500 chars. Long answers lose critical tail content (classifications, treatment protocols).",
+      "severity": "medium",
+      "impact": "Students reviewing flashcards may miss complete classification lists or step-by-step procedures.",
+      "mitigation": "Full answer preserved in exam_bank entries. Flashcards serve as recall triggers, not comprehensive study cards.",
+      "status": "accepted-risk",
+      "next_action": "Consider generating 'mini-series' flashcards that split long answers into sequential cards."
+    },
+    {
+      "id": "SC-003",
+      "criticism": "Deduplication uses MD5 hash of normalized question text only. Two differently-worded questions about the same concept will not be caught.",
+      "severity": "medium",
+      "impact": "Semantic duplicates may exist across curated Q&A and PDF-extracted content for the same subject.",
+      "mitigation": "Current dedup catches exact/near-exact duplicates. Semantic dedup would require embeddings (future enhancement).",
+      "status": "tracked",
+      "next_action": "Add keyword-overlap scoring as a lightweight semantic dedup layer."
+    },
+    {
+      "id": "SC-004",
+      "criticism": "PDF Q&A parser relies on numbered-question regex patterns. Non-standard formatting (tables, diagrams described in text, bullet-only sections) may be missed.",
+      "severity": "low",
+      "impact": "Some content in extractable PDFs may not be captured as Q&A pairs.",
+      "mitigation": "Parser uses 3 complementary regex patterns. Uncaptured text is still preserved in the extracted JSON for manual review.",
+      "status": "accepted-risk"
+    },
+    {
+      "id": "SC-005",
+      "criticism": "No version control on KB entries. Re-running the pipeline overwrites previous outputs without merge/diff tracking.",
+      "severity": "medium",
+      "impact": "Manual corrections to KB entries would be lost on re-run.",
+      "mitigation": "Pipeline is idempotent and deterministic. Manual corrections should be made to curated source files (50_questions_eachsub/*.json), not to generated outputs.",
+      "status": "by-design"
+    }
+  ],
+  "data_flow_for_remaining_subjects": {
+    "explanation": "Subjects with empty KBs need content through one of these paths:",
+    "paths": [
+      {
+        "path": "A: OCR Pipeline",
+        "description": "Add OCR to pdf-extract.py → re-extract → rebuild KB automatically",
+        "subjects": [
+          "orthodontics",
+          "periodontics",
+          "oral-medicine",
+          "public-health-dentistry"
+        ],
+        "effort": "medium (requires tesseract or cloud OCR setup)"
+      },
+      {
+        "path": "B: Curated Q&A",
+        "description": "Create 50_questions_eachsub/<subject>.json manually → run build-subject-kb.py",
+        "subjects": [
+          "any subject"
+        ],
+        "effort": "high (manual content creation) but highest quality"
+      },
+      {
+        "path": "C: Model-Generated",
+        "description": "Use LLM to generate Q&A based on BDS syllabus topics → validate → ingest",
+        "subjects": [
+          "all empty subjects"
+        ],
+        "effort": "low (automated) but needs expert validation"
+      }
+    ]
+  }
+}

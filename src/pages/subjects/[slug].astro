@@ -98,13 +98,22 @@ const hasContent =
     </div>
 
     {content.questions.length > 0 && (
-      <a
-        href={`/subjects/${subject.slug}/quiz`}
-        class="inline-flex items-center gap-2 px-4 py-3 rounded-xl font-semibold text-sm transition-opacity mb-8"
-        style="background: var(--accent-premium); color: var(--bg-color);"
-      >
-        Start quiz
-      </a>
+      <div class="flex flex-wrap gap-3 mb-8">
+        <a
+          href={`/subjects/${subject.slug}/quiz`}
+          class="inline-flex items-center gap-2 px-4 py-3 rounded-xl font-semibold text-sm transition-opacity"
+          style="background: var(--accent-premium); color: var(--bg-color);"
+        >
+          Start quiz
+        </a>
+        <a
+          href={`/subjects/${subject.slug}/revision`}
+          class="inline-flex items-center gap-2 px-4 py-3 rounded-xl font-semibold text-sm transition-opacity"
+          style="background: var(--glass-bg); color: var(--text-primary); border: 1px solid var(--border-color);"
+        >
+          ⚡ Quick Revision
+        </a>
+      </div>
     )}
 
     {!hasContent && (
